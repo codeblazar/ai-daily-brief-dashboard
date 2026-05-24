@@ -47,8 +47,9 @@ body {
 
 .brand img {
   display: block;
-  width: min(246px, 64vw);
+  width: min(220px, 58vw);
   height: auto;
+  image-rendering: auto;
 }
 
 .site-header p {
@@ -78,6 +79,13 @@ body {
   max-width: 760px;
 }
 
+.hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  align-items: start;
+  gap: 34px;
+}
+
 .eyebrow {
   margin: 0 0 6px;
   color: var(--muted);
@@ -100,6 +108,124 @@ h1 {
   color: var(--muted);
 }
 
+.brief-calendar {
+  width: 100%;
+  padding: 16px;
+  background: var(--surface-muted);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.calendar-header {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 34px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.calendar-month {
+  margin: 0;
+  color: var(--black);
+  font-size: 0.98rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.calendar-nav {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  color: var(--black);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.calendar-nav:disabled {
+  color: #a5acb8;
+  cursor: not-allowed;
+}
+
+.calendar-weekdays,
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 5px;
+}
+
+.calendar-weekdays {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.calendar-day,
+.calendar-empty {
+  min-width: 0;
+  aspect-ratio: 1;
+}
+
+.calendar-day {
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.82rem;
+}
+
+.calendar-day.has-brief {
+  color: var(--black);
+  background: var(--surface);
+  border-color: var(--line);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.calendar-day.has-brief:hover,
+.calendar-day.has-brief:focus-visible {
+  border-color: var(--rp-green);
+  outline: none;
+}
+
+.calendar-day.is-selected {
+  color: #ffffff;
+  background: var(--rp-green-dark);
+  border-color: var(--rp-green-dark);
+}
+
+.top-story-media {
+  flex: 0 0 250px;
+  width: 250px;
+  margin: 0;
+}
+
+.top-story-media.is-hidden {
+  display: none;
+}
+
+.top-story-media img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: var(--surface-muted);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 .brief-shell {
   margin-top: 22px;
   background: var(--surface);
@@ -112,6 +238,21 @@ h1 {
   width: 100%;
   margin: 0 auto;
   padding: 38px 38px 52px;
+}
+
+.one-minute-layout {
+  margin-bottom: 30px;
+}
+
+.one-minute-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.one-minute-copy {
+  min-width: 0;
+  flex: 1;
 }
 
 .brief-content h1,
@@ -282,8 +423,26 @@ h1 {
     gap: 20px;
   }
 
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .brief-calendar {
+    max-width: 360px;
+  }
+
   .brief-content {
     padding: 26px 18px 36px;
+  }
+
+  .one-minute-body {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .top-story-media {
+    width: min(250px, 100%);
   }
 
   .links-section {

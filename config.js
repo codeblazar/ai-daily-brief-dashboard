@@ -1,4 +1,4 @@
 window.AI_DAILY_BRIEF_CONFIG = {
   mockMode: false,
-  latestBriefUrl: 'https://n8n-nuc.codeblazar.org/webhook/ai-daily-brief/latest'
+  historyIndexUrl: 'https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/briefs/ai-daily-brief/index.json'
 };

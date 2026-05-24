@@ -31,13 +31,23 @@ const mockBriefResponse = {
 };
 
 const state = {
-  latestResponse: mockBriefResponse
+  latestResponse: mockBriefResponse,
+  historyBriefs: [],
+  briefsByDate: new Map(),
+  calendarMonthDate: null,
+  selectedDate: null
 };
 
 const elements = {
   title: document.querySelector('#brief-title'),
   meta: document.querySelector('#brief-meta'),
-  content: document.querySelector('#brief-content')
+  content: document.querySelector('#brief-content'),
+  topStoryMedia: document.querySelector('#top-story-media'),
+  topStoryImage: document.querySelector('#top-story-image'),
+  calendarMonth: document.querySelector('#calendar-month'),
+  calendarGrid: document.querySelector('#calendar-grid'),
+  calendarPrev: document.querySelector('#calendar-prev'),
+  calendarNext: document.querySelector('#calendar-next')
 };
 
 function cleanTitle(title) {
@@ -103,14 +113,112 @@ function cleanBriefHtml(html) {
   return root;
 }
 
+function parseDateKey(dateKey) {
+  const match = String(dateKey || '').match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return null;
+  return {
+    year: Number(match[1]),
+    monthIndex: Number(match[2]) - 1,
+    day: Number(match[3])
+  };
+}
+
+function getMonthDate(dateKey) {
+  const parts = parseDateKey(dateKey);
+  if (!parts) return new Date();
+  return new Date(parts.year, parts.monthIndex, 1);
+}
+
+function getDateKey(year, monthIndex, day) {
+  return [
+    year,
+    String(monthIndex + 1).padStart(2, '0'),
+    String(day).padStart(2, '0')
+  ].join('-');
+}
+
+function shiftMonth(monthDate, amount) {
+  return new Date(monthDate.getFullYear(), monthDate.getMonth() + amount, 1);
+}
+
+function getLatestHistoryMonth() {
+  const latest = state.historyBriefs[0];
+  return latest?.date ? getMonthDate(latest.date) : getMonthDate(state.selectedDate);
+}
+
+function isSameOrAfterMonth(left, right) {
+  return left.getFullYear() > right.getFullYear()
+    || (left.getFullYear() === right.getFullYear() && left.getMonth() >= right.getMonth());
+}
+
+function renderCalendar() {
+  if (!elements.calendarMonth || !elements.calendarGrid) return;
+
+  if (!state.calendarMonthDate) {
+    state.calendarMonthDate = getLatestHistoryMonth();
+  }
+
+  const monthDate = state.calendarMonthDate;
+  const year = monthDate.getFullYear();
+  const monthIndex = monthDate.getMonth();
+  const firstDay = new Date(year, monthIndex, 1);
+  const daysInMonth = new Date(year, monthIndex + 1, 0).getDate();
+  const mondayOffset = (firstDay.getDay() + 6) % 7;
+
+  elements.calendarMonth.textContent = monthDate.toLocaleDateString('en-SG', {
+    month: 'long',
+    year: 'numeric'
+  });
+  elements.calendarGrid.replaceChildren();
+
+  for (let index = 0; index < mondayOffset; index += 1) {
+    const empty = document.createElement('span');
+    empty.className = 'calendar-empty';
+    elements.calendarGrid.append(empty);
+  }
+
+  for (let day = 1; day <= daysInMonth; day += 1) {
+    const dateKey = getDateKey(year, monthIndex, day);
+    const summary = state.briefsByDate.get(dateKey);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'calendar-day';
+    button.textContent = String(day);
+
+    if (summary) {
+      button.classList.add('has-brief');
+      button.title = summary.title || `AI Daily Brief ${dateKey}`;
+      button.addEventListener('click', () => loadBriefFromSummary(summary));
+    } else {
+      button.disabled = true;
+    }
+
+    if (dateKey === state.selectedDate) {
+      button.classList.add('is-selected');
+      button.setAttribute('aria-current', 'date');
+    }
+
+    elements.calendarGrid.append(button);
+  }
+
+  const latestMonth = getLatestHistoryMonth();
+  elements.calendarNext.disabled = isSameOrAfterMonth(monthDate, latestMonth);
+}
+
 function renderResponse(response) {
-  const brief = response?.brief;
+  const brief = response?.brief ?? response;
 
   if (!brief) {
     elements.title.textContent = 'No brief available';
-    elements.meta.textContent = 'The workflow has not returned a stored brief yet.';
+    elements.meta.textContent = 'No GitHub brief has been published yet.';
     elements.content.innerHTML = '<p>No generated brief was returned.</p>';
+    renderTopStoryImage(null);
     return;
+  }
+
+  state.selectedDate = brief.date || state.selectedDate;
+  if (!state.calendarMonthDate && state.selectedDate) {
+    state.calendarMonthDate = getMonthDate(state.selectedDate);
   }
 
   elements.title.textContent = cleanTitle(brief.title);
@@ -119,37 +227,158 @@ function renderResponse(response) {
     brief.sourceCount ? `${brief.sourceCount} sources` : ''
   ].filter(Boolean).join(' | ');
   elements.content.replaceChildren(cleanBriefHtml(brief.html));
+  renderTopStoryImage(brief);
+  placeTopStoryImage();
+  renderCalendar();
+}
+
+function renderTopStoryImage(brief) {
+  const imageUrl = brief?.imageUrl || '';
+  if (!imageUrl) {
+    elements.topStoryMedia.classList.add('is-hidden');
+    elements.topStoryImage.removeAttribute('src');
+    elements.topStoryImage.alt = '';
+    return;
+  }
+
+  elements.topStoryImage.src = imageUrl;
+  elements.topStoryImage.alt = brief.imageTopic
+    ? `AI Daily Brief top story image about ${brief.imageTopic}`
+    : 'AI Daily Brief top story image';
+  elements.topStoryMedia.classList.remove('is-hidden');
+}
+
+function placeTopStoryImage() {
+  if (elements.topStoryMedia.classList.contains('is-hidden')) {
+    return;
+  }
+
+  const todayHeading = Array.from(elements.content.querySelectorAll('h2'))
+    .find(heading => heading.textContent.trim().toLowerCase() === 'today in one minute');
+
+  if (!todayHeading) {
+    elements.content.prepend(elements.topStoryMedia);
+    return;
+  }
+
+  const firstContent = todayHeading.nextElementSibling;
+  const layout = document.createElement('section');
+  layout.className = 'one-minute-layout';
+  const body = document.createElement('div');
+  body.className = 'one-minute-body';
+  const copy = document.createElement('div');
+  copy.className = 'one-minute-copy';
+
+  todayHeading.before(layout);
+  layout.append(todayHeading, body);
+  body.append(elements.topStoryMedia, copy);
+
+  let current = firstContent;
+  while (current) {
+    const next = current.nextElementSibling;
+    copy.append(current);
+    if (!next || next.tagName.toLowerCase() === 'h2') {
+      break;
+    }
+    current = next;
+  }
 }
 
 function renderInitialBrief() {
+  state.historyBriefs = [{
+    date: mockBriefResponse.brief.date,
+    title: mockBriefResponse.brief.title,
+    briefUrl: '',
+    imageUrl: mockBriefResponse.brief.imageUrl
+  }];
+  state.briefsByDate = new Map(state.historyBriefs.map(brief => [brief.date, brief]));
   renderResponse(state.latestResponse);
 }
 
+async function fetchBriefPayload(summary) {
+  const briefResponse = await fetch(summary.briefUrl, {
+    method: 'GET',
+    headers: {
+      Accept: 'application/json'
+    }
+  });
+
+  if (!briefResponse.ok) {
+    throw new Error(`GitHub brief returned HTTP ${briefResponse.status}`);
+  }
+
+  const brief = await briefResponse.json();
+  return {
+    ok: true,
+    brief: {
+      ...summary,
+      ...brief,
+      imageUrl: brief.imageUrl || summary.imageUrl,
+      briefUrl: summary.briefUrl
+    }
+  };
+}
+
+async function loadBriefFromSummary(summary) {
+  if (!summary?.briefUrl) return;
+
+  try {
+    const payload = await fetchBriefPayload(summary);
+    state.latestResponse = payload;
+    state.calendarMonthDate = getMonthDate(summary.date);
+    renderResponse(payload);
+  } catch (error) {
+    elements.meta.textContent = 'Could not load that GitHub brief.';
+  }
+}
+
 async function loadLatestBrief() {
-  if (config.mockMode || !config.latestBriefUrl) {
+  if (config.mockMode || !config.historyIndexUrl) {
     renderInitialBrief();
     return;
   }
 
   try {
-    const response = await fetch(config.latestBriefUrl, {
+    const indexResponse = await fetch(config.historyIndexUrl, {
       method: 'GET',
       headers: {
         Accept: 'application/json'
       }
     });
 
-    if (!response.ok) {
-      throw new Error(`n8n returned HTTP ${response.status}`);
+    if (!indexResponse.ok) {
+      throw new Error(`GitHub history returned HTTP ${indexResponse.status}`);
     }
 
-    const payload = await response.json();
+    const history = await indexResponse.json();
+    state.historyBriefs = Array.isArray(history.briefs) ? history.briefs : [];
+    state.briefsByDate = new Map(state.historyBriefs
+      .filter(brief => brief.date)
+      .map(brief => [brief.date, brief]));
+    const latest = state.historyBriefs[0] ?? null;
+
+    if (!latest?.briefUrl) {
+      throw new Error('GitHub history did not include a latest brief URL');
+    }
+
+    const payload = await fetchBriefPayload(latest);
     state.latestResponse = payload;
+    state.calendarMonthDate = getMonthDate(latest.date);
     renderResponse(payload);
   } catch (error) {
     renderInitialBrief();
-    elements.meta.textContent = 'Could not load the latest stored brief. Showing sample content.';
+    elements.meta.textContent = 'Could not load the latest GitHub brief. Showing sample content.';
   }
 }
+
+elements.calendarPrev?.addEventListener('click', () => {
+  state.calendarMonthDate = shiftMonth(state.calendarMonthDate || getLatestHistoryMonth(), -1);
+  renderCalendar();
+});
+
+elements.calendarNext?.addEventListener('click', () => {
+  state.calendarMonthDate = shiftMonth(state.calendarMonthDate || getLatestHistoryMonth(), 1);
+  renderCalendar();
+});
 
 loadLatestBrief();

@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Daily Brief</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=github-brief-3">
 </head>
 <body>
   <header class="site-header">
     <div class="site-header-inner">
       <a class="brand" href="https://www.rp.edu.sg/" aria-label="Republic Polytechnic">
-        <img src="assets/republic-polytechnic-logo.jpg" alt="Republic Polytechnic">
+        <img src="assets/republic-polytechnic-logo.png" alt="Republic Polytechnic">
       </a>
       <p>School of Infocomm</p>
     </div>
@@ -18,12 +18,36 @@
 
   <main class="dashboard">
     <section class="hero" aria-label="Brief heading">
-      <div class="hero-copy">
-        <p class="eyebrow">Diploma in Applied AI and Analytics</p>
-        <h1 id="brief-title">Loading brief</h1>
-        <p id="brief-meta" class="meta">Preparing dashboard</p>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Diploma in Applied AI and Analytics</p>
+          <h1 id="brief-title">Loading brief</h1>
+          <p id="brief-meta" class="meta">Preparing dashboard</p>
+        </div>
+
+        <aside class="brief-calendar" aria-label="Brief archive calendar">
+          <div class="calendar-header">
+            <button id="calendar-prev" class="calendar-nav" type="button" aria-label="Previous month">&#8249;</button>
+            <p id="calendar-month" class="calendar-month">Archive</p>
+            <button id="calendar-next" class="calendar-nav" type="button" aria-label="Next month">&#8250;</button>
+          </div>
+          <div class="calendar-weekdays" aria-hidden="true">
+            <span>Mon</span>
+            <span>Tue</span>
+            <span>Wed</span>
+            <span>Thu</span>
+            <span>Fri</span>
+            <span>Sat</span>
+            <span>Sun</span>
+          </div>
+          <div id="calendar-grid" class="calendar-grid"></div>
+        </aside>
       </div>
     </section>
+
+    <figure id="top-story-media" class="top-story-media is-hidden">
+      <img id="top-story-image" alt="">
+    </figure>
 
     <section class="brief-shell" aria-label="Generated brief">
       <article id="brief-content" class="brief-content">
@@ -33,11 +57,11 @@
   </main>
 
   <footer class="site-footer">
-    <p class="footer-line">Made using the tools we teach, practise, and build with.</p>
-    <p class="footer-tools">n8n | GitHub | VS Code | OpenRouter models</p>
+    <p class="footer-line">Built with the same tools we teach, practise, and use</p>
+    <p class="footer-tools">n8n | GitHub | VSCode | JavaScript | HTML | CSS | SQL | LLMs</p>
   </footer>
 
-  <script src="config.js"></script>
-  <script src="app.js"></script>
+  <script src="config.js?v=github-brief-3"></script>
+  <script src="app.js?v=github-brief-3"></script>
 </body>
 </html>
