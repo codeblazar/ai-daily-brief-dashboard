@@ -67,6 +67,56 @@ function isFrontmatterText(text) {
     || value.includes('tags:');
 }
 
+function linkifyPlainUrls(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const textNodes = [];
+
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    const parent = node.parentElement;
+    if (!parent || parent.closest('a, code, pre, script, style')) continue;
+    if (/https?:\/\/\S+/i.test(node.textContent || '')) {
+      textNodes.push(node);
+    }
+  }
+
+  for (const node of textNodes) {
+    const fragment = document.createDocumentFragment();
+    const text = node.textContent || '';
+    let lastIndex = 0;
+
+    for (const match of text.matchAll(/https?:\/\/\S+/gi)) {
+      const rawUrl = match[0];
+      const start = match.index ?? 0;
+      const url = rawUrl.replace(/[.,;:!?)]*$/g, '');
+      const trailing = rawUrl.slice(url.length);
+
+      if (start > lastIndex) {
+        fragment.append(document.createTextNode(text.slice(lastIndex, start)));
+      }
+
+      const link = document.createElement('a');
+      link.href = url;
+      link.textContent = url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      fragment.append(link);
+
+      if (trailing) {
+        fragment.append(document.createTextNode(trailing));
+      }
+
+      lastIndex = start + rawUrl.length;
+    }
+
+    if (lastIndex < text.length) {
+      fragment.append(document.createTextNode(text.slice(lastIndex)));
+    }
+
+    node.replaceWith(fragment);
+  }
+}
+
 function cleanBriefHtml(html) {
   const template = document.createElement('template');
   template.innerHTML = html || '<p>The generated brief did not include HTML content.</p>';
@@ -109,6 +159,8 @@ function cleanBriefHtml(html) {
       break;
     }
   }
+
+  linkifyPlainUrls(root);
 
   return root;
 }
