@@ -65,7 +65,7 @@ body {
 }
 
 .hero {
-  padding: 34px;
+  padding: 28px 30px;
   color: var(--text);
   background: var(--surface);
   border-radius: 0 0 8px 8px;
@@ -81,9 +81,9 @@ body {
 
 .hero-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  align-items: start;
-  gap: 34px;
+  grid-template-columns: minmax(0, 1fr) 288px;
+  align-items: center;
+  gap: 30px;
 }
 
 .eyebrow {
@@ -110,24 +110,34 @@ h1 {
 
 .brief-calendar {
   width: 100%;
-  padding: 16px;
+  justify-self: end;
+  padding: 13px;
   background: var(--surface-muted);
   border: 1px solid var(--line);
   border-radius: 8px;
 }
 
+.calendar-label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
 .calendar-header {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) 34px;
+  grid-template-columns: 30px minmax(0, 1fr) 30px;
   align-items: center;
   gap: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .calendar-month {
   margin: 0;
   color: var(--black);
-  font-size: 0.98rem;
+  font-size: 0.93rem;
   font-weight: 700;
   text-align: center;
 }
@@ -135,15 +145,15 @@ h1 {
 .calendar-nav {
   display: inline-grid;
   place-items: center;
-  width: 34px;
-  height: 34px;
+  width: 30px;
+  height: 30px;
   padding: 0;
   color: var(--black);
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1.35rem;
+  font-size: 1.18rem;
   line-height: 1;
 }
 
@@ -156,13 +166,13 @@ h1 {
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 5px;
+  gap: 4px;
 }
 
 .calendar-weekdays {
   margin-bottom: 6px;
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 0.64rem;
   font-weight: 700;
   text-align: center;
 }
@@ -182,7 +192,7 @@ h1 {
   border: 1px solid transparent;
   border-radius: 6px;
   font: inherit;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
 }
 
 .calendar-day.has-brief {
@@ -422,6 +432,7 @@ h1 {
 
   .brief-calendar {
     max-width: 360px;
+    justify-self: start;
   }
 
   .brief-content {
