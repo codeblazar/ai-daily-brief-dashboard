@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-26",
+  "title": "AI Daily Brief - 2026-05-26",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-05-26\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- A Towards Data Science walkthrough shows how a complete beginner built a first ETL pipeline, giving lecturers a teachable end-to-end data engineering example.\n- Hugging Face published an \"agent glossary\" defining terms like *harness* and *scaffold*, helping staff and students talk about AI agents with shared language.\n- A Google Blog piece highlights how Chromebook accessibility tools combined with Gemini (including face control) are helping students with disabilities work more independently.\n\n## What Happened\n\n- The Towards Data Science article documents a beginner's first ETL (Extract, Transform, Load) project: pulling data from a source, cleaning it, and loading it into a destination, with the steps and decisions explained from scratch.\n- Hugging Face released a short glossary clarifying the vocabulary used around AI agents, including the difference between an agent *harness* (the runtime that calls the model and tools) and a *scaffold* (the structured prompts and control flow that guide it).\n- Google describes how Chromebook accessibility features, paired with Gemini, allow students to control devices with face gestures and use AI for tasks like summarising and writing, supporting more independent learning.\n\n## Why It Matters\n\n- ETL is a foundational skill across SoI and business analytics modules at RP. A clear beginner narrative gives lecturers a realistic case study and gives students a manageable first project rather than an intimidating data pipeline.\n- AI agent terminology is currently inconsistent across vendors and articles. A shared vocabulary helps lecturers mark student work fairly and lets students read industry blogs without getting confused by overlapping terms.\n- Accessibility-plus-AI is directly relevant to RP's inclusive learning goals. Lecturers can see how mainstream AI tools (Gemini) combine with built-in OS features to support diverse learners, including those who cannot easily use a keyboard or mouse.\n\n## Try This Today\n\n- Open the Towards Data Science ETL article and replicate one step on your Windows 11 laptop using Python in VS Code or a free tool like Power Query in Excel: extract a small CSV, clean one column, and save the result.\n- Read the Hugging Face agent glossary and write a one-sentence definition of *harness* and *scaffold* in your own words. Test it by explaining the difference to a colleague or classmate in under a minute.\n- Try Windows 11's built-in accessibility features (Settings > Accessibility > Eye control or Voice access) for 10 minutes, then compare what you experienced with the Chromebook face control article. Note one feature you could recommend to a student.\n\n## Teaching Angle\n\n- Use the beginner ETL story as a guided lab in data modules: have students follow the same Extract-Transform-Load stages with a small dataset (e.g. RP canteen menu, student survey CSV) and reflect on what was hardest.\n- Run a 15-minute vocabulary clinic for staff or students on agent terms. Show the Hugging Face glossary, then ask learners to label parts of a simple agent diagram (model, harness, scaffold, tools).\n- In a tutorial, demo one accessibility feature with Gemini or Copilot side-by-side, then run a short discussion: \"Which of your assignments could a student with limited hand mobility complete more easily with these tools?\" Link this to inclusive assessment design.\n\n## Links\n\n- [I Built My First ETL Pipeline as a Complete Beginner. Here's How.](https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/)\n- [Harness, Scaffold, and the AI Agent Terms Worth Getting Right](https://huggingface.co/blog/agent-glossary)\n- [Here's how accessibility tools and Gemini are helping students find independence](https://blog.google/products-and-platforms/devices/chromebooks/face-control/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-05-26\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>A Towards Data Science walkthrough shows how a complete beginner built a first ETL pipeline, giving lecturers a teachable end-to-end data engineering example.</li>\n<li>Hugging Face published an \"agent glossary\" defining terms like <em>harness</em> and <em>scaffold</em>, helping staff and students talk about AI agents with shared language.</li>\n<li>A Google Blog piece highlights how Chromebook accessibility tools combined with Gemini (including face control) are helping students with disabilities work more independently.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>The Towards Data Science article documents a beginner's first ETL (Extract, Transform, Load) project: pulling data from a source, cleaning it, and loading it into a destination, with the steps and decisions explained from scratch.</li>\n<li>Hugging Face released a short glossary clarifying the vocabulary used around AI agents, including the difference between an agent <em>harness</em> (the runtime that calls the model and tools) and a <em>scaffold</em> (the structured prompts and control flow that guide it).</li>\n<li>Google describes how Chromebook accessibility features, paired with Gemini, allow students to control devices with face gestures and use AI for tasks like summarising and writing, supporting more independent learning.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>ETL is a foundational skill across SoI and business analytics modules at RP. A clear beginner narrative gives lecturers a realistic case study and gives students a manageable first project rather than an intimidating data pipeline.</li>\n<li>AI agent terminology is currently inconsistent across vendors and articles. A shared vocabulary helps lecturers mark student work fairly and lets students read industry blogs without getting confused by overlapping terms.</li>\n<li>Accessibility-plus-AI is directly relevant to RP's inclusive learning goals. Lecturers can see how mainstream AI tools (Gemini) combine with built-in OS features to support diverse learners, including those who cannot easily use a keyboard or mouse.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open the Towards Data Science ETL article and replicate one step on your Windows 11 laptop using Python in VS Code or a free tool like Power Query in Excel: extract a small CSV, clean one column, and save the result.</li>\n<li>Read the Hugging Face agent glossary and write a one-sentence definition of <em>harness</em> and <em>scaffold</em> in your own words. Test it by explaining the difference to a colleague or classmate in under a minute.</li>\n<li>Try Windows 11's built-in accessibility features (Settings &gt; Accessibility &gt; Eye control or Voice access) for 10 minutes, then compare what you experienced with the Chromebook face control article. Note one feature you could recommend to a student.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Use the beginner ETL story as a guided lab in data modules: have students follow the same Extract-Transform-Load stages with a small dataset (e.g. RP canteen menu, student survey CSV) and reflect on what was hardest.</li>\n<li>Run a 15-minute vocabulary clinic for staff or students on agent terms. Show the Hugging Face glossary, then ask learners to label parts of a simple agent diagram (model, harness, scaffold, tools).</li>\n<li>In a tutorial, demo one accessibility feature with Gemini or Copilot side-by-side, then run a short discussion: \"Which of your assignments could a student with limited hand mobility complete more easily with these tools?\" Link this to inclusive assessment design.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/\" rel=\"noopener noreferrer\" target=\"_blank\">I Built My First ETL Pipeline as a Complete Beginner. Here's How.</a></li>\n<li><a href=\"https://huggingface.co/blog/agent-glossary\" rel=\"noopener noreferrer\" target=\"_blank\">Harness, Scaffold, and the AI Agent Terms Worth Getting Right</a></li>\n<li><a href=\"https://blog.google/products-and-platforms/devices/chromebooks/face-control/\" rel=\"noopener noreferrer\" target=\"_blank\">Here's how accessibility tools and Gemini are helping students find independence</a></li>\n</ul>",
+  "generatedAt": "2026-05-25T22:01:52.082Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-05-26-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "I Built My First ETL Pipeline as a Complete Beginner. Here’s How.",
+      "link": "https://towardsdatascience.com/i-built-my-first-etl-pipeline-as-a-complete-beginner-heres-exactly-how/",
+      "source": "Towards Data Science",
+      "published": "Mon, 25 May 2026 17:37:48 +0000",
+      "guid": "https://towardsdatascience.com/?p=609183",
+      "hash": "2145501049"
+    },
+    {
+      "title": "Can AI write your code?",
+      "link": "https://towardsdatascience.com/can-ai-write-your-code/",
+      "source": "Towards Data Science",
+      "published": "Mon, 25 May 2026 17:15:24 +0000",
+      "guid": "https://towardsdatascience.com/?p=609181",
+      "hash": "2082072025"
+    },
+    {
+      "title": "From TF-IDF to Transformers: Implementing Four Generations of Semantic Search",
+      "link": "https://towardsdatascience.com/from-tf-idf-to-transformers-implementing-four-generations-of-semantic-search/",
+      "source": "Towards Data Science",
+      "published": "Mon, 25 May 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609179",
+      "hash": "1907565125"
+    },
+    {
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership]",
+      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "source": "OpenAI News",
+      "published": "Mon, 25 May 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "hash": "1734865209"
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "link": "https://huggingface.co/blog/agent-glossary",
+      "source": "Hugging Face",
+      "published": "Mon, 25 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/agent-glossary",
+      "hash": "619719005"
+    },
+    {
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "source": "Hugging Face",
+      "published": "Sat, 23 May 2026 00:02:03 GMT",
+      "guid": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "hash": "1803492225"
+    },
+    {
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "source": "Google Blog AI",
+      "published": "Fri, 22 May 2026 18:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "hash": "1911810207"
+    },
+    {
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "link": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "source": "Hugging Face",
+      "published": "Fri, 22 May 2026 15:25:59 GMT",
+      "guid": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "hash": "70118700"
+    },
+    {
+      "title": "How Virgin Atlantic ships faster with Codex]",
+      "link": "https://openai.com/index/virgin-atlantic",
+      "source": "OpenAI News",
+      "published": "Fri, 22 May 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/virgin-atlantic",
+      "hash": "255436482"
+    },
+    {
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner]",
+      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "source": "OpenAI News",
+      "published": "Fri, 22 May 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "hash": "1882743066"
+    },
+    {
+      "title": "Here's what developers can do with the latest Google Play updates.",
+      "link": "https://blog.google/feed/google-play-updates-google-io-2026/",
+      "source": "Google Blog AI",
+      "published": "Thu, 21 May 2026 17:00:00 +0000",
+      "guid": "https://blog.google/feed/google-play-updates-google-io-2026/",
+      "hash": "1039950886"
+    },
+    {
+      "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+      "link": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 21 May 2026 16:00:17 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93175",
+      "hash": "1577838632"
+    },
+    {
+      "title": "Here's how accessibility tools and Gemini are helping students find independence",
+      "link": "https://blog.google/products-and-platforms/devices/chromebooks/face-control/",
+      "source": "Google Blog AI",
+      "published": "Thu, 21 May 2026 16:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/devices/chromebooks/face-control/",
+      "hash": "1619364610"
+    },
+    {
+      "title": "License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 21 May 2026 13:00:22 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93181",
+      "hash": "1904621653"
+    },
+    {
+      "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
+      "link": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
+      "source": "NVIDIA Blog",
+      "published": "Tue, 19 May 2026 20:30:09 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93030",
+      "hash": "937973603"
+    }
+  ]
+}
