@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-28",
+  "title": "AI Daily Brief - 2026-05-28",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-05-28\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- A new benchmark called ITBench-AA shows that even the strongest frontier AI models score below 50% on real enterprise IT tasks done by AI agents.\n- Industry write-ups argue that most AI agents fail in production because teams build the automation before clarifying the workflow, and they suggest a \"backwards-first\" design approach.\n- Google has updated AI Search to surface original sources and favourite publishers more clearly, addressing a common concern that AI answers hide where information comes from.\n\n## What Happened\n\n- Artificial Analysis and IBM released ITBench-AA, the first public benchmark for \"agentic\" IT tasks (things like diagnosing incidents, configuring systems, and handling tickets). Top models still fall short of human-level performance, scoring under 50%.\n- A Towards Data Science article argues that many AI agent projects fail because developers start by wiring up tools and prompts, instead of first mapping the workflow, the decision points, and the failure modes. The recommended fix is to design the process first, then add the AI.\n- Google announced changes in AI Search that highlight original content and let users follow preferred sources, so AI-generated summaries are more clearly tied to the publishers behind them.\n\n## Why It Matters\n\n- ITBench-AA gives lecturers a concrete, current data point to counter the idea that \"AI can already do IT work\". It is useful when teaching realistic expectations in IT, infocomm, and cybersecurity diplomas.\n- The \"agents built backwards\" point is directly relevant to capstone and project-based modules where students are tempted to jump into LLM tools without analysing the underlying process. It reinforces good systems-thinking habits.\n- Source attribution in AI Search matters for information literacy. Students increasingly start research with AI summaries, and they need to see and evaluate the original sources behind those answers.\n\n## Try This Today\n\n- Open the ITBench-AA write-up and pick one task category (e.g. incident triage). Ask students or yourself: which steps would you trust an AI agent to do, and which would you keep with a human? 10 minutes.\n- Take any AI-agent or automation idea you are considering for a module or task, and write it out as a flowchart on paper before touching a tool. Mark every decision point and every place a wrong answer would cause harm.\n- Do the same Google search on a current topic in normal Search and in AI Mode. Compare which original sources appear, which are hidden, and whether the AI summary attributes facts clearly.\n\n## Teaching Angle\n\n- Run a 15-minute discussion in an IT or cybersecurity class: \"Why do frontier models score under 50% on enterprise IT tasks?\" Use ITBench-AA categories as discussion prompts. Get students to identify what makes IT work hard for AI (context, side effects, judgement).\n- In a project module, ask student teams to submit a one-page \"workflow map\" before they are allowed to build an AI agent or chatbot. Use the \"built backwards\" article as the framing reading.\n- For communication, media, or research-skills modules, set a short exercise: students must verify three claims from an AI Search answer against the original sources, and report any claims that could not be traced. Tie this to RP's academic integrity expectations.\n\n## Links\n\n- [ITBench-AA: Frontier Models Score Below 50% on Agentic Enterprise IT Tasks](https://huggingface.co/blog/ibm-research/itbench-aa)\n- [Most AI Agents Fail in Production Because They're Built Backwards](https://towardsdatascience.com/most-ai-agents-fail-in-production-because-theyre-built-backwards/)\n- [New ways to find your favorite sources and original content in AI Search](https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-05-28\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>A new benchmark called ITBench-AA shows that even the strongest frontier AI models score below 50% on real enterprise IT tasks done by AI agents.</li>\n<li>Industry write-ups argue that most AI agents fail in production because teams build the automation before clarifying the workflow, and they suggest a \"backwards-first\" design approach.</li>\n<li>Google has updated AI Search to surface original sources and favourite publishers more clearly, addressing a common concern that AI answers hide where information comes from.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Artificial Analysis and IBM released ITBench-AA, the first public benchmark for \"agentic\" IT tasks (things like diagnosing incidents, configuring systems, and handling tickets). Top models still fall short of human-level performance, scoring under 50%.</li>\n<li>A Towards Data Science article argues that many AI agent projects fail because developers start by wiring up tools and prompts, instead of first mapping the workflow, the decision points, and the failure modes. The recommended fix is to design the process first, then add the AI.</li>\n<li>Google announced changes in AI Search that highlight original content and let users follow preferred sources, so AI-generated summaries are more clearly tied to the publishers behind them.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>ITBench-AA gives lecturers a concrete, current data point to counter the idea that \"AI can already do IT work\". It is useful when teaching realistic expectations in IT, infocomm, and cybersecurity diplomas.</li>\n<li>The \"agents built backwards\" point is directly relevant to capstone and project-based modules where students are tempted to jump into LLM tools without analysing the underlying process. It reinforces good systems-thinking habits.</li>\n<li>Source attribution in AI Search matters for information literacy. Students increasingly start research with AI summaries, and they need to see and evaluate the original sources behind those answers.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open the ITBench-AA write-up and pick one task category (e.g. incident triage). Ask students or yourself: which steps would you trust an AI agent to do, and which would you keep with a human? 10 minutes.</li>\n<li>Take any AI-agent or automation idea you are considering for a module or task, and write it out as a flowchart on paper before touching a tool. Mark every decision point and every place a wrong answer would cause harm.</li>\n<li>Do the same Google search on a current topic in normal Search and in AI Mode. Compare which original sources appear, which are hidden, and whether the AI summary attributes facts clearly.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute discussion in an IT or cybersecurity class: \"Why do frontier models score under 50% on enterprise IT tasks?\" Use ITBench-AA categories as discussion prompts. Get students to identify what makes IT work hard for AI (context, side effects, judgement).</li>\n<li>In a project module, ask student teams to submit a one-page \"workflow map\" before they are allowed to build an AI agent or chatbot. Use the \"built backwards\" article as the framing reading.</li>\n<li>For communication, media, or research-skills modules, set a short exercise: students must verify three claims from an AI Search answer against the original sources, and report any claims that could not be traced. Tie this to RP's academic integrity expectations.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://huggingface.co/blog/ibm-research/itbench-aa\" rel=\"noopener noreferrer\" target=\"_blank\">ITBench-AA: Frontier Models Score Below 50% on Agentic Enterprise IT Tasks</a></li>\n<li><a href=\"https://towardsdatascience.com/most-ai-agents-fail-in-production-because-theyre-built-backwards/\" rel=\"noopener noreferrer\" target=\"_blank\">Most AI Agents Fail in Production Because They're Built Backwards</a></li>\n<li><a href=\"https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/\" rel=\"noopener noreferrer\" target=\"_blank\">New ways to find your favorite sources and original content in AI Search</a></li>\n</ul>",
+  "generatedAt": "2026-05-27T22:02:02.849Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-05-28-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 17:20:29 GMT",
+      "guid": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "hash": "1721628211"
+    },
+    {
+      "title": "New ways to find your favorite sources and original content in AI Search",
+      "link": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/",
+      "source": "Google Blog AI",
+      "published": "Wed, 27 May 2026 17:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/products/search/original-high-quality-content-search/",
+      "hash": "31609297"
+    },
+    {
+      "title": "How to Effectively Run Many Claude Code Sessions in Parallel",
+      "link": "https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-parallel/",
+      "source": "Towards Data Science",
+      "published": "Wed, 27 May 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609199",
+      "hash": "1772298423"
+    },
+    {
+      "title": "AI Factories: The New Infrastructure of Intelligence",
+      "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 27 May 2026 16:00:36 +0000",
+      "guid": "https://blogs.nvidia.com/?p=92977",
+      "hash": "991293664"
+    },
+    {
+      "title": "Dive deeper into I/O 2026 with NotebookLM.",
+      "link": "https://blog.google/innovation-and-ai/products/notebooklm/notebooklm-google-io-2026/",
+      "source": "Google Blog AI",
+      "published": "Wed, 27 May 2026 16:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/products/notebooklm/notebooklm-google-io-2026/",
+      "hash": "1810091432"
+    },
+    {
+      "title": "Learning From Pairwise Preferences: An Introduction to the Bradley Terry Model",
+      "link": "https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction-to-the-bradley-terry-model/",
+      "source": "Towards Data Science",
+      "published": "Wed, 27 May 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609197",
+      "hash": "1122603392"
+    },
+    {
+      "title": "Most AI Agents Fail in Production Because They’re Built Backwards",
+      "link": "https://towardsdatascience.com/most-ai-agents-fail-in-production-because-theyre-built-backwards/",
+      "source": "Towards Data Science",
+      "published": "Wed, 27 May 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609195",
+      "hash": "129755512"
+    },
+    {
+      "title": "Drive with Ziggy Marley on Waze.",
+      "link": "https://blog.google/waze/drive-with-ziggy-marley-on-waze/",
+      "source": "Google Blog AI",
+      "published": "Wed, 27 May 2026 13:00:00 +0000",
+      "guid": "https://blog.google/waze/drive-with-ziggy-marley-on-waze/",
+      "hash": "535559118"
+    },
+    {
+      "title": "Building self-improving tax agents with Codex]",
+      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "source": "OpenAI News",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "guid": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "hash": "2138792635"
+    },
+    {
+      "title": "Election information and safeguards in 2026]",
+      "link": "https://openai.com/index/election-safeguards-2026",
+      "source": "OpenAI News",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/election-safeguards-2026",
+      "hash": "498997752"
+    },
+    {
+      "title": "Warp’s big bet on building open source with GPT-5.5]",
+      "link": "https://openai.com/index/warp",
+      "source": "OpenAI News",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/warp",
+      "hash": "1414251445"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "hash": "1396138569"
+    },
+    {
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "link": "https://huggingface.co/blog/delta-weight-sync",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/delta-weight-sync",
+      "hash": "1109136870"
+    },
+    {
+      "title": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
+      "link": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+      "source": "NVIDIA Blog",
+      "published": "Tue, 26 May 2026 21:15:15 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93322",
+      "hash": "619849004"
+    },
+    {
+      "title": "Import AI 458: Reckoning with the future; and a singularity story",
+      "link": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
+      "source": "Import AI Jack Clark",
+      "published": "Tue, 26 May 2026 12:32:03 +0000",
+      "guid": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
+      "hash": "640219953"
+    }
+  ]
+}
