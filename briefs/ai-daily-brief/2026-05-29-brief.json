@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-29",
+  "title": "AI Daily Brief - 2026-05-29",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-05-29\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- A new benchmark called ITBench-AA shows that even the best frontier AI models score under 50% on real enterprise IT tasks done by AI \"agents\", raising honest questions about how ready agents are for production work.\n- OpenAI published a Frontier Governance Framework, setting out how it plans to track, test, and manage risks from increasingly capable frontier models.\n- Google's I/O 2026 keynote bundled 12 major AI announcements across Search, Maps, Ads, and developer tools, signalling another wave of AI features arriving in everyday consumer products.\n\n## What Happened\n\n- Artificial Analysis and IBM released ITBench-AA, the first public benchmark for \"agentic\" enterprise IT tasks such as diagnosing incidents, managing systems, and handling tickets. Top frontier models still fail more than half the tasks, with reliability and tool use being common weak spots.\n- OpenAI published its Frontier Governance Framework, describing how it categorises model capabilities, runs safety evaluations, sets deployment thresholds, and assigns internal responsibility for high-risk model behaviours.\n- Google's I/O 2026 recap highlights 12 keynote moments, including AI updates to Search, Maps, Workspace, Ads, and consumer tools. It is a broad snapshot of where Google is pushing AI into mainstream products students and staff already use daily.\n\n## Why It Matters\n\n- ITBench-AA gives RP staff and students a grounded counter-narrative to agent hype. It is useful evidence when teaching that \"AI agents\" still need human supervision, clear scoping, and good evaluation, especially in IT and cybersecurity diplomas.\n- The OpenAI governance framework is a concrete teaching artefact for AI ethics, responsible AI, and IT governance modules. It lets students see how a frontier lab actually structures risk thinking, rather than treating \"AI safety\" as an abstract idea.\n- Google's I/O updates affect tools students and lecturers already touch - Search, Maps, Workspace, Gmail. Knowing what is changing helps lecturers update tutorials, assignments, and demos, and helps students stay aware of AI features quietly shaping their workflows.\n\n## Try This Today\n\n- Open the ITBench-AA write-up and pick two failure examples. Discuss with a colleague: would your diploma students have spotted these mistakes if an \"agent\" had given them the answer in a lab task?\n- Skim the OpenAI Frontier Governance Framework and list three ideas (e.g. capability thresholds, evaluations, deployment gates) you could turn into a 10-minute classroom mini-lecture on responsible AI.\n- Scan the I/O 2026 recap and pick one feature relevant to your module (Search, Maps, Workspace, or Ads). Try it on your Windows 11 laptop in a browser and note one thing it does well and one thing it gets wrong.\n\n## Teaching Angle\n\n- For IT, cybersecurity, or infocomm modules: run a short discussion using ITBench-AA results - \"If frontier agents fail >50% of enterprise IT tasks, where should a junior engineer trust them, and where must they verify?\"\n- For ethics, communication, or general studies: give students a one-page summary of the OpenAI Frontier Governance Framework and ask small groups to identify which controls they find convincing and which they would challenge.\n- For business, marketing, or media diplomas: use the I/O 2026 recap as a quick demo lesson. Ask students to compare an AI-enhanced Google feature with the non-AI version and reflect on user trust, accuracy, and learning impact.\n\n## Links\n\n- [ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks](https://huggingface.co/blog/ibm-research/itbench-aa)\n- [OpenAI's Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework)\n- [Catch up on 12 major I/O 2026 moments](https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-05-29\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>A new benchmark called ITBench-AA shows that even the best frontier AI models score under 50% on real enterprise IT tasks done by AI \"agents\", raising honest questions about how ready agents are for production work.</li>\n<li>OpenAI published a Frontier Governance Framework, setting out how it plans to track, test, and manage risks from increasingly capable frontier models.</li>\n<li>Google's I/O 2026 keynote bundled 12 major AI announcements across Search, Maps, Ads, and developer tools, signalling another wave of AI features arriving in everyday consumer products.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Artificial Analysis and IBM released ITBench-AA, the first public benchmark for \"agentic\" enterprise IT tasks such as diagnosing incidents, managing systems, and handling tickets. Top frontier models still fail more than half the tasks, with reliability and tool use being common weak spots.</li>\n<li>OpenAI published its Frontier Governance Framework, describing how it categorises model capabilities, runs safety evaluations, sets deployment thresholds, and assigns internal responsibility for high-risk model behaviours.</li>\n<li>Google's I/O 2026 recap highlights 12 keynote moments, including AI updates to Search, Maps, Workspace, Ads, and consumer tools. It is a broad snapshot of where Google is pushing AI into mainstream products students and staff already use daily.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>ITBench-AA gives RP staff and students a grounded counter-narrative to agent hype. It is useful evidence when teaching that \"AI agents\" still need human supervision, clear scoping, and good evaluation, especially in IT and cybersecurity diplomas.</li>\n<li>The OpenAI governance framework is a concrete teaching artefact for AI ethics, responsible AI, and IT governance modules. It lets students see how a frontier lab actually structures risk thinking, rather than treating \"AI safety\" as an abstract idea.</li>\n<li>Google's I/O updates affect tools students and lecturers already touch - Search, Maps, Workspace, Gmail. Knowing what is changing helps lecturers update tutorials, assignments, and demos, and helps students stay aware of AI features quietly shaping their workflows.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open the ITBench-AA write-up and pick two failure examples. Discuss with a colleague: would your diploma students have spotted these mistakes if an \"agent\" had given them the answer in a lab task?</li>\n<li>Skim the OpenAI Frontier Governance Framework and list three ideas (e.g. capability thresholds, evaluations, deployment gates) you could turn into a 10-minute classroom mini-lecture on responsible AI.</li>\n<li>Scan the I/O 2026 recap and pick one feature relevant to your module (Search, Maps, Workspace, or Ads). Try it on your Windows 11 laptop in a browser and note one thing it does well and one thing it gets wrong.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>For IT, cybersecurity, or infocomm modules: run a short discussion using ITBench-AA results - \"If frontier agents fail &gt;50% of enterprise IT tasks, where should a junior engineer trust them, and where must they verify?\"</li>\n<li>For ethics, communication, or general studies: give students a one-page summary of the OpenAI Frontier Governance Framework and ask small groups to identify which controls they find convincing and which they would challenge.</li>\n<li>For business, marketing, or media diplomas: use the I/O 2026 recap as a quick demo lesson. Ask students to compare an AI-enhanced Google feature with the non-AI version and reflect on user trust, accuracy, and learning impact.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://huggingface.co/blog/ibm-research/itbench-aa\" rel=\"noopener noreferrer\" target=\"_blank\">ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks</a></li>\n<li><a href=\"https://openai.com/index/openai-frontier-governance-framework\" rel=\"noopener noreferrer\" target=\"_blank\">OpenAI's Frontier Governance Framework</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/\" rel=\"noopener noreferrer\" target=\"_blank\">Catch up on 12 major I/O 2026 moments</a></li>\n</ul>",
+  "generatedAt": "2026-05-28T22:01:57.580Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-05-29-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "EmoNet: Speaker-Aware Transformers for Emotion Recognition — and What I’d Build Differently in 2026",
+      "link": "https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/",
+      "source": "Towards Data Science",
+      "published": "Thu, 28 May 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609209",
+      "hash": "12179803"
+    },
+    {
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "source": "Google Blog AI",
+      "published": "Thu, 28 May 2026 15:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "hash": "1174947832"
+    },
+    {
+      "title": "The Infrastructure Behind Making Local LLM Agents Actually Useful",
+      "link": "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
+      "source": "Towards Data Science",
+      "published": "Thu, 28 May 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609206",
+      "hash": "546784350"
+    },
+    {
+      "title": "Travel the world like Dua Lipa with Google Maps",
+      "link": "https://blog.google/products-and-platforms/products/maps/dua-lipa/",
+      "source": "Google Blog AI",
+      "published": "Thu, 28 May 2026 14:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/products/maps/dua-lipa/",
+      "hash": "285760933"
+    },
+    {
+      "title": "Why AI Still Can’t Solve Your Real Mathematical Optimization Problem",
+      "link": "https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot-does-differently/",
+      "source": "Towards Data Science",
+      "published": "Thu, 28 May 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609204",
+      "hash": "1667029056"
+    },
+    {
+      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
+      "link": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:51 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93433",
+      "hash": "1863907334"
+    },
+    {
+      "title": "The Name’s Gaming … Cloud Gaming: ‘007 First Light’ Launches on GeForce NOW",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-launch/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:37 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93409",
+      "hash": "1472421559"
+    },
+    {
+      "title": "Here's how AI is rebuilding the foundation of modern marketing.",
+      "link": "https://blog.google/products/ads-commerce/ads-decoded-finale/",
+      "source": "Google Blog AI",
+      "published": "Thu, 28 May 2026 13:00:00 +0000",
+      "guid": "https://blog.google/products/ads-commerce/ads-decoded-finale/",
+      "hash": "1345480709"
+    },
+    {
+      "title": "OpenAI’s Frontier Governance Framework]",
+      "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "source": "OpenAI News",
+      "published": "Thu, 28 May 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/openai-frontier-governance-framework",
+      "hash": "1800694409"
+    },
+    {
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 17:20:29 GMT",
+      "guid": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "hash": "1721628211"
+    },
+    {
+      "title": "AI Factories: The New Infrastructure of Intelligence",
+      "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 27 May 2026 16:00:36 +0000",
+      "guid": "https://blogs.nvidia.com/?p=92977",
+      "hash": "991293664"
+    },
+    {
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex]",
+      "link": "https://openai.com/index/cisco",
+      "source": "OpenAI News",
+      "published": "Wed, 27 May 2026 11:00:00 GMT",
+      "guid": "https://openai.com/index/cisco",
+      "hash": "464041870"
+    },
+    {
+      "title": "Building self-improving tax agents with Codex]",
+      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "source": "OpenAI News",
+      "published": "Wed, 27 May 2026 07:00:00 GMT",
+      "guid": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "hash": "2138792635"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "hash": "1396138569"
+    },
+    {
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "link": "https://huggingface.co/blog/delta-weight-sync",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/delta-weight-sync",
+      "hash": "1109136870"
+    }
+  ]
+}
