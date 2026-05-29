@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-30",
+  "title": "AI Daily Brief - 2026-05-30",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-05-30\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- Google showed Gemini Omni and Gemini 3.5 in nine short demos covering multimodal tasks, and released a \"vibe coded\" I/O 2026 quiz built in Google AI Studio.\n- A new agentic IT benchmark from IBM and Artificial Analysis (ITBench-AA) shows frontier models scoring below 50% on real enterprise IT tasks.\n- Two Towards Data Science pieces tackle practical RAG engineering: a baseline enterprise RAG pipeline from PDF to highlighted answer, and a cost control layer for runaway RAG bills.\n\n## What Happened\n\n- Google published a set of nine demo videos showing Gemini Omni and Gemini 3.5 handling multimodal inputs (text, image, audio, video) across everyday tasks, and a companion post showcases an I/O 2026 quiz prototype that was \"vibe coded\" inside Google AI Studio with minimal hand-written code.\n- Hugging Face's blog covers ITBench-AA, a new benchmark from IBM Research and Artificial Analysis that tests how well agents can complete realistic enterprise IT chores (incident triage, config changes, SRE-style work). Even top models score under 50%, showing agents are still far from reliable IT workers.\n- Towards Data Science published two complementary RAG (retrieval-augmented generation) articles: one walks through a baseline enterprise RAG that takes PDFs in and returns answers with highlighted source passages; the other introduces a \"cost control layer\" to stop RAG systems from burning tokens and money through repeated or oversized retrievals.\n\n## Why It Matters\n\n- Gemini Omni demos and the AI Studio quiz example give lecturers concrete, recent examples of multimodal AI and low-code \"vibe coding\". They are easy to show in class and useful for assignments that mix text, images, and audio.\n- ITBench-AA gives students and IT lecturers honest, evidence-based talking points about what agents can and cannot do. It pushes back on the hype that \"AI agents can run IT\" and supports realistic discussion in modules on cybersecurity, cloud, and DevOps.\n- The two RAG articles target a skill diploma students increasingly need: building chatbots that cite documents without blowing up costs. Highlighted-answer pipelines and cost control are both directly relevant to FYPs, internships, and applied AI projects.\n\n## Try This Today\n\n- Open Google AI Studio in your browser and spend 10 minutes prompting it to generate a small quiz app (for example, a 5-question quiz on your module topic). Note how much working code you got from prompts alone.\n- Watch two of the nine Gemini Omni / 3.5 demo clips and write a one-paragraph comparison with a tool your students already use (e.g. Copilot in Edge). Identify one task where multimodal input would genuinely help your teaching.\n- Skim the ITBench-AA results and pick one task category where models scored poorly. Draft a single discussion question for class such as: \"Would you trust an AI agent to do this on RP's network? Why not?\"\n- Read the baseline enterprise RAG article and sketch on paper how you would apply the same PDF-to-highlighted-answer flow to one set of RP course materials (e.g. a module guide).\n\n## Teaching Angle\n\n- Multimodal demo walkthrough: play one Gemini Omni clip, pause, and ask students to predict what the model will do next. Use this to teach the difference between text-only and multimodal models.\n- Vibe coding lab: in an applied AI or web class, give students 30 minutes in Google AI Studio to prototype a quiz or small tool. Mark them on prompt quality and how they verified the generated code, not on lines written.\n- Honest-AI discussion using ITBench-AA: in IT, cybersecurity, or SRE-style modules, run a 15-minute debate on \"agents replacing tier-1 IT support\" using the sub-50% scores as evidence. Good for critical thinking and ethics outcomes.\n- RAG mini-project framing: use the baseline enterprise RAG article as a reference architecture for a diploma project. Then layer in the cost-control article as a follow-up lesson on engineering trade-offs (latency, accuracy, token spend).\n- Compare-and-critique task: give students both RAG articles and ask them to list three design choices that reduce cost without hurting answer quality. Useful for data engineering and applied AI modules.\n\n## Links\n\n- [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/)\n- [Take our I/O 2026 quiz, vibe coded in Google AI Studio](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/)\n- [ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks](https://huggingface.co/blog/ibm-research/itbench-aa)\n- [Baseline Enterprise RAG, From PDF to Highlighted Answer](https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/)\n- [RAG Is Burning Money - I Built a Cost Control Layer to Fix It](https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-05-30\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>Google showed Gemini Omni and Gemini 3.5 in nine short demos covering multimodal tasks, and released a \"vibe coded\" I/O 2026 quiz built in Google AI Studio.</li>\n<li>A new agentic IT benchmark from IBM and Artificial Analysis (ITBench-AA) shows frontier models scoring below 50% on real enterprise IT tasks.</li>\n<li>Two Towards Data Science pieces tackle practical RAG engineering: a baseline enterprise RAG pipeline from PDF to highlighted answer, and a cost control layer for runaway RAG bills.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Google published a set of nine demo videos showing Gemini Omni and Gemini 3.5 handling multimodal inputs (text, image, audio, video) across everyday tasks, and a companion post showcases an I/O 2026 quiz prototype that was \"vibe coded\" inside Google AI Studio with minimal hand-written code.</li>\n<li>Hugging Face's blog covers ITBench-AA, a new benchmark from IBM Research and Artificial Analysis that tests how well agents can complete realistic enterprise IT chores (incident triage, config changes, SRE-style work). Even top models score under 50%, showing agents are still far from reliable IT workers.</li>\n<li>Towards Data Science published two complementary RAG (retrieval-augmented generation) articles: one walks through a baseline enterprise RAG that takes PDFs in and returns answers with highlighted source passages; the other introduces a \"cost control layer\" to stop RAG systems from burning tokens and money through repeated or oversized retrievals.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Gemini Omni demos and the AI Studio quiz example give lecturers concrete, recent examples of multimodal AI and low-code \"vibe coding\". They are easy to show in class and useful for assignments that mix text, images, and audio.</li>\n<li>ITBench-AA gives students and IT lecturers honest, evidence-based talking points about what agents can and cannot do. It pushes back on the hype that \"AI agents can run IT\" and supports realistic discussion in modules on cybersecurity, cloud, and DevOps.</li>\n<li>The two RAG articles target a skill diploma students increasingly need: building chatbots that cite documents without blowing up costs. Highlighted-answer pipelines and cost control are both directly relevant to FYPs, internships, and applied AI projects.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open Google AI Studio in your browser and spend 10 minutes prompting it to generate a small quiz app (for example, a 5-question quiz on your module topic). Note how much working code you got from prompts alone.</li>\n<li>Watch two of the nine Gemini Omni / 3.5 demo clips and write a one-paragraph comparison with a tool your students already use (e.g. Copilot in Edge). Identify one task where multimodal input would genuinely help your teaching.</li>\n<li>Skim the ITBench-AA results and pick one task category where models scored poorly. Draft a single discussion question for class such as: \"Would you trust an AI agent to do this on RP's network? Why not?\"</li>\n<li>Read the baseline enterprise RAG article and sketch on paper how you would apply the same PDF-to-highlighted-answer flow to one set of RP course materials (e.g. a module guide).</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Multimodal demo walkthrough: play one Gemini Omni clip, pause, and ask students to predict what the model will do next. Use this to teach the difference between text-only and multimodal models.</li>\n<li>Vibe coding lab: in an applied AI or web class, give students 30 minutes in Google AI Studio to prototype a quiz or small tool. Mark them on prompt quality and how they verified the generated code, not on lines written.</li>\n<li>Honest-AI discussion using ITBench-AA: in IT, cybersecurity, or SRE-style modules, run a 15-minute debate on \"agents replacing tier-1 IT support\" using the sub-50% scores as evidence. Good for critical thinking and ethics outcomes.</li>\n<li>RAG mini-project framing: use the baseline enterprise RAG article as a reference architecture for a diploma project. Then layer in the cost-control article as a follow-up lesson on engineering trade-offs (latency, accuracy, token spend).</li>\n<li>Compare-and-critique task: give students both RAG articles and ask them to list three design choices that reduce cost without hurting answer quality. Useful for data engineering and applied AI modules.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/\" rel=\"noopener noreferrer\" target=\"_blank\">9 demos of Gemini Omni and Gemini 3.5 in action</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/\" rel=\"noopener noreferrer\" target=\"_blank\">Take our I/O 2026 quiz, vibe coded in Google AI Studio</a></li>\n<li><a href=\"https://huggingface.co/blog/ibm-research/itbench-aa\" rel=\"noopener noreferrer\" target=\"_blank\">ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks</a></li>\n<li><a href=\"https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/\" rel=\"noopener noreferrer\" target=\"_blank\">Baseline Enterprise RAG, From PDF to Highlighted Answer</a></li>\n<li><a href=\"https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/\" rel=\"noopener noreferrer\" target=\"_blank\">RAG Is Burning Money - I Built a Cost Control Layer to Fix It</a></li>\n</ul>",
+  "generatedAt": "2026-05-29T22:01:55.831Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-05-30-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Baseline Enterprise RAG, From PDF to Highlighted Answer",
+      "link": "https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/",
+      "source": "Towards Data Science",
+      "published": "Fri, 29 May 2026 19:10:22 +0000",
+      "guid": "https://towardsdatascience.com/?p=609231",
+      "hash": "725490865"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 19:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "hash": "1738680564"
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 17:30:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "hash": "378248541"
+    },
+    {
+      "title": "RAG Is Burning Money — I Built a Cost Control Layer to Fix It",
+      "link": "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
+      "source": "Towards Data Science",
+      "published": "Fri, 29 May 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609222",
+      "hash": "1909908432"
+    },
+    {
+      "title": "Why Gradient Descent Became Stochastic",
+      "link": "https://towardsdatascience.com/why-gradient-descent-became-stochastic/",
+      "source": "Towards Data Science",
+      "published": "Fri, 29 May 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609220",
+      "hash": "494813422"
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses]",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/boston-childrens-hospital",
+      "hash": "2017756901"
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex]",
+      "link": "https://openai.com/index/braintrust",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/braintrust",
+      "hash": "425593088"
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 12:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "hash": "540670991"
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense]",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 03:00:00 GMT",
+      "guid": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "hash": "301532821"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
+      "link": "https://huggingface.co/blog/torch-profiler",
+      "source": "Hugging Face",
+      "published": "Fri, 29 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-profiler",
+      "hash": "985011252"
+    },
+    {
+      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
+      "link": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:51 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93433",
+      "hash": "1863907334"
+    },
+    {
+      "title": "The Name’s Gaming … Cloud Gaming: ‘007 First Light’ Launches on GeForce NOW",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-launch/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:37 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93409",
+      "hash": "1472421559"
+    },
+    {
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 17:20:29 GMT",
+      "guid": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "hash": "1721628211"
+    },
+    {
+      "title": "AI Factories: The New Infrastructure of Intelligence",
+      "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 27 May 2026 16:00:36 +0000",
+      "guid": "https://blogs.nvidia.com/?p=92977",
+      "hash": "991293664"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "hash": "1396138569"
+    }
+  ]
+}
