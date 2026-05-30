@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-31",
+  "title": "AI Daily Brief - 2026-05-31",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-05-31\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- Google showcased Gemini Omni and Gemini 3.5 across nine short demos, plus a \"vibe coded\" I/O 2026 quiz built in Google AI Studio.\n- A new benchmark, ITBench-AA from IBM and Artificial Analysis, shows that frontier AI models score below 50% on real agentic enterprise IT tasks.\n- A Towards Data Science piece argues that meta-cognitive regulation, knowing when to trust, check, or override AI, is becoming the most important AI skill for users.\n\n## What Happened\n\n- Google released nine demo videos of Gemini Omni and Gemini 3.5 and a separate post about a quiz app for I/O 2026 that was built using natural-language \"vibe coding\" inside Google AI Studio, showing how non-developers can assemble small AI-powered web apps.\n- IBM Research and Artificial Analysis published ITBench-AA, the first benchmark for agentic enterprise IT tasks such as multi-step troubleshooting and operations. Even the strongest current models score under 50%, exposing clear limits in autonomous AI agents.\n- Towards Data Science published an article on meta-cognitive regulation, the habit of pausing to ask whether an AI answer is reliable, what assumptions it made, and when to verify or stop. The author frames this as the core literacy skill for working with generative AI.\n\n## Why It Matters\n\n- The Gemini demos and AI Studio quiz show that students can now prototype apps by describing them in plain English. This shifts what we should teach: less boilerplate coding, more problem framing, prompt design, and quality checking of generated code.\n- The ITBench-AA results are a useful reality check for students and lecturers who assume agents can \"just do\" complex IT work. Sub-50% scores mean human oversight, structured prompts, and clear task decomposition are still essential in IT and infocomm diplomas.\n- Meta-cognitive regulation gives us a teachable name for something every RP student now needs: the discipline to question AI output. It connects directly to assessment integrity, critical thinking, and our existing emphasis on problem-based learning.\n\n## Try This Today\n\n- Open Google AI Studio in your browser and try vibe coding a small quiz or flashcard app for one of your modules. Spend 10 minutes describing what you want and see how far you get without writing code.\n- Take any AI-generated answer from your last lesson and run a 5-minute \"meta-cognitive check\": list what the model assumed, what you cannot verify, and what you would ask a human expert to confirm.\n- Skim the ITBench-AA results and pick one IT task from your module (for example, log triage or incident response) and ask students to predict whether a current AI agent could handle it end-to-end, then discuss why the benchmark suggests otherwise.\n\n## Teaching Angle\n\n- Run a short demo comparing a Gemini Omni or 3.5 demo clip with a student attempt at the same task, then ask the class what the model did well and where a human is still needed.\n- Use vibe coding in Google AI Studio as a 30-minute lab: students brief the AI to build a tiny revision tool, then critique the generated code for bugs, security, and clarity. This connects coding modules with AI literacy.\n- Introduce \"meta-cognitive regulation\" as a named classroom routine: before students submit AI-assisted work, they must write three sentences on what they checked, what they changed, and what they are still unsure about.\n- Use the ITBench-AA finding as a discussion prompt in IT modules: if frontier agents score below 50% on enterprise IT tasks, what does responsible use of AI assistants look like in a real helpdesk or SOC role?\n\n## Links\n\n- [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/)\n- [Take our I/O 2026 quiz, vibe coded in Google AI Studio](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/)\n- [ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks](https://huggingface.co/blog/ibm-research/itbench-aa)\n- [Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About](https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-05-31\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>Google showcased Gemini Omni and Gemini 3.5 across nine short demos, plus a \"vibe coded\" I/O 2026 quiz built in Google AI Studio.</li>\n<li>A new benchmark, ITBench-AA from IBM and Artificial Analysis, shows that frontier AI models score below 50% on real agentic enterprise IT tasks.</li>\n<li>A Towards Data Science piece argues that meta-cognitive regulation, knowing when to trust, check, or override AI, is becoming the most important AI skill for users.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Google released nine demo videos of Gemini Omni and Gemini 3.5 and a separate post about a quiz app for I/O 2026 that was built using natural-language \"vibe coding\" inside Google AI Studio, showing how non-developers can assemble small AI-powered web apps.</li>\n<li>IBM Research and Artificial Analysis published ITBench-AA, the first benchmark for agentic enterprise IT tasks such as multi-step troubleshooting and operations. Even the strongest current models score under 50%, exposing clear limits in autonomous AI agents.</li>\n<li>Towards Data Science published an article on meta-cognitive regulation, the habit of pausing to ask whether an AI answer is reliable, what assumptions it made, and when to verify or stop. The author frames this as the core literacy skill for working with generative AI.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>The Gemini demos and AI Studio quiz show that students can now prototype apps by describing them in plain English. This shifts what we should teach: less boilerplate coding, more problem framing, prompt design, and quality checking of generated code.</li>\n<li>The ITBench-AA results are a useful reality check for students and lecturers who assume agents can \"just do\" complex IT work. Sub-50% scores mean human oversight, structured prompts, and clear task decomposition are still essential in IT and infocomm diplomas.</li>\n<li>Meta-cognitive regulation gives us a teachable name for something every RP student now needs: the discipline to question AI output. It connects directly to assessment integrity, critical thinking, and our existing emphasis on problem-based learning.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open Google AI Studio in your browser and try vibe coding a small quiz or flashcard app for one of your modules. Spend 10 minutes describing what you want and see how far you get without writing code.</li>\n<li>Take any AI-generated answer from your last lesson and run a 5-minute \"meta-cognitive check\": list what the model assumed, what you cannot verify, and what you would ask a human expert to confirm.</li>\n<li>Skim the ITBench-AA results and pick one IT task from your module (for example, log triage or incident response) and ask students to predict whether a current AI agent could handle it end-to-end, then discuss why the benchmark suggests otherwise.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a short demo comparing a Gemini Omni or 3.5 demo clip with a student attempt at the same task, then ask the class what the model did well and where a human is still needed.</li>\n<li>Use vibe coding in Google AI Studio as a 30-minute lab: students brief the AI to build a tiny revision tool, then critique the generated code for bugs, security, and clarity. This connects coding modules with AI literacy.</li>\n<li>Introduce \"meta-cognitive regulation\" as a named classroom routine: before students submit AI-assisted work, they must write three sentences on what they checked, what they changed, and what they are still unsure about.</li>\n<li>Use the ITBench-AA finding as a discussion prompt in IT modules: if frontier agents score below 50% on enterprise IT tasks, what does responsible use of AI assistants look like in a real helpdesk or SOC role?</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/\" rel=\"noopener noreferrer\" target=\"_blank\">9 demos of Gemini Omni and Gemini 3.5 in action</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/\" rel=\"noopener noreferrer\" target=\"_blank\">Take our I/O 2026 quiz, vibe coded in Google AI Studio</a></li>\n<li><a href=\"https://huggingface.co/blog/ibm-research/itbench-aa\" rel=\"noopener noreferrer\" target=\"_blank\">ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks</a></li>\n<li><a href=\"https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/\" rel=\"noopener noreferrer\" target=\"_blank\">Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About</a></li>\n</ul>",
+  "generatedAt": "2026-05-30T22:01:57.229Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-05-31-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About",
+      "link": "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
+      "source": "Towards Data Science",
+      "published": "Sat, 30 May 2026 17:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609229",
+      "hash": "2092608742"
+    },
+    {
+      "title": "Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval",
+      "link": "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
+      "source": "Towards Data Science",
+      "published": "Sat, 30 May 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609241",
+      "hash": "446511479"
+    },
+    {
+      "title": "Qdrant TurboQuant Explained: Is TurboQuant the Silver Bullet?",
+      "link": "https://towardsdatascience.com/qdrant-turboquant-explained-is-turboquant-the-silver-bullet/",
+      "source": "Towards Data Science",
+      "published": "Sat, 30 May 2026 13:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609226",
+      "hash": "54981288"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 19:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "hash": "1738680564"
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 17:30:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "hash": "378248541"
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses]",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/boston-childrens-hospital",
+      "hash": "2017756901"
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex]",
+      "link": "https://openai.com/index/braintrust",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/braintrust",
+      "hash": "425593088"
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 12:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "hash": "540670991"
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense]",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 03:00:00 GMT",
+      "guid": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "hash": "301532821"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
+      "link": "https://huggingface.co/blog/torch-profiler",
+      "source": "Hugging Face",
+      "published": "Fri, 29 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-profiler",
+      "hash": "985011252"
+    },
+    {
+      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
+      "link": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:51 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93433",
+      "hash": "1863907334"
+    },
+    {
+      "title": "The Name’s Gaming … Cloud Gaming: ‘007 First Light’ Launches on GeForce NOW",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-launch/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:37 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93409",
+      "hash": "1472421559"
+    },
+    {
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 17:20:29 GMT",
+      "guid": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "hash": "1721628211"
+    },
+    {
+      "title": "AI Factories: The New Infrastructure of Intelligence",
+      "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 27 May 2026 16:00:36 +0000",
+      "guid": "https://blogs.nvidia.com/?p=92977",
+      "hash": "991293664"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "hash": "1396138569"
+    }
+  ]
+}
