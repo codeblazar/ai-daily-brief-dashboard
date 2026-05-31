@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-01",
+  "title": "AI Daily Brief - 2026-06-01",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-01\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- Google showed Gemini Omni and Gemini 3.5 in nine short demos, alongside an I/O 2026 quiz \"vibe coded\" inside Google AI Studio.\n- A new benchmark from IBM and Artificial Analysis, ITBench-AA, found that frontier AI models score below 50% on real agentic enterprise IT tasks.\n- OpenAI shared two applied case studies: Boston Children's Hospital using AI to support rare diagnoses, and Braintrust using Codex to turn customer requests into code.\n\n## What Happened\n\n- Google released a set of nine demo videos showing Gemini Omni and Gemini 3.5 handling multimodal tasks, and published an I/O 2026 quiz that was built by describing the app in natural language (\"vibe coding\") in Google AI Studio.\n- IBM Research and Artificial Analysis launched ITBench-AA, the first benchmark testing AI agents on realistic enterprise IT work such as incident response and system administration. Even the strongest current models scored under 50%, showing agents still struggle when steps, tools, and context are messy.\n- OpenAI published two short customer stories. Boston Children's Hospital is using AI to help clinicians match symptoms to rare diseases more quickly. Braintrust is feeding incoming customer requests into Codex to draft code changes, shortening the gap between feedback and a working fix.\n\n## Why It Matters\n\n- The Gemini demos and \"vibe coded\" quiz show that students can now build small working apps by describing them in plain English. This changes how we teach prototyping, app development, and digital projects across diplomas.\n- ITBench-AA gives lecturers concrete evidence that \"AI agents\" are not yet reliable for complex IT workflows. It is a useful counterweight to hype and a good teaching tool for critical thinking about AI limits.\n- The Boston Children's and Braintrust stories are clear, classroom-friendly examples of AI as an assistant to professionals (clinicians, developers) rather than a replacement, useful across health sciences, infocomm, and business diplomas.\n\n## Try This Today\n\n- Open Google AI Studio in Edge or Chrome on your Windows 11 laptop and try \"vibe coding\" a 5-question quiz for your module by describing it in plain English. Note where the AI guessed wrong.\n- Pick one Gemini Omni demo video, watch it with a colleague, and list two tasks in your module where multimodal input (voice + image + text) could replace a current activity.\n- In a 10-minute discussion with students, share the ITBench-AA headline (\"frontier models below 50% on enterprise IT tasks\") and ask them to suggest why agents fail on multi-step real-world work.\n- Read the Braintrust write-up and sketch one workflow in your own teaching admin (e.g. turning student feedback into action items) where a similar request-to-draft pattern could save time.\n\n## Teaching Angle\n\n- Prototyping lesson: have students rebuild the I/O 2026 quiz idea in Google AI Studio for a topic in your module, then compare two versions written from different prompts.\n- Critical thinking activity: show the ITBench-AA results and ask students to design one test case where they think an AI agent would fail, then try it on a chatbot and report back.\n- Health sciences / applied AI discussion: use the Boston Children's story to discuss how AI should support, not replace, expert judgement; ask students to list which diagnostic steps must stay with the clinician.\n- Software engineering tutorial: use the Braintrust example to discuss the developer workflow of \"customer request → AI draft → human review → merge,\" and have students try the same loop on a small bug in a sample repo using Copilot or a similar tool.\n\n## Links\n\n- [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/)\n- [Take our I/O 2026 quiz, vibe coded in Google AI Studio](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/)\n- [ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks](https://huggingface.co/blog/ibm-research/itbench-aa)\n- [Boston Children's uses AI to unlock new diagnoses](https://openai.com/index/boston-childrens-hospital)\n- [How Braintrust turns customer requests into code with Codex](https://openai.com/index/braintrust)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-01\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>Google showed Gemini Omni and Gemini 3.5 in nine short demos, alongside an I/O 2026 quiz \"vibe coded\" inside Google AI Studio.</li>\n<li>A new benchmark from IBM and Artificial Analysis, ITBench-AA, found that frontier AI models score below 50% on real agentic enterprise IT tasks.</li>\n<li>OpenAI shared two applied case studies: Boston Children's Hospital using AI to support rare diagnoses, and Braintrust using Codex to turn customer requests into code.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Google released a set of nine demo videos showing Gemini Omni and Gemini 3.5 handling multimodal tasks, and published an I/O 2026 quiz that was built by describing the app in natural language (\"vibe coding\") in Google AI Studio.</li>\n<li>IBM Research and Artificial Analysis launched ITBench-AA, the first benchmark testing AI agents on realistic enterprise IT work such as incident response and system administration. Even the strongest current models scored under 50%, showing agents still struggle when steps, tools, and context are messy.</li>\n<li>OpenAI published two short customer stories. Boston Children's Hospital is using AI to help clinicians match symptoms to rare diseases more quickly. Braintrust is feeding incoming customer requests into Codex to draft code changes, shortening the gap between feedback and a working fix.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>The Gemini demos and \"vibe coded\" quiz show that students can now build small working apps by describing them in plain English. This changes how we teach prototyping, app development, and digital projects across diplomas.</li>\n<li>ITBench-AA gives lecturers concrete evidence that \"AI agents\" are not yet reliable for complex IT workflows. It is a useful counterweight to hype and a good teaching tool for critical thinking about AI limits.</li>\n<li>The Boston Children's and Braintrust stories are clear, classroom-friendly examples of AI as an assistant to professionals (clinicians, developers) rather than a replacement, useful across health sciences, infocomm, and business diplomas.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open Google AI Studio in Edge or Chrome on your Windows 11 laptop and try \"vibe coding\" a 5-question quiz for your module by describing it in plain English. Note where the AI guessed wrong.</li>\n<li>Pick one Gemini Omni demo video, watch it with a colleague, and list two tasks in your module where multimodal input (voice + image + text) could replace a current activity.</li>\n<li>In a 10-minute discussion with students, share the ITBench-AA headline (\"frontier models below 50% on enterprise IT tasks\") and ask them to suggest why agents fail on multi-step real-world work.</li>\n<li>Read the Braintrust write-up and sketch one workflow in your own teaching admin (e.g. turning student feedback into action items) where a similar request-to-draft pattern could save time.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Prototyping lesson: have students rebuild the I/O 2026 quiz idea in Google AI Studio for a topic in your module, then compare two versions written from different prompts.</li>\n<li>Critical thinking activity: show the ITBench-AA results and ask students to design one test case where they think an AI agent would fail, then try it on a chatbot and report back.</li>\n<li>Health sciences / applied AI discussion: use the Boston Children's story to discuss how AI should support, not replace, expert judgement; ask students to list which diagnostic steps must stay with the clinician.</li>\n<li>Software engineering tutorial: use the Braintrust example to discuss the developer workflow of \"customer request → AI draft → human review → merge,\" and have students try the same loop on a small bug in a sample repo using Copilot or a similar tool.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/\" rel=\"noopener noreferrer\" target=\"_blank\">9 demos of Gemini Omni and Gemini 3.5 in action</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/\" rel=\"noopener noreferrer\" target=\"_blank\">Take our I/O 2026 quiz, vibe coded in Google AI Studio</a></li>\n<li><a href=\"https://huggingface.co/blog/ibm-research/itbench-aa\" rel=\"noopener noreferrer\" target=\"_blank\">ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks</a></li>\n<li><a href=\"https://openai.com/index/boston-childrens-hospital\" rel=\"noopener noreferrer\" target=\"_blank\">Boston Children's uses AI to unlock new diagnoses</a></li>\n<li><a href=\"https://openai.com/index/braintrust\" rel=\"noopener noreferrer\" target=\"_blank\">How Braintrust turns customer requests into code with Codex</a></li>\n</ul>",
+  "generatedAt": "2026-05-31T22:01:52.850Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-01-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Solving a Murder Mystery Using Bayesian Inference",
+      "link": "https://towardsdatascience.com/solving-a-murder-mystery-using-bayesian-inference/",
+      "source": "Towards Data Science",
+      "published": "Sun, 31 May 2026 17:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609234",
+      "hash": "1535299992"
+    },
+    {
+      "title": "Rerankers Aren’t Magic Either: When the Cross-Encoder Layer Is Worth the Cost",
+      "link": "https://towardsdatascience.com/rerankers-arent-magic-either-when-the-cross-encoder-layer-is-worth-the-cost-enterprise-document-intelligence-vol-1-2bis/",
+      "source": "Towards Data Science",
+      "published": "Sun, 31 May 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609243",
+      "hash": "32354075"
+    },
+    {
+      "title": "Proxy-Pointer RAG: Eliminating Wasteful Entity &#038; Relations Extraction in Knowledge Graphs",
+      "link": "https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/",
+      "source": "Towards Data Science",
+      "published": "Sun, 31 May 2026 13:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609214",
+      "hash": "2074634334"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 19:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "hash": "1738680564"
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 17:30:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "hash": "378248541"
+    },
+    {
+      "title": "Boston Children’s uses AI to unlock new diagnoses]",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/boston-childrens-hospital",
+      "hash": "2017756901"
+    },
+    {
+      "title": "How Braintrust turns customer requests into code with Codex]",
+      "link": "https://openai.com/index/braintrust",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/braintrust",
+      "hash": "425593088"
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 12:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "hash": "540670991"
+    },
+    {
+      "title": "Strengthening societal resilience with Rosalind Biodefense]",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "source": "OpenAI News",
+      "published": "Fri, 29 May 2026 03:00:00 GMT",
+      "guid": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "hash": "301532821"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
+      "link": "https://huggingface.co/blog/torch-profiler",
+      "source": "Hugging Face",
+      "published": "Fri, 29 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-profiler",
+      "hash": "985011252"
+    },
+    {
+      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
+      "link": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:51 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93433",
+      "hash": "1863907334"
+    },
+    {
+      "title": "The Name’s Gaming … Cloud Gaming: ‘007 First Light’ Launches on GeForce NOW",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-launch/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 28 May 2026 13:00:37 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93409",
+      "hash": "1472421559"
+    },
+    {
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 17:20:29 GMT",
+      "guid": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "hash": "1721628211"
+    },
+    {
+      "title": "AI Factories: The New Infrastructure of Intelligence",
+      "link": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 27 May 2026 16:00:36 +0000",
+      "guid": "https://blogs.nvidia.com/?p=92977",
+      "hash": "991293664"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "source": "Hugging Face",
+      "published": "Wed, 27 May 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "hash": "1396138569"
+    }
+  ]
+}
