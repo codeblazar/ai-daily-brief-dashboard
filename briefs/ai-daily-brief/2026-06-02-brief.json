@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-02",
+  "title": "AI Daily Brief - 2026-06-02",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-02\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- JetBrains released Mellum2, a 12B mixture-of-experts coding model, while Towards Data Science published a workflow for pairing Claude Code with OpenAI Codex for stronger coding assistance.\n- NVIDIA introduced Cosmos 3, an open \"omni-model\" for physical AI reasoning and action, alongside a Factory Operations blueprint and an expanded global AI cloud ecosystem.\n- Google shared how it used Gemini to build the I/O 2026 site and a vibe-coded quiz in Google AI Studio, showing practical end-to-end use of AI tools.\n\n## What Happened\n\n- JetBrains launched Mellum2, a 12B-parameter mixture-of-experts model focused on code, available on Hugging Face. Separately, a Towards Data Science article walks through combining Claude Code and OpenAI Codex in one workflow so each tool covers the other's weaknesses.\n- NVIDIA released Cosmos 3, described as the first open omni-model for \"physical AI\" - reasoning about and acting in the physical world (robots, factories, vehicles). NVIDIA also published a Factory Operations blueprint that wires AI into factory floors, and announced a wider AI cloud ecosystem with Taiwan-based hardware partners.\n- Google posted two practical write-ups: one on how the I/O 2026 event website was built using Gemini, and another on a small interactive I/O quiz \"vibe coded\" in Google AI Studio, illustrating how non-specialists can prototype with natural-language coding.\n\n## Why It Matters\n\n- Coding-focused models and dual-assistant workflows are directly relevant to SoI/IT diplomas. Students should understand that no single AI coder is best at everything, and that comparing outputs is now a real engineering skill.\n- Physical AI moves AI beyond chatbots and into engineering, robotics, and manufacturing-relevant diplomas (Engineering, SEG, ATS). Cosmos 3 being open means students can read about and discuss real model capabilities, not just marketing claims.\n- \"Vibe coding\" with tools like Google AI Studio lowers the barrier for non-IT students and lecturers to build small interactive learning artefacts - quizzes, demos, simple apps - without deep programming background.\n\n## Try This Today\n\n- Open Hugging Face on your Windows 11 laptop and read the Mellum2 model card. Note its size, intended use, and limitations, then write a one-paragraph summary you could share with students about when a specialised coding model beats a general chatbot.\n- Give the same small coding task (e.g. \"write a Python function to clean a messy CSV of student marks\") to two AI assistants you already have access to (e.g. Copilot in Edge and ChatGPT). Compare correctness, comments, and error handling - this mirrors the Claude Code + Codex pairing idea.\n- Spend 10 minutes in Google AI Studio trying to \"vibe code\" a 3-question quiz on a topic from your module. Note where the AI guessed wrongly about your intent - that becomes a teaching example about prompt clarity.\n- Skim the NVIDIA Cosmos 3 post and list two ways a \"physical AI\" model differs from a text-only LLM. Use this to prepare a 2-minute classroom explainer.\n\n## Teaching Angle\n\n- Run a short \"two-assistant bake-off\" lab: students solve a coding problem using two AI tools and submit a reflection on which was better and why. Reinforces critical evaluation rather than blind trust, anchored on the Claude Code + Codex article.\n- Use the Google I/O 2026 build and quiz posts as a case study in AI-assisted product work. Ask students to identify which parts a human still had to design, decide, or correct - useful for media, UX, and IT diplomas.\n- For engineering and applied science classes, use Cosmos 3 and the NVIDIA Factory Operations blueprint as a discussion prompt: where in a real factory would AI reasoning help, and where would it be risky? Tie this to safety, ethics, and human oversight.\n- Set a quick reflection question for any class: \"If a 12B model like Mellum2 can be downloaded and run by hobbyists, what does that mean for how we assess coding assignments?\" Encourages honest conversation about AI use in assessments.\n\n## Links\n\n- [Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains](https://huggingface.co/blog/JetBrains/mellum2-launch)\n- [How to Combine Claude Code and Codex for Maximum Coding Power](https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/)\n- [Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action](https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai)\n- [NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain](https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/)\n- [NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand](https://blogs.nvidia.com/blog/ai-cloud-ecosystem/)\n- [How we used Gemini to build Google I/O 2026](https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/)\n- [Take our I/O 2026 quiz, vibe coded in Google AI Studio](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-02\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>JetBrains released Mellum2, a 12B mixture-of-experts coding model, while Towards Data Science published a workflow for pairing Claude Code with OpenAI Codex for stronger coding assistance.</li>\n<li>NVIDIA introduced Cosmos 3, an open \"omni-model\" for physical AI reasoning and action, alongside a Factory Operations blueprint and an expanded global AI cloud ecosystem.</li>\n<li>Google shared how it used Gemini to build the I/O 2026 site and a vibe-coded quiz in Google AI Studio, showing practical end-to-end use of AI tools.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>JetBrains launched Mellum2, a 12B-parameter mixture-of-experts model focused on code, available on Hugging Face. Separately, a Towards Data Science article walks through combining Claude Code and OpenAI Codex in one workflow so each tool covers the other's weaknesses.</li>\n<li>NVIDIA released Cosmos 3, described as the first open omni-model for \"physical AI\" - reasoning about and acting in the physical world (robots, factories, vehicles). NVIDIA also published a Factory Operations blueprint that wires AI into factory floors, and announced a wider AI cloud ecosystem with Taiwan-based hardware partners.</li>\n<li>Google posted two practical write-ups: one on how the I/O 2026 event website was built using Gemini, and another on a small interactive I/O quiz \"vibe coded\" in Google AI Studio, illustrating how non-specialists can prototype with natural-language coding.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Coding-focused models and dual-assistant workflows are directly relevant to SoI/IT diplomas. Students should understand that no single AI coder is best at everything, and that comparing outputs is now a real engineering skill.</li>\n<li>Physical AI moves AI beyond chatbots and into engineering, robotics, and manufacturing-relevant diplomas (Engineering, SEG, ATS). Cosmos 3 being open means students can read about and discuss real model capabilities, not just marketing claims.</li>\n<li>\"Vibe coding\" with tools like Google AI Studio lowers the barrier for non-IT students and lecturers to build small interactive learning artefacts - quizzes, demos, simple apps - without deep programming background.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open Hugging Face on your Windows 11 laptop and read the Mellum2 model card. Note its size, intended use, and limitations, then write a one-paragraph summary you could share with students about when a specialised coding model beats a general chatbot.</li>\n<li>Give the same small coding task (e.g. \"write a Python function to clean a messy CSV of student marks\") to two AI assistants you already have access to (e.g. Copilot in Edge and ChatGPT). Compare correctness, comments, and error handling - this mirrors the Claude Code + Codex pairing idea.</li>\n<li>Spend 10 minutes in Google AI Studio trying to \"vibe code\" a 3-question quiz on a topic from your module. Note where the AI guessed wrongly about your intent - that becomes a teaching example about prompt clarity.</li>\n<li>Skim the NVIDIA Cosmos 3 post and list two ways a \"physical AI\" model differs from a text-only LLM. Use this to prepare a 2-minute classroom explainer.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a short \"two-assistant bake-off\" lab: students solve a coding problem using two AI tools and submit a reflection on which was better and why. Reinforces critical evaluation rather than blind trust, anchored on the Claude Code + Codex article.</li>\n<li>Use the Google I/O 2026 build and quiz posts as a case study in AI-assisted product work. Ask students to identify which parts a human still had to design, decide, or correct - useful for media, UX, and IT diplomas.</li>\n<li>For engineering and applied science classes, use Cosmos 3 and the NVIDIA Factory Operations blueprint as a discussion prompt: where in a real factory would AI reasoning help, and where would it be risky? Tie this to safety, ethics, and human oversight.</li>\n<li>Set a quick reflection question for any class: \"If a 12B model like Mellum2 can be downloaded and run by hobbyists, what does that mean for how we assess coding assignments?\" Encourages honest conversation about AI use in assessments.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://huggingface.co/blog/JetBrains/mellum2-launch\" rel=\"noopener noreferrer\" target=\"_blank\">Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains</a></li>\n<li><a href=\"https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/\" rel=\"noopener noreferrer\" target=\"_blank\">How to Combine Claude Code and Codex for Maximum Coding Power</a></li>\n<li><a href=\"https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai\" rel=\"noopener noreferrer\" target=\"_blank\">Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action</a></li>\n<li><a href=\"https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/\" rel=\"noopener noreferrer\" target=\"_blank\">NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain</a></li>\n<li><a href=\"https://blogs.nvidia.com/blog/ai-cloud-ecosystem/\" rel=\"noopener noreferrer\" target=\"_blank\">NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/\" rel=\"noopener noreferrer\" target=\"_blank\">How we used Gemini to build Google I/O 2026</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/\" rel=\"noopener noreferrer\" target=\"_blank\">Take our I/O 2026 quiz, vibe coded in Google AI Studio</a></li>\n</ul>",
+  "generatedAt": "2026-06-01T22:02:03.831Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-02-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem",
+      "link": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
+      "source": "Towards Data Science",
+      "published": "Mon, 01 Jun 2026 18:49:53 +0000",
+      "guid": "https://towardsdatascience.com/?p=609249",
+      "hash": "1475029906"
+    },
+    {
+      "title": "How to Combine Claude Code and Codex for Maximum Coding Power",
+      "link": "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
+      "source": "Towards Data Science",
+      "published": "Mon, 01 Jun 2026 17:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609247",
+      "hash": "298628805"
+    },
+    {
+      "title": "We’re spotlighting LGBTQ+ creators and artists to celebrate Pride.",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/pride-month-2026/",
+      "source": "Google Blog AI",
+      "published": "Mon, 01 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/pride-month-2026/",
+      "hash": "409087322"
+    },
+    {
+      "title": "How we used Gemini to build Google I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source": "Google Blog AI",
+      "published": "Mon, 01 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "hash": "678052349"
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "source": "Hugging Face",
+      "published": "Mon, 01 Jun 2026 15:45:17 GMT",
+      "guid": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "hash": "2049694370"
+    },
+    {
+      "title": "Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain",
+      "link": "https://towardsdatascience.com/ensuring-data-integrity-with-cryptographic-hashing-and-the-ethereum-blockchain/",
+      "source": "Towards Data Science",
+      "published": "Mon, 01 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609245",
+      "hash": "725648251"
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "source": "Hugging Face",
+      "published": "Mon, 01 Jun 2026 13:51:18 GMT",
+      "guid": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "hash": "709407012"
+    },
+    {
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "link": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
+      "source": "Import AI Jack Clark",
+      "published": "Mon, 01 Jun 2026 13:31:56 +0000",
+      "guid": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
+      "hash": "775378192"
+    },
+    {
+      "title": "Building the infrastructure for the Intelligence Age in Michigan]",
+      "link": "https://openai.com/index/stargate-michigan-data-center",
+      "source": "OpenAI News",
+      "published": "Mon, 01 Jun 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/stargate-michigan-data-center",
+      "hash": "2097665642"
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS]",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "source": "OpenAI News",
+      "published": "Mon, 01 Jun 2026 10:00:00 GMT",
+      "guid": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "hash": "936098909"
+    },
+    {
+      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
+      "link": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 01 Jun 2026 05:00:56 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93648",
+      "hash": "1098329616"
+    },
+    {
+      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
+      "link": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 01 Jun 2026 05:00:47 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93609",
+      "hash": "1443489202"
+    },
+    {
+      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 01 Jun 2026 05:00:41 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93564",
+      "hash": "1060231135"
+    },
+    {
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "source": "Hugging Face",
+      "published": "Mon, 01 Jun 2026 04:44:55 GMT",
+      "guid": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "hash": "1710719281"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "Google Blog AI",
+      "published": "Fri, 29 May 2026 19:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "hash": "1738680564"
+    }
+  ]
+}
