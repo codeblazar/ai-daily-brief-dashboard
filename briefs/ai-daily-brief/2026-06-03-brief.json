@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-03",
+  "title": "AI Daily Brief - 2026-06-03",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-03\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- NVIDIA and Microsoft announced a unified stack for running agentic AI across Windows laptops, local servers, and cloud, making Windows 11 a more capable AI development environment.\n- OpenAI expanded Codex into a multi-role coding assistant covering more tools and workflows, while a Towards Data Science piece argues that engineering judgement now matters more than writing code itself.\n- Google's June Android Drop rolled out new on-device personalisation and safety features, including AI-assisted protections relevant to student device use.\n\n## What Happened\n\n- NVIDIA and Microsoft unveiled a shared stack so that agentic AI applications (AI that plans and acts, not just chats) can be developed and deployed consistently from a Windows 11 device up to the cloud. The aim is fewer rewrites when moving from local prototyping to production.\n- OpenAI extended Codex to support more roles, integrations, and workflows so it can sit inside editors, terminals, and team tools rather than being a single chat box. Alongside this, a Towards Data Science article argues that since AI can now generate code cheaply, the scarce skill is judging what to build, how to structure it, and when to trust the output.\n- Google's June 2026 Android Drop introduced new personalisation features and additional safety tools, continuing the trend of moving AI features directly onto phones for both convenience and protection.\n\n## Why It Matters\n\n- A unified NVIDIA-Microsoft stack means RP lecturers and students can prototype agent-style apps on a Windows 11 laptop and reuse the same code pattern in cloud labs, lowering the friction of teaching modern AI development.\n- The Codex expansion plus the \"engineering judgement\" argument reshape what we should be teaching diploma learners: not just typing code, but reading AI-generated code critically, debugging it, and deciding whether the design is sound. This affects assessment design across IT and engineering diplomas.\n- The Android Drop matters because most RP students carry Android phones. New on-device AI safety and personalisation features are a concrete, relatable example for discussing privacy, on-device vs cloud AI, and digital wellbeing.\n\n## Try This Today\n\n- Open a small Python or web project on your Windows 11 laptop and try a single \"agent-style\" task: ask Copilot or another assistant to plan steps, run them, and report back. Note where human judgement was needed.\n- Take a short coding task from your module, ask an AI tool to generate the solution, then mark it as you would a student submission. List three judgement calls (naming, structure, error handling) the AI got wrong or skipped.\n- Pull up the June Android Drop announcement on your phone and check which new safety or personalisation features are actually available on your device. Note one feature you would demo to students.\n\n## Teaching Angle\n\n- Run a 15-minute discussion: \"If AI writes the code, what are we assessing?\" Use the Towards Data Science article on engineering judgement as the prompt, and get students to redesign one rubric criterion for their next assignment.\n- Demo the NVIDIA-Microsoft agentic stack idea by sketching the same workflow at three levels on the whiteboard: Windows 11 laptop, on-prem server, cloud. Ask students where each layer adds value and where it adds risk.\n- For Common Core or soft-skills classes, use the Android June Drop as a case study on on-device AI. Small groups list one benefit and one privacy concern of each new feature, then share back.\n- For coding modules, set a pair task where one student writes a prompt for Codex-style help and the other reviews the output for correctness, security, and readability - reinforcing the \"judgement over typing\" point.\n\n## Links\n\n- [NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment](https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/)\n- [Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)\n- [Code Is Cheap. Engineering Judgement Is Now the Scarce Resource](https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/)\n- [June Android Drop: New personalization and safety features are here](https://blog.google/products-and-platforms/platforms/android/android-drop-june-2026/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-03\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>NVIDIA and Microsoft announced a unified stack for running agentic AI across Windows laptops, local servers, and cloud, making Windows 11 a more capable AI development environment.</li>\n<li>OpenAI expanded Codex into a multi-role coding assistant covering more tools and workflows, while a Towards Data Science piece argues that engineering judgement now matters more than writing code itself.</li>\n<li>Google's June Android Drop rolled out new on-device personalisation and safety features, including AI-assisted protections relevant to student device use.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>NVIDIA and Microsoft unveiled a shared stack so that agentic AI applications (AI that plans and acts, not just chats) can be developed and deployed consistently from a Windows 11 device up to the cloud. The aim is fewer rewrites when moving from local prototyping to production.</li>\n<li>OpenAI extended Codex to support more roles, integrations, and workflows so it can sit inside editors, terminals, and team tools rather than being a single chat box. Alongside this, a Towards Data Science article argues that since AI can now generate code cheaply, the scarce skill is judging what to build, how to structure it, and when to trust the output.</li>\n<li>Google's June 2026 Android Drop introduced new personalisation features and additional safety tools, continuing the trend of moving AI features directly onto phones for both convenience and protection.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>A unified NVIDIA-Microsoft stack means RP lecturers and students can prototype agent-style apps on a Windows 11 laptop and reuse the same code pattern in cloud labs, lowering the friction of teaching modern AI development.</li>\n<li>The Codex expansion plus the \"engineering judgement\" argument reshape what we should be teaching diploma learners: not just typing code, but reading AI-generated code critically, debugging it, and deciding whether the design is sound. This affects assessment design across IT and engineering diplomas.</li>\n<li>The Android Drop matters because most RP students carry Android phones. New on-device AI safety and personalisation features are a concrete, relatable example for discussing privacy, on-device vs cloud AI, and digital wellbeing.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open a small Python or web project on your Windows 11 laptop and try a single \"agent-style\" task: ask Copilot or another assistant to plan steps, run them, and report back. Note where human judgement was needed.</li>\n<li>Take a short coding task from your module, ask an AI tool to generate the solution, then mark it as you would a student submission. List three judgement calls (naming, structure, error handling) the AI got wrong or skipped.</li>\n<li>Pull up the June Android Drop announcement on your phone and check which new safety or personalisation features are actually available on your device. Note one feature you would demo to students.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute discussion: \"If AI writes the code, what are we assessing?\" Use the Towards Data Science article on engineering judgement as the prompt, and get students to redesign one rubric criterion for their next assignment.</li>\n<li>Demo the NVIDIA-Microsoft agentic stack idea by sketching the same workflow at three levels on the whiteboard: Windows 11 laptop, on-prem server, cloud. Ask students where each layer adds value and where it adds risk.</li>\n<li>For Common Core or soft-skills classes, use the Android June Drop as a case study on on-device AI. Small groups list one benefit and one privacy concern of each new feature, then share back.</li>\n<li>For coding modules, set a pair task where one student writes a prompt for Codex-style help and the other reviews the output for correctness, security, and readability - reinforcing the \"judgement over typing\" point.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/\" rel=\"noopener noreferrer\" target=\"_blank\">NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment</a></li>\n<li><a href=\"https://openai.com/index/codex-for-every-role-tool-workflow\" rel=\"noopener noreferrer\" target=\"_blank\">Codex for every role, tool, and workflow</a></li>\n<li><a href=\"https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/\" rel=\"noopener noreferrer\" target=\"_blank\">Code Is Cheap. Engineering Judgement Is Now the Scarce Resource</a></li>\n<li><a href=\"https://blog.google/products-and-platforms/platforms/android/android-drop-june-2026/\" rel=\"noopener noreferrer\" target=\"_blank\">June Android Drop: New personalization and safety features are here</a></li>\n</ul>",
+  "generatedAt": "2026-06-02T22:02:01.725Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-03-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+      "link": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "source": "NVIDIA Blog",
+      "published": "Tue, 02 Jun 2026 19:00:08 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93860",
+      "hash": "1019150257"
+    },
+    {
+      "title": "June Android Drop: New personalization and safety features are here",
+      "link": "https://blog.google/products-and-platforms/platforms/android/android-drop-june-2026/",
+      "source": "Google Blog AI",
+      "published": "Tue, 02 Jun 2026 18:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/platforms/android/android-drop-june-2026/",
+      "hash": "1227795293"
+    },
+    {
+      "title": "Code Is Cheap. Engineering Judgement Is Now the Scarce Resource",
+      "link": "https://towardsdatascience.com/code-is-cheap-engineering-judgement-is-now-the-scarce-resource/",
+      "source": "Towards Data Science",
+      "published": "Tue, 02 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609257",
+      "hash": "543656063"
+    },
+    {
+      "title": "From Local App to Public Website in Minutes",
+      "link": "https://towardsdatascience.com/from-local-app-to-public-website-in-minutes/",
+      "source": "Towards Data Science",
+      "published": "Tue, 02 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609255",
+      "hash": "1144844049"
+    },
+    {
+      "title": "Holo3.1: Fast &amp; Local Computer Use Agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "source": "Hugging Face",
+      "published": "Tue, 02 Jun 2026 14:13:23 GMT",
+      "guid": "https://huggingface.co/blog/Hcompany/holo31",
+      "hash": "50844863"
+    },
+    {
+      "title": "From Regex to Vision Models: Which RAG Technique Fits Which Problem",
+      "link": "https://towardsdatascience.com/from-regex-to-vision-models-which-rag-technique-fits-which-problem/",
+      "source": "Towards Data Science",
+      "published": "Tue, 02 Jun 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609253",
+      "hash": "791535854"
+    },
+    {
+      "title": "We’ve signed a first-of-its-kind agreement with Voltus to create a smart capacity solution for the grid.",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/sustainability/voltus-agreement/",
+      "source": "Google Blog AI",
+      "published": "Tue, 02 Jun 2026 13:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/sustainability/voltus-agreement/",
+      "hash": "2029777927"
+    },
+    {
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI]",
+      "link": "https://openai.com/index/travelers",
+      "source": "OpenAI News",
+      "published": "Tue, 02 Jun 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/travelers",
+      "hash": "1316247555"
+    },
+    {
+      "title": "Blue, yellow and green: Google invests in its first data center in Sweden.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/blue-yellow-and-green-google-invests-in-its-first-data-center-in-sweden/",
+      "source": "Google Blog AI",
+      "published": "Tue, 02 Jun 2026 09:45:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/blue-yellow-and-green-google-invests-in-its-first-data-center-in-sweden/",
+      "hash": "1796425001"
+    },
+    {
+      "title": "Codex for every role, tool, and workflow]",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "source": "OpenAI News",
+      "published": "Tue, 02 Jun 2026 09:00:00 GMT",
+      "guid": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "hash": "587906140"
+    },
+    {
+      "title": "Advancing youth safety and opportunity through global leadership]",
+      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "source": "OpenAI News",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "guid": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "hash": "1758710417"
+    },
+    {
+      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+      "link": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+      "source": "NVIDIA Blog",
+      "published": "Tue, 02 Jun 2026 06:00:36 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93845",
+      "hash": "842755189"
+    },
+    {
+      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+      "link": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "source": "NVIDIA Blog",
+      "published": "Tue, 02 Jun 2026 02:00:40 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93325",
+      "hash": "232918730"
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "source": "Hugging Face",
+      "published": "Mon, 01 Jun 2026 15:45:17 GMT",
+      "guid": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "hash": "2049694370"
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "source": "Hugging Face",
+      "published": "Mon, 01 Jun 2026 13:51:18 GMT",
+      "guid": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "hash": "709407012"
+    }
+  ]
+}
