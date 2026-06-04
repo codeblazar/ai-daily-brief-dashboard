@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-05",
+  "title": "AI Daily Brief - 2026-06-05",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-05\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- Google is rolling out Gemini for Education to every K-12 school in Utah, giving teachers and students state-wide access to classroom AI tools.\n- The AI industry is shifting from single prompts to multi-step \"workflow\" and agent-based AI, with new tooling from Hugging Face, OpenAI partners, and NVIDIA reflecting this trend.\n- ChatGPT is getting a richer long-term memory feature (called \"Dreaming\") that lets it carry context across sessions to be more helpful over time.\n\n## What Happened\n\n- Utah's State Board of Education signed a partnership with Google to bring Gemini for Education to all public K-12 schools, including teacher tools, student-safe chat experiences, and professional development. This is one of the first state-wide deployments of a major AI assistant in schools.\n- Several stories together signal a clear move beyond one-off prompts: Towards Data Science explains how teams are redesigning AI work as multi-step workflows; Hugging Face is redesigning its `hf` command line tool so AI agents can use it; OpenAI describes how Endava is rebuilding software delivery around AI agents; and NVIDIA released new \"agent skills\" for robotics, autonomous vehicles, and vision AI.\n- OpenAI announced \"Dreaming,\" an update to ChatGPT memory that lets it retain and reuse information about a user across conversations more effectively, aiming for more personalised and continuous help.\n\n## Why It Matters\n\n- The Utah rollout is a concrete example of what large-scale, official AI adoption in education looks like. RP lecturers can use it as a real reference point when discussing AI policy, safe student use, and teacher workflows in Singapore's own classrooms.\n- The prompt-to-workflow shift changes what we should be teaching. Students who only learn \"good prompts\" will fall behind peers who can chain steps, use tools, and design agents. This affects diploma curricula in IT, business, design, and engineering.\n- Persistent AI memory raises practical questions for student work: what does ChatGPT remember about a learner across assignments, what should it not remember, and how does that affect originality, privacy, and assessment integrity?\n\n## Try This Today\n\n- Spend 10 minutes reading Google's Utah announcement and list three policies or guardrails you would want before rolling out a similar tool to your RP class.\n- Take a recent assignment prompt you give students and rewrite it as a 3-4 step workflow (e.g. research → draft → critique → revise), then test the workflow once in ChatGPT or Gemini to see if outputs improve over a single prompt.\n- Open ChatGPT's memory settings on your Windows 11 laptop, review what it currently \"remembers\" about you, and delete anything you would not want a colleague or student to see. Use this as a personal check before recommending it to learners.\n- Skim the Hugging Face `hf` CLI for agents post and note one task in your teaching (e.g. downloading a dataset, sharing a model) that an agent could automate later.\n\n## Teaching Angle\n\n- Run a 15-minute class discussion using the Utah K-12 rollout as a case study: \"If RP signed a similar deal tomorrow, what should change in our classrooms, and what risks would you flag?\" Good for IT, education, and communication modules.\n- Set a small comparison task: students solve the same problem twice - once with a single prompt, once as a multi-step workflow inspired by the Towards Data Science article - then reflect on quality, time, and control.\n- Use the ChatGPT \"Dreaming\" memory update for an ethics micro-activity: ask students to list what an AI assistant should and should not remember about a learner, and map this to PDPA-style thinking.\n- For IT and software students, use the Endava and NVIDIA agent stories as a short briefing on how junior developer roles may shift toward designing and supervising AI agents rather than writing every line of code.\n\n## Links\n\n- [Utah State brings Gemini for Education to all K-12 schools](https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/)\n- [How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI](https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/)\n- [Designing the hf CLI as an agent-optimized way to work with the Hub](https://huggingface.co/blog/hf-cli-for-agents)\n- [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers)\n- [NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills](https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/)\n- [Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-05\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>Google is rolling out Gemini for Education to every K-12 school in Utah, giving teachers and students state-wide access to classroom AI tools.</li>\n<li>The AI industry is shifting from single prompts to multi-step \"workflow\" and agent-based AI, with new tooling from Hugging Face, OpenAI partners, and NVIDIA reflecting this trend.</li>\n<li>ChatGPT is getting a richer long-term memory feature (called \"Dreaming\") that lets it carry context across sessions to be more helpful over time.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Utah's State Board of Education signed a partnership with Google to bring Gemini for Education to all public K-12 schools, including teacher tools, student-safe chat experiences, and professional development. This is one of the first state-wide deployments of a major AI assistant in schools.</li>\n<li>Several stories together signal a clear move beyond one-off prompts: Towards Data Science explains how teams are redesigning AI work as multi-step workflows; Hugging Face is redesigning its <code>hf</code> command line tool so AI agents can use it; OpenAI describes how Endava is rebuilding software delivery around AI agents; and NVIDIA released new \"agent skills\" for robotics, autonomous vehicles, and vision AI.</li>\n<li>OpenAI announced \"Dreaming,\" an update to ChatGPT memory that lets it retain and reuse information about a user across conversations more effectively, aiming for more personalised and continuous help.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>The Utah rollout is a concrete example of what large-scale, official AI adoption in education looks like. RP lecturers can use it as a real reference point when discussing AI policy, safe student use, and teacher workflows in Singapore's own classrooms.</li>\n<li>The prompt-to-workflow shift changes what we should be teaching. Students who only learn \"good prompts\" will fall behind peers who can chain steps, use tools, and design agents. This affects diploma curricula in IT, business, design, and engineering.</li>\n<li>Persistent AI memory raises practical questions for student work: what does ChatGPT remember about a learner across assignments, what should it not remember, and how does that affect originality, privacy, and assessment integrity?</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Spend 10 minutes reading Google's Utah announcement and list three policies or guardrails you would want before rolling out a similar tool to your RP class.</li>\n<li>Take a recent assignment prompt you give students and rewrite it as a 3-4 step workflow (e.g. research → draft → critique → revise), then test the workflow once in ChatGPT or Gemini to see if outputs improve over a single prompt.</li>\n<li>Open ChatGPT's memory settings on your Windows 11 laptop, review what it currently \"remembers\" about you, and delete anything you would not want a colleague or student to see. Use this as a personal check before recommending it to learners.</li>\n<li>Skim the Hugging Face <code>hf</code> CLI for agents post and note one task in your teaching (e.g. downloading a dataset, sharing a model) that an agent could automate later.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute class discussion using the Utah K-12 rollout as a case study: \"If RP signed a similar deal tomorrow, what should change in our classrooms, and what risks would you flag?\" Good for IT, education, and communication modules.</li>\n<li>Set a small comparison task: students solve the same problem twice - once with a single prompt, once as a multi-step workflow inspired by the Towards Data Science article - then reflect on quality, time, and control.</li>\n<li>Use the ChatGPT \"Dreaming\" memory update for an ethics micro-activity: ask students to list what an AI assistant should and should not remember about a learner, and map this to PDPA-style thinking.</li>\n<li>For IT and software students, use the Endava and NVIDIA agent stories as a short briefing on how junior developer roles may shift toward designing and supervising AI agents rather than writing every line of code.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/\" rel=\"noopener noreferrer\" target=\"_blank\">Utah State brings Gemini for Education to all K-12 schools</a></li>\n<li><a href=\"https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/\" rel=\"noopener noreferrer\" target=\"_blank\">How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI</a></li>\n<li><a href=\"https://huggingface.co/blog/hf-cli-for-agents\" rel=\"noopener noreferrer\" target=\"_blank\">Designing the hf CLI as an agent-optimized way to work with the Hub</a></li>\n<li><a href=\"https://openai.com/index/endava-frontiers\" rel=\"noopener noreferrer\" target=\"_blank\">How Endava is redesigning software delivery around AI agents</a></li>\n<li><a href=\"https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/\" rel=\"noopener noreferrer\" target=\"_blank\">NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills</a></li>\n<li><a href=\"https://openai.com/index/chatgpt-memory-dreaming\" rel=\"noopener noreferrer\" target=\"_blank\">Dreaming: Better memory for a more helpful ChatGPT</a></li>\n</ul>",
+  "generatedAt": "2026-06-04T22:02:05.006Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-05-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Utah State brings Gemini for Education to all K-12 schools",
+      "link": "https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/",
+      "source": "Google Blog AI",
+      "published": "Thu, 04 Jun 2026 21:30:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/",
+      "hash": "1837158759"
+    },
+    {
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "source": "Hugging Face",
+      "published": "Thu, 04 Jun 2026 18:57:45 GMT",
+      "guid": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "hash": "1793046592"
+    },
+    {
+      "title": "How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI",
+      "link": "https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/",
+      "source": "Towards Data Science",
+      "published": "Thu, 04 Jun 2026 17:04:27 +0000",
+      "guid": "https://towardsdatascience.com/?p=609269",
+      "hash": "1731007310"
+    },
+    {
+      "title": "Five Ways to Fine-Tune Chronos-2, the Time Series Foundation Model",
+      "link": "https://towardsdatascience.com/five-ways-to-fine-tune-chronos-2-the-time-series-foundation-model/",
+      "source": "Towards Data Science",
+      "published": "Thu, 04 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609278",
+      "hash": "1372797237"
+    },
+    {
+      "title": "Kaggle is making AI benchmark creation effortless",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/build-kaggle--benchmarks-locally/",
+      "source": "Google Blog AI",
+      "published": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/build-kaggle--benchmarks-locally/",
+      "hash": "1547666837"
+    },
+    {
+      "title": "A new profile to help publishers and creators highlight their work on Search",
+      "link": "https://blog.google/products-and-platforms/products/search/a-new-profile-to-help-publishers-and-creators-highlight-their-work-on-search/",
+      "source": "Google Blog AI",
+      "published": "Thu, 04 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/products/search/a-new-profile-to-help-publishers-and-creators-highlight-their-work-on-search/",
+      "hash": "880477347"
+    },
+    {
+      "title": "Small Data, Big Maps: Training Geospatial ML Models When Samples Are Scarce",
+      "link": "https://towardsdatascience.com/small-data-big-maps-training-geospatial-ml-models-when-samples-are-scarce/",
+      "source": "Towards Data Science",
+      "published": "Thu, 04 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609275",
+      "hash": "2008710999"
+    },
+    {
+      "title": "Forecast: Fun Ahead — 18 Games Join in June to Stream on GeForce NOW",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 04 Jun 2026 13:00:27 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94046",
+      "hash": "1576544099"
+    },
+    {
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "source": "Hugging Face",
+      "published": "Thu, 04 Jun 2026 12:24:58 GMT",
+      "guid": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "hash": "1729342535"
+    },
+    {
+      "title": "How Endava is redesigning software delivery around AI agents]",
+      "link": "https://openai.com/index/endava-frontiers",
+      "source": "OpenAI News",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/endava-frontiers",
+      "hash": "1684094812"
+    },
+    {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT]",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "source": "OpenAI News",
+      "published": "Thu, 04 Jun 2026 09:00:00 GMT",
+      "guid": "https://openai.com/index/chatgpt-memory-dreaming",
+      "hash": "1910798273"
+    },
+    {
+      "title": "Biodefense in the Intelligence Age]",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "source": "OpenAI News",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "hash": "1634811710"
+    },
+    {
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "link": "https://huggingface.co/blog/hf-cli-for-agents",
+      "source": "Hugging Face",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/hf-cli-for-agents",
+      "hash": "382132973"
+    },
+    {
+      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "link": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 03 Jun 2026 15:00:57 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93940",
+      "hash": "1808329564"
+    },
+    {
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "link": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 03 Jun 2026 15:00:35 +0000",
+      "guid": "https://blogs.nvidia.com/?p=93956",
+      "hash": "2132495264"
+    }
+  ]
+}
