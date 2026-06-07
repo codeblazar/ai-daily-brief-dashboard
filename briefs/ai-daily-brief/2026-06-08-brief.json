@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-08",
+  "title": "AI Daily Brief - 2026-06-08",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-08\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- Google released Gemma 4 QAT models, a smaller, compressed family designed to run efficiently on mobile devices and laptops.\n- OpenAI introduced \"Dreaming,\" a memory upgrade that lets ChatGPT recall and use past conversations more helpfully.\n- Google is rolling out Gemini for Education to every K-12 school in Utah, marking a large public-sector classroom deployment.\n\n## What Happened\n\n- Google published Gemma 4 QAT (Quantization-Aware Training) models. These are versions of Gemma 4 trained to keep accuracy while shrinking the memory footprint, making them practical to run locally on phones and consumer laptops rather than only in the cloud.\n- OpenAI announced a memory feature called Dreaming. ChatGPT can now organise and reuse what it has learned about a user across sessions, aiming to give more relevant and personalised answers without the user re-explaining context.\n- Utah State Board of Education and Google have agreed to bring Gemini for Education to all K-12 schools in Utah. The deal covers teacher and student access, with classroom-focused features and safety controls.\n\n## Why It Matters\n\n- Gemma 4 QAT means students and lecturers can experiment with capable open models directly on their Windows 11 laptops, without paid APIs or strong GPUs. This makes hands-on labs around local AI more realistic for diploma modules.\n- ChatGPT memory changes how students and staff should think about prompting, privacy, and over-reliance. If the assistant \"remembers\" past chats, learners need to understand what is stored, what is shared, and how memory can bias future answers.\n- A statewide K-12 rollout signals where school-leavers entering RP will already be familiar with classroom AI. Lecturers should expect incoming students who have used Gemini-style tools and adjust assessment and AI-literacy baselines accordingly.\n\n## Try This Today\n\n- Download a Gemma 4 QAT variant from Hugging Face onto a Windows 11 laptop using LM Studio or Ollama, then compare a summary task against the same prompt in a cloud chatbot. Note speed, quality, and offline usability.\n- Turn on or review ChatGPT memory settings on your account. Ask it \"what do you remember about me?\" and check whether any stored facts are wrong, sensitive, or unwanted. Delete entries that should not persist.\n- Draft a 3-line classroom AI policy for your module covering: what students can use, what they must disclose, and what the tool may store. Test the policy by running a typical assignment prompt through ChatGPT with memory on.\n\n## Teaching Angle\n\n- Run a short lab where students load a Gemma 4 QAT model locally and benchmark it on a small task (summarising a paragraph, fixing code). Discuss trade-offs between local and cloud AI: privacy, cost, latency, accuracy.\n- Hold a 15-minute discussion: \"Should an AI remember you?\" Use the Dreaming announcement to surface views on personalisation versus privacy. Ask students to list one benefit and one risk of persistent AI memory in a study or workplace setting.\n- Use the Utah rollout as a case study in an IT or education module. Ask: what changes for teachers when every student has an AI tutor? Have small groups propose one assessment redesign that still measures genuine learning.\n\n## Links\n\n- [Gemma 4 QAT models: Optimizing model compression for mobile and laptop efficiency](https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/)\n- [Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming)\n- [Utah State brings Gemini for Education to all K-12 schools](https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-08\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>Google released Gemma 4 QAT models, a smaller, compressed family designed to run efficiently on mobile devices and laptops.</li>\n<li>OpenAI introduced \"Dreaming,\" a memory upgrade that lets ChatGPT recall and use past conversations more helpfully.</li>\n<li>Google is rolling out Gemini for Education to every K-12 school in Utah, marking a large public-sector classroom deployment.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Google published Gemma 4 QAT (Quantization-Aware Training) models. These are versions of Gemma 4 trained to keep accuracy while shrinking the memory footprint, making them practical to run locally on phones and consumer laptops rather than only in the cloud.</li>\n<li>OpenAI announced a memory feature called Dreaming. ChatGPT can now organise and reuse what it has learned about a user across sessions, aiming to give more relevant and personalised answers without the user re-explaining context.</li>\n<li>Utah State Board of Education and Google have agreed to bring Gemini for Education to all K-12 schools in Utah. The deal covers teacher and student access, with classroom-focused features and safety controls.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Gemma 4 QAT means students and lecturers can experiment with capable open models directly on their Windows 11 laptops, without paid APIs or strong GPUs. This makes hands-on labs around local AI more realistic for diploma modules.</li>\n<li>ChatGPT memory changes how students and staff should think about prompting, privacy, and over-reliance. If the assistant \"remembers\" past chats, learners need to understand what is stored, what is shared, and how memory can bias future answers.</li>\n<li>A statewide K-12 rollout signals where school-leavers entering RP will already be familiar with classroom AI. Lecturers should expect incoming students who have used Gemini-style tools and adjust assessment and AI-literacy baselines accordingly.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Download a Gemma 4 QAT variant from Hugging Face onto a Windows 11 laptop using LM Studio or Ollama, then compare a summary task against the same prompt in a cloud chatbot. Note speed, quality, and offline usability.</li>\n<li>Turn on or review ChatGPT memory settings on your account. Ask it \"what do you remember about me?\" and check whether any stored facts are wrong, sensitive, or unwanted. Delete entries that should not persist.</li>\n<li>Draft a 3-line classroom AI policy for your module covering: what students can use, what they must disclose, and what the tool may store. Test the policy by running a typical assignment prompt through ChatGPT with memory on.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a short lab where students load a Gemma 4 QAT model locally and benchmark it on a small task (summarising a paragraph, fixing code). Discuss trade-offs between local and cloud AI: privacy, cost, latency, accuracy.</li>\n<li>Hold a 15-minute discussion: \"Should an AI remember you?\" Use the Dreaming announcement to surface views on personalisation versus privacy. Ask students to list one benefit and one risk of persistent AI memory in a study or workplace setting.</li>\n<li>Use the Utah rollout as a case study in an IT or education module. Ask: what changes for teachers when every student has an AI tutor? Have small groups propose one assessment redesign that still measures genuine learning.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/\" rel=\"noopener noreferrer\" target=\"_blank\">Gemma 4 QAT models: Optimizing model compression for mobile and laptop efficiency</a></li>\n<li><a href=\"https://openai.com/index/chatgpt-memory-dreaming\" rel=\"noopener noreferrer\" target=\"_blank\">Dreaming: Better memory for a more helpful ChatGPT</a></li>\n<li><a href=\"https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/\" rel=\"noopener noreferrer\" target=\"_blank\">Utah State brings Gemini for Education to all K-12 schools</a></li>\n</ul>",
+  "generatedAt": "2026-06-07T22:01:59.856Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-08-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Amazing Digital Dentures (a failed project)",
+      "link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "source": "Hugging Face",
+      "published": "Sun, 07 Jun 2026 19:44:27 GMT",
+      "guid": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "hash": "311933148"
+    },
+    {
+      "title": "We Should Train AI to Betray Its Users",
+      "link": "https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/",
+      "source": "Towards Data Science",
+      "published": "Sun, 07 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609296",
+      "hash": "645428941"
+    },
+    {
+      "title": "Building a Multi-Agent System in Python",
+      "link": "https://towardsdatascience.com/building-a-multi-agent-system-in-python/",
+      "source": "Towards Data Science",
+      "published": "Sun, 07 Jun 2026 13:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609294",
+      "hash": "1785005967"
+    },
+    {
+      "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
+      "link": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+      "source": "NVIDIA Blog",
+      "published": "Sun, 07 Jun 2026 07:00:15 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94143",
+      "hash": "399198580"
+    },
+    {
+      "title": "Picking an Experimentation Platform: A Retrospective",
+      "link": "https://towardsdatascience.com/picking-an-experimentation-platform-a-retrospective/",
+      "source": "Towards Data Science",
+      "published": "Sat, 06 Jun 2026 17:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609310",
+      "hash": "83635883"
+    },
+    {
+      "title": "Gemma 4 QAT models: Optimizing model compression for mobile and laptop efficiency",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "source": "Google Blog AI",
+      "published": "Fri, 05 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "hash": "655542548"
+    },
+    {
+      "title": "The latest AI news we announced in May 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "source": "Google Blog AI",
+      "published": "Fri, 05 Jun 2026 14:45:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "hash": "1662422994"
+    },
+    {
+      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+      "link": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+      "source": "NVIDIA Blog",
+      "published": "Fri, 05 Jun 2026 05:38:37 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94093",
+      "hash": "1504110776"
+    },
+    {
+      "title": "Utah State brings Gemini for Education to all K-12 schools",
+      "link": "https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/",
+      "source": "Google Blog AI",
+      "published": "Thu, 04 Jun 2026 21:30:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/products/education/utah-state-education-partnership/",
+      "hash": "1837158759"
+    },
+    {
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "source": "Hugging Face",
+      "published": "Thu, 04 Jun 2026 18:57:45 GMT",
+      "guid": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "hash": "1793046592"
+    },
+    {
+      "title": "Forecast: Fun Ahead — 18 Games Join in June to Stream on GeForce NOW",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 04 Jun 2026 13:00:27 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94046",
+      "hash": "1576544099"
+    },
+    {
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "source": "Hugging Face",
+      "published": "Thu, 04 Jun 2026 12:24:58 GMT",
+      "guid": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "hash": "1729342535"
+    },
+    {
+      "title": "How Endava is redesigning software delivery around AI agents]",
+      "link": "https://openai.com/index/endava-frontiers",
+      "source": "OpenAI News",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/endava-frontiers",
+      "hash": "1684094812"
+    },
+    {
+      "title": "Dreaming: Better memory for a more helpful ChatGPT]",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "source": "OpenAI News",
+      "published": "Thu, 04 Jun 2026 09:00:00 GMT",
+      "guid": "https://openai.com/index/chatgpt-memory-dreaming",
+      "hash": "1910798273"
+    },
+    {
+      "title": "Biodefense in the Intelligence Age]",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "source": "OpenAI News",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "hash": "1634811710"
+    }
+  ]
+}
