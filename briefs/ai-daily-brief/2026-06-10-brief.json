@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-10",
+  "title": "AI Daily Brief - 2026-06-10",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-10\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- A new benchmark tests how well frontier speech recognition models handle bilingual \"code-switched\" speech, a common situation in Singapore.\n- A Towards Data Science article lists 10 recurring mistakes teams make when building Retrieval-Augmented Generation (RAG) systems in production.\n- Google shares four ways researchers are collaborating with its Co-Scientist AI to tackle complex research problems.\n\n## What Happened\n\n- ServiceNow AI on Hugging Face released a study benchmarking top automatic speech recognition (ASR) systems on code-switched speech, where speakers mix two languages within the same sentence. The piece highlights how voice agents struggle when customers switch languages mid-conversation.\n- A Towards Data Science article walks through 10 common RAG mistakes seen in real deployments, covering issues such as poor chunking, weak retrieval evaluation, ignoring metadata, and skipping guardrails when connecting LLMs to documents.\n- Google's blog describes four collaborations where scientists used Co-Scientist, an AI research assistant, to generate hypotheses, design experiments, and accelerate work in areas including biomedical and materials research.\n\n## Why It Matters\n\n- Singapore classrooms and workplaces frequently mix English, Mandarin, Malay, and Tamil. If lecturers or students plan to build chatbots or voice assistants, they need to know that ASR accuracy drops on code-switched speech, which affects fairness and usability of student projects.\n- RAG is one of the most common patterns RP students build in capstone and applied AI modules. Knowing the typical failure points helps lecturers set realistic expectations and gives students a concrete checklist to debug their own projects.\n- Co-Scientist examples show how AI is shifting from \"answer machine\" to \"research partner\". This is a useful talking point for project-based learning and final-year work, where students can practise framing problems for an AI collaborator rather than just asking for answers.\n\n## Try This Today\n\n- Open a free web ASR tool (for example, the demo on Hugging Face) on your Windows 11 laptop and dictate one English-only sentence and one code-switched sentence (English + Mandarin or Malay). Compare the transcript accuracy and note where it fails.\n- Pick one of the 10 RAG mistakes (such as poor chunking or no retrieval evaluation) and review a student RAG project or your own demo against it. Write down one fix you would apply.\n- Take a small research question from your subject area and ask a chatbot to act as a \"co-scientist\": generate three hypotheses and list the experiment needed to test each. Check whether the hypotheses are reasonable.\n\n## Teaching Angle\n\n- Run a 15-minute class activity where students record code-switched sentences, transcribe them with an ASR tool, and discuss the implications for building inclusive voice agents for Singapore users.\n- Use the \"10 Common RAG Mistakes\" article as a checklist for a project review session. Pair students up and ask them to audit each other's RAG prototypes against five of the listed mistakes.\n- Set a short reflection task: \"If you had an AI co-scientist for your diploma project, what three questions would you ask it first?\" Use student answers to discuss good problem framing and the limits of AI as a research partner.\n\n## Links\n\n- [Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech](https://huggingface.co/blog/ServiceNow-AI/code-switching)\n- [10 Common RAG Mistakes We Keep Seeing in Production](https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/)\n- [4 ways researchers are collaborating with Co-Scientist to solve big problems](https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-10\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>A new benchmark tests how well frontier speech recognition models handle bilingual \"code-switched\" speech, a common situation in Singapore.</li>\n<li>A Towards Data Science article lists 10 recurring mistakes teams make when building Retrieval-Augmented Generation (RAG) systems in production.</li>\n<li>Google shares four ways researchers are collaborating with its Co-Scientist AI to tackle complex research problems.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>ServiceNow AI on Hugging Face released a study benchmarking top automatic speech recognition (ASR) systems on code-switched speech, where speakers mix two languages within the same sentence. The piece highlights how voice agents struggle when customers switch languages mid-conversation.</li>\n<li>A Towards Data Science article walks through 10 common RAG mistakes seen in real deployments, covering issues such as poor chunking, weak retrieval evaluation, ignoring metadata, and skipping guardrails when connecting LLMs to documents.</li>\n<li>Google's blog describes four collaborations where scientists used Co-Scientist, an AI research assistant, to generate hypotheses, design experiments, and accelerate work in areas including biomedical and materials research.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Singapore classrooms and workplaces frequently mix English, Mandarin, Malay, and Tamil. If lecturers or students plan to build chatbots or voice assistants, they need to know that ASR accuracy drops on code-switched speech, which affects fairness and usability of student projects.</li>\n<li>RAG is one of the most common patterns RP students build in capstone and applied AI modules. Knowing the typical failure points helps lecturers set realistic expectations and gives students a concrete checklist to debug their own projects.</li>\n<li>Co-Scientist examples show how AI is shifting from \"answer machine\" to \"research partner\". This is a useful talking point for project-based learning and final-year work, where students can practise framing problems for an AI collaborator rather than just asking for answers.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open a free web ASR tool (for example, the demo on Hugging Face) on your Windows 11 laptop and dictate one English-only sentence and one code-switched sentence (English + Mandarin or Malay). Compare the transcript accuracy and note where it fails.</li>\n<li>Pick one of the 10 RAG mistakes (such as poor chunking or no retrieval evaluation) and review a student RAG project or your own demo against it. Write down one fix you would apply.</li>\n<li>Take a small research question from your subject area and ask a chatbot to act as a \"co-scientist\": generate three hypotheses and list the experiment needed to test each. Check whether the hypotheses are reasonable.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute class activity where students record code-switched sentences, transcribe them with an ASR tool, and discuss the implications for building inclusive voice agents for Singapore users.</li>\n<li>Use the \"10 Common RAG Mistakes\" article as a checklist for a project review session. Pair students up and ask them to audit each other's RAG prototypes against five of the listed mistakes.</li>\n<li>Set a short reflection task: \"If you had an AI co-scientist for your diploma project, what three questions would you ask it first?\" Use student answers to discuss good problem framing and the limits of AI as a research partner.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://huggingface.co/blog/ServiceNow-AI/code-switching\" rel=\"noopener noreferrer\" target=\"_blank\">Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech</a></li>\n<li><a href=\"https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/\" rel=\"noopener noreferrer\" target=\"_blank\">10 Common RAG Mistakes We Keep Seeing in Production</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/\" rel=\"noopener noreferrer\" target=\"_blank\">4 ways researchers are collaborating with Co-Scientist to solve big problems</a></li>\n</ul>",
+  "generatedAt": "2026-06-09T22:02:00.121Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-10-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 19:38:28 GMT",
+      "guid": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "hash": "614915"
+    },
+    {
+      "title": "10 Common RAG Mistakes We Keep Seeing in Production",
+      "link": "https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/",
+      "source": "Towards Data Science",
+      "published": "Tue, 09 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609320",
+      "hash": "178299192"
+    },
+    {
+      "title": "Get travel-ready with Google Fi Wireless",
+      "link": "https://blog.google/products-and-platforms/products/google-fi-wireless/international-travel-features-5g-coverage/",
+      "source": "Google Blog AI",
+      "published": "Tue, 09 Jun 2026 16:15:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/products/google-fi-wireless/international-travel-features-5g-coverage/",
+      "hash": "1432899798"
+    },
+    {
+      "title": "4 ways researchers are collaborating with Co-Scientist to solve big problems",
+      "link": "https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/",
+      "source": "Google Blog AI",
+      "published": "Tue, 09 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/",
+      "hash": "2037784870"
+    },
+    {
+      "title": "Paris Hilton is Android’s first icon in residence",
+      "link": "https://blog.google/products-and-platforms/platforms/android/paris-hilton/",
+      "source": "Google Blog AI",
+      "published": "Tue, 09 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/platforms/android/paris-hilton/",
+      "hash": "767525534"
+    },
+    {
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 15:56:23 GMT",
+      "guid": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "hash": "172410406"
+    },
+    {
+      "title": "The Hardware That Makes AI Possible",
+      "link": "https://towardsdatascience.com/the-hardware-that-makes-ai-possible/",
+      "source": "Towards Data Science",
+      "published": "Tue, 09 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609323",
+      "hash": "1261441179"
+    },
+    {
+      "title": "Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines",
+      "link": "https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/",
+      "source": "Towards Data Science",
+      "published": "Tue, 09 Jun 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609316",
+      "hash": "1809290209"
+    },
+    {
+      "title": "How engineers at Nextdoor use Codex to build without limits]",
+      "link": "https://openai.com/index/nextdoor",
+      "source": "OpenAI News",
+      "published": "Tue, 09 Jun 2026 12:00:00 GMT",
+      "guid": "https://openai.com/index/nextdoor",
+      "hash": "1898461638"
+    },
+    {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 10:46:19 GMT",
+      "guid": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "hash": "615238841"
+    },
+    {
+      "title": "Confidential submission of draft S-1 to the SEC]",
+      "link": "https://openai.com/index/openai-submits-confidential-s-1",
+      "source": "OpenAI News",
+      "published": "Mon, 08 Jun 2026 14:00:00 GMT",
+      "guid": "https://openai.com/index/openai-submits-confidential-s-1",
+      "hash": "793385373"
+    },
+    {
+      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+      "link": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
+      "source": "Import AI Jack Clark",
+      "published": "Mon, 08 Jun 2026 12:31:32 +0000",
+      "guid": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
+      "hash": "1696203031"
+    },
+    {
+      "title": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
+      "link": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 08 Jun 2026 06:00:57 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94216",
+      "hash": "1797605246"
+    },
+    {
+      "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
+      "link": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 08 Jun 2026 03:00:50 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94137",
+      "hash": "1461443273"
+    },
+    {
+      "title": "Built to benefit everyone: our plan]",
+      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "source": "OpenAI News",
+      "published": "Mon, 08 Jun 2026 01:30:00 GMT",
+      "guid": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "hash": "2023277427"
+    }
+  ]
+}
