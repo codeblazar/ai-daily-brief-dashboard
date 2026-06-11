@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-12",
+  "title": "AI Daily Brief - 2026-06-12",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-12\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- OpenAI is acquiring Ona, signalling continued consolidation around AI coding assistants, and a separate OpenAI story shows an astrophysicist using Codex to help simulate black holes.\n- NVIDIA is accelerating Google DeepMind's DiffusionGemma for local AI on RTX laptops, making it more practical to run capable models offline on Windows machines.\n- Cohere has released North Mini Code, a small open developer-focused model on Hugging Face, expanding the choice of lightweight coding models students can try.\n\n## What Happened\n\n- OpenAI announced its intent to acquire Ona, adding another piece to its developer tooling stack. In a related case study, OpenAI describes how an astrophysicist used Codex to help write and refine code for black hole simulations, showing AI coding tools applied to real scientific work.\n- NVIDIA published a guide on running Google DeepMind's DiffusionGemma locally on RTX-equipped Windows PCs, with optimisations that let the model generate text on-device rather than via the cloud.\n- Cohere released North Mini Code on Hugging Face, marketed as their first compact model aimed specifically at developers. It is positioned as a small, accessible option for coding tasks.\n\n## Why It Matters\n\n- AI coding assistants are moving from \"nice to have\" to embedded in everyday workflows, including research. RP lecturers teaching programming, data, or engineering modules need to plan how students learn fundamentals while also using these tools responsibly.\n- Local AI on Windows 11 laptops removes cloud dependency, addresses data privacy concerns for student work, and lets classes run AI activities without account sign-ups or rate limits. This is increasingly realistic on RTX laptops.\n- Small open coding models give students hands-on access to model behaviour without paid APIs. They are useful for learning prompt design, comparing outputs, and discussing trade-offs between small and large models.\n\n## Try This Today\n\n- Spend 10 minutes giving an AI coding assistant a small task from your current module (e.g. parse a CSV, plot a chart) and check the output for errors or assumptions you would want students to catch.\n- Skim NVIDIA's DiffusionGemma write-up and note one classroom scenario where running a model locally on a student laptop would be better than using a cloud chatbot (e.g. privacy, no login, offline lab).\n- Open Hugging Face and look at the North Mini Code page. Compare one short coding prompt across North Mini Code and a tool students already use, and note one strength and one weakness of each.\n- Read the OpenAI Codex black hole story and draft a one-line example for your students of how an AI coding assistant supports, but does not replace, domain understanding.\n\n## Teaching Angle\n\n- Run a 15-minute \"trust but verify\" exercise: give students an AI-generated code snippet (from any assistant) and ask them to identify bugs, missing edge cases, or unsafe assumptions. Tie it to the OpenAI Codex / Ona story as context on where the industry is heading.\n- Use the DiffusionGemma local AI story as a discussion prompt: when is local AI more appropriate than cloud AI for student projects? Have students list two pros and two cons for an FYP scenario.\n- Set a short comparison lab where students try the same coding prompt on two different models (e.g. a large hosted assistant vs a small model like North Mini Code) and write a 100-word reflection on differences in quality, speed, and suitability.\n- For ethics or professional practice classes, use the astrophysicist Codex example to discuss authorship, attribution, and verification when AI contributes to technical work.\n\n## Links\n\n- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)\n- [How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes)\n- [NVIDIA Accelerates Google DeepMind's DiffusionGemma for Local AI](https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/)\n- [Introducing North Mini Code: Cohere's First Model For Developers](https://huggingface.co/blog/CohereLabs/introducing-north-mini-code)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-12\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>OpenAI is acquiring Ona, signalling continued consolidation around AI coding assistants, and a separate OpenAI story shows an astrophysicist using Codex to help simulate black holes.</li>\n<li>NVIDIA is accelerating Google DeepMind's DiffusionGemma for local AI on RTX laptops, making it more practical to run capable models offline on Windows machines.</li>\n<li>Cohere has released North Mini Code, a small open developer-focused model on Hugging Face, expanding the choice of lightweight coding models students can try.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>OpenAI announced its intent to acquire Ona, adding another piece to its developer tooling stack. In a related case study, OpenAI describes how an astrophysicist used Codex to help write and refine code for black hole simulations, showing AI coding tools applied to real scientific work.</li>\n<li>NVIDIA published a guide on running Google DeepMind's DiffusionGemma locally on RTX-equipped Windows PCs, with optimisations that let the model generate text on-device rather than via the cloud.</li>\n<li>Cohere released North Mini Code on Hugging Face, marketed as their first compact model aimed specifically at developers. It is positioned as a small, accessible option for coding tasks.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>AI coding assistants are moving from \"nice to have\" to embedded in everyday workflows, including research. RP lecturers teaching programming, data, or engineering modules need to plan how students learn fundamentals while also using these tools responsibly.</li>\n<li>Local AI on Windows 11 laptops removes cloud dependency, addresses data privacy concerns for student work, and lets classes run AI activities without account sign-ups or rate limits. This is increasingly realistic on RTX laptops.</li>\n<li>Small open coding models give students hands-on access to model behaviour without paid APIs. They are useful for learning prompt design, comparing outputs, and discussing trade-offs between small and large models.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Spend 10 minutes giving an AI coding assistant a small task from your current module (e.g. parse a CSV, plot a chart) and check the output for errors or assumptions you would want students to catch.</li>\n<li>Skim NVIDIA's DiffusionGemma write-up and note one classroom scenario where running a model locally on a student laptop would be better than using a cloud chatbot (e.g. privacy, no login, offline lab).</li>\n<li>Open Hugging Face and look at the North Mini Code page. Compare one short coding prompt across North Mini Code and a tool students already use, and note one strength and one weakness of each.</li>\n<li>Read the OpenAI Codex black hole story and draft a one-line example for your students of how an AI coding assistant supports, but does not replace, domain understanding.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute \"trust but verify\" exercise: give students an AI-generated code snippet (from any assistant) and ask them to identify bugs, missing edge cases, or unsafe assumptions. Tie it to the OpenAI Codex / Ona story as context on where the industry is heading.</li>\n<li>Use the DiffusionGemma local AI story as a discussion prompt: when is local AI more appropriate than cloud AI for student projects? Have students list two pros and two cons for an FYP scenario.</li>\n<li>Set a short comparison lab where students try the same coding prompt on two different models (e.g. a large hosted assistant vs a small model like North Mini Code) and write a 100-word reflection on differences in quality, speed, and suitability.</li>\n<li>For ethics or professional practice classes, use the astrophysicist Codex example to discuss authorship, attribution, and verification when AI contributes to technical work.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://openai.com/index/openai-to-acquire-ona\" rel=\"noopener noreferrer\" target=\"_blank\">OpenAI to acquire Ona</a></li>\n<li><a href=\"https://openai.com/index/using-codex-to-simulate-black-holes\" rel=\"noopener noreferrer\" target=\"_blank\">How an astrophysicist uses Codex to help simulate black holes</a></li>\n<li><a href=\"https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/\" rel=\"noopener noreferrer\" target=\"_blank\">NVIDIA Accelerates Google DeepMind's DiffusionGemma for Local AI</a></li>\n<li><a href=\"https://huggingface.co/blog/CohereLabs/introducing-north-mini-code\" rel=\"noopener noreferrer\" target=\"_blank\">Introducing North Mini Code: Cohere's First Model For Developers</a></li>\n</ul>",
+  "generatedAt": "2026-06-11T22:02:06.765Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-12-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "Google Blog AI",
+      "published": "Thu, 11 Jun 2026 20:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "hash": "138846151"
+    },
+    {
+      "title": "BI Is Dead, Long Live BI",
+      "link": "https://towardsdatascience.com/bi-is-dead-long-live-bi/",
+      "source": "Towards Data Science",
+      "published": "Thu, 11 Jun 2026 18:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609343",
+      "hash": "1698708245"
+    },
+    {
+      "title": "Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs",
+      "link": "https://towardsdatascience.com/stop-returning-flat-text-from-a-pdf-the-relational-shape-rag-needs/",
+      "source": "Towards Data Science",
+      "published": "Thu, 11 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609341",
+      "hash": "890333109"
+    },
+    {
+      "title": "Enhanced Local Services Ads for Home Listings bring homebuyers and local agents together.",
+      "link": "https://blog.google/products/ads-commerce/new-real-estate-ads-formats/",
+      "source": "Google Blog AI",
+      "published": "Thu, 11 Jun 2026 15:00:00 +0000",
+      "guid": "https://blog.google/products/ads-commerce/new-real-estate-ads-formats/",
+      "hash": "2039416684"
+    },
+    {
+      "title": "PySpark for Beginners: Beyond the Basics",
+      "link": "https://towardsdatascience.com/pyspark-for-beginners-beyond-the-basics/",
+      "source": "Towards Data Science",
+      "published": "Thu, 11 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609339",
+      "hash": "1582492567"
+    },
+    {
+      "title": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-summer-sale-2026/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 11 Jun 2026 13:00:17 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94388",
+      "hash": "1645785628"
+    },
+    {
+      "title": "We’re bringing Walmart Connect to Display &amp; Video 360.",
+      "link": "https://blog.google/products/marketingplatform/360/walmart-connect/",
+      "source": "Google Blog AI",
+      "published": "Thu, 11 Jun 2026 12:00:00 +0000",
+      "guid": "https://blog.google/products/marketingplatform/360/walmart-connect/",
+      "hash": "576684859"
+    },
+    {
+      "title": "OpenAI to acquire Ona]",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI News",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/openai-to-acquire-ona",
+      "hash": "1013436927"
+    },
+    {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem ]",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "source": "OpenAI News",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "hash": "1040734548"
+    },
+    {
+      "title": "How an astrophysicist uses Codex to help simulate black holes]",
+      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "source": "OpenAI News",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "hash": "1992586730"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "source": "Hugging Face",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-mlp-fusion",
+      "hash": "2059024117"
+    },
+    {
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "link": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 10 Jun 2026 19:00:12 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94344",
+      "hash": "1633863687"
+    },
+    {
+      "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+      "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 10 Jun 2026 16:15:20 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94360",
+      "hash": "1835359143"
+    },
+    {
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 15:56:23 GMT",
+      "guid": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "hash": "172410406"
+    },
+    {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 10:46:19 GMT",
+      "guid": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "hash": "615238841"
+    }
+  ]
+}
