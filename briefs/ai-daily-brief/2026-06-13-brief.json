@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-13",
+  "title": "AI Daily Brief - 2026-06-13",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-13\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- OpenAI Academy has released new free courses on applying AI at work, and OpenAI is acquiring Ona to strengthen its developer and agent tooling.\n- Google has published a consolidated update on how it is fighting AI-powered scams through product safeguards, legislation, and user education.\n- A Towards Data Science guide shows how to parse complex PDFs (with tables) for Retrieval-Augmented Generation (RAG) using Azure Document Intelligence Layout, addressing a common failure point with PyMuPDF.\n\n## What Happened\n\n- OpenAI announced new OpenAI Academy courses focused on practical use of AI at work, covering everyday tasks, prompting, and workflow application. Separately, OpenAI announced its intent to acquire Ona, signalling more investment in agentic developer workflows.\n- Google published an overview of its anti-scam efforts, including AI-driven detection in Search, Chrome, and Android, plus policy and legislative cooperation against scams that increasingly use generative AI (voice cloning, fake listings, phishing).\n- A Towards Data Science tutorial walks through why PyMuPDF often misses tables and multi-column layouts in PDFs, and demonstrates using Azure's Layout model to extract structured content suitable for chunking into a RAG pipeline.\n\n## Why It Matters\n\n- The OpenAI Academy courses are a low-friction, free upskilling resource lecturers and students can use directly. The Ona acquisition hints that \"AI agents helping with code and tasks\" will keep growing as a topic students should understand.\n- AI scams are now a real classroom topic, not a future risk. Students need to recognise voice clones, fake ads, and phishing - and lecturers need credible reference material to discuss safe AI use and digital literacy.\n- Most real RP project PDFs (reports, datasheets, manuals) contain tables and mixed layouts. Knowing when a free tool like PyMuPDF fails - and what alternatives exist - is essential for students building RAG chatbots or document Q&A systems in coursework.\n\n## Try This Today\n\n- Open the OpenAI Academy \"Applying AI at Work\" page and pick one short course; complete one module and note one technique you could share with students this week.\n- Take a sample PDF from your module (lecture notes or a report with a table), run it through a simple text extractor in Python on your Windows 11 laptop, and inspect whether the table content survives - this exposes the exact problem the Azure Layout article describes.\n- Spend 10 minutes on Google's anti-scam post, then list three AI-scam examples (voice clone, fake listing, phishing email) you can show students as a quick \"spot the AI scam\" warm-up.\n\n## Teaching Angle\n\n- Run a 15-minute class activity: students complete one OpenAI Academy micro-lesson, then share one workplace task they would automate and one risk they noticed. Good for FYP, internship prep, or communication modules.\n- For diploma IT and cybersecurity classes, use Google's anti-scam update as a discussion prompt: \"Which of these scams would fool your parents? Which would fool you? What signals give them away?\" Pair with a short ethics reflection.\n- For students building chatbots or RAG projects, demonstrate the PyMuPDF-vs-Azure-Layout comparison live: extract the same PDF two ways and compare table fidelity. Use this to teach why \"garbage in, garbage out\" applies to AI pipelines, not just data science.\n\n## Links\n\n- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)\n- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)\n- [How we're combatting AI scams with security, legislation and more](https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/)\n- [When PyMuPDF Can't See the Table: Parse PDFs for RAG with Azure Layout](https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-13\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>OpenAI Academy has released new free courses on applying AI at work, and OpenAI is acquiring Ona to strengthen its developer and agent tooling.</li>\n<li>Google has published a consolidated update on how it is fighting AI-powered scams through product safeguards, legislation, and user education.</li>\n<li>A Towards Data Science guide shows how to parse complex PDFs (with tables) for Retrieval-Augmented Generation (RAG) using Azure Document Intelligence Layout, addressing a common failure point with PyMuPDF.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>OpenAI announced new OpenAI Academy courses focused on practical use of AI at work, covering everyday tasks, prompting, and workflow application. Separately, OpenAI announced its intent to acquire Ona, signalling more investment in agentic developer workflows.</li>\n<li>Google published an overview of its anti-scam efforts, including AI-driven detection in Search, Chrome, and Android, plus policy and legislative cooperation against scams that increasingly use generative AI (voice cloning, fake listings, phishing).</li>\n<li>A Towards Data Science tutorial walks through why PyMuPDF often misses tables and multi-column layouts in PDFs, and demonstrates using Azure's Layout model to extract structured content suitable for chunking into a RAG pipeline.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>The OpenAI Academy courses are a low-friction, free upskilling resource lecturers and students can use directly. The Ona acquisition hints that \"AI agents helping with code and tasks\" will keep growing as a topic students should understand.</li>\n<li>AI scams are now a real classroom topic, not a future risk. Students need to recognise voice clones, fake ads, and phishing - and lecturers need credible reference material to discuss safe AI use and digital literacy.</li>\n<li>Most real RP project PDFs (reports, datasheets, manuals) contain tables and mixed layouts. Knowing when a free tool like PyMuPDF fails - and what alternatives exist - is essential for students building RAG chatbots or document Q&amp;A systems in coursework.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open the OpenAI Academy \"Applying AI at Work\" page and pick one short course; complete one module and note one technique you could share with students this week.</li>\n<li>Take a sample PDF from your module (lecture notes or a report with a table), run it through a simple text extractor in Python on your Windows 11 laptop, and inspect whether the table content survives - this exposes the exact problem the Azure Layout article describes.</li>\n<li>Spend 10 minutes on Google's anti-scam post, then list three AI-scam examples (voice clone, fake listing, phishing email) you can show students as a quick \"spot the AI scam\" warm-up.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute class activity: students complete one OpenAI Academy micro-lesson, then share one workplace task they would automate and one risk they noticed. Good for FYP, internship prep, or communication modules.</li>\n<li>For diploma IT and cybersecurity classes, use Google's anti-scam update as a discussion prompt: \"Which of these scams would fool your parents? Which would fool you? What signals give them away?\" Pair with a short ethics reflection.</li>\n<li>For students building chatbots or RAG projects, demonstrate the PyMuPDF-vs-Azure-Layout comparison live: extract the same PDF two ways and compare table fidelity. Use this to teach why \"garbage in, garbage out\" applies to AI pipelines, not just data science.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://openai.com/index/academy-courses-applying-ai-at-work\" rel=\"noopener noreferrer\" target=\"_blank\">New OpenAI Academy courses for the next era of work</a></li>\n<li><a href=\"https://openai.com/index/openai-to-acquire-ona\" rel=\"noopener noreferrer\" target=\"_blank\">OpenAI to acquire Ona</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/\" rel=\"noopener noreferrer\" target=\"_blank\">How we're combatting AI scams with security, legislation and more</a></li>\n<li><a href=\"https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/\" rel=\"noopener noreferrer\" target=\"_blank\">When PyMuPDF Can't See the Table: Parse PDFs for RAG with Azure Layout</a></li>\n</ul>",
+  "generatedAt": "2026-06-12T22:02:05.555Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-13-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "link": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "source": "NVIDIA Blog",
+      "published": "Fri, 12 Jun 2026 21:00:08 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94415",
+      "hash": "2112416175"
+    },
+    {
+      "title": "When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout",
+      "link": "https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/",
+      "source": "Towards Data Science",
+      "published": "Fri, 12 Jun 2026 18:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609353",
+      "hash": "1493765677"
+    },
+    {
+      "title": "Why Decade-Old Residual Connections Still Power All of AI (And Why That’s a Problem)",
+      "link": "https://towardsdatascience.com/why-this-decade-old-idea-still-powers-all-of-ai-and-why-its-a-problem/",
+      "source": "Towards Data Science",
+      "published": "Fri, 12 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609351",
+      "hash": "691353305"
+    },
+    {
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "source": "Hugging Face",
+      "published": "Fri, 12 Jun 2026 15:56:10 GMT",
+      "guid": "https://huggingface.co/blog/allenai/olmo-eval",
+      "hash": "1147605744"
+    },
+    {
+      "title": "A Harness for Every Task: Putting a Team of Claudes on One Job",
+      "link": "https://towardsdatascience.com/a-harness-for-every-task-putting-a-team-of-claudes-on-one-job/",
+      "source": "Towards Data Science",
+      "published": "Fri, 12 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609349",
+      "hash": "1429628628"
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work]",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News",
+      "published": "Fri, 12 Jun 2026 10:00:00 GMT",
+      "guid": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "hash": "1738967162"
+    },
+    {
+      "title": "How we're combatting AI scams with security, legislation and more",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/",
+      "source": "Google Blog AI",
+      "published": "Fri, 12 Jun 2026 09:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/",
+      "hash": "567128718"
+    },
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning]",
+      "link": "https://openai.com/index/preply",
+      "source": "OpenAI News",
+      "published": "Fri, 12 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/preply",
+      "hash": "1820789468"
+    },
+    {
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "Google Blog AI",
+      "published": "Thu, 11 Jun 2026 20:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "hash": "138846151"
+    },
+    {
+      "title": "Enhanced Local Services Ads for Home Listings bring homebuyers and local agents together.",
+      "link": "https://blog.google/products/ads-commerce/new-real-estate-ads-formats/",
+      "source": "Google Blog AI",
+      "published": "Thu, 11 Jun 2026 15:00:00 +0000",
+      "guid": "https://blog.google/products/ads-commerce/new-real-estate-ads-formats/",
+      "hash": "2039416684"
+    },
+    {
+      "title": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-summer-sale-2026/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 11 Jun 2026 13:00:17 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94388",
+      "hash": "1645785628"
+    },
+    {
+      "title": "OpenAI to acquire Ona]",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI News",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/openai-to-acquire-ona",
+      "hash": "1013436927"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "source": "Hugging Face",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-mlp-fusion",
+      "hash": "2059024117"
+    },
+    {
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "link": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 10 Jun 2026 19:00:12 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94344",
+      "hash": "1633863687"
+    },
+    {
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 15:56:23 GMT",
+      "guid": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "hash": "172410406"
+    }
+  ]
+}
