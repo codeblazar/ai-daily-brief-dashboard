@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-14",
+  "title": "AI Daily Brief - 2026-06-14",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-14\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- A practitioner argues that bigger context windows alone don't fix Retrieval-Augmented Generation (RAG), and shares a system design that addresses the real bottlenecks.\n- Docling lets you parse PDFs (including rich tables) locally for RAG, with no cloud upload required - useful for sensitive teaching materials.\n- OpenAI Academy has released new courses on applying AI at work, aimed at practical workplace use rather than theory.\n\n## What Happened\n\n- A Towards Data Science article explains why simply increasing the context window of an LLM does not solve RAG problems such as retrieval noise, ranking quality, and long-document reasoning. The author describes building a RAG system that focuses on better chunking, retrieval, and orchestration instead of relying on raw context size.\n- Another Towards Data Science piece walks through using Docling, an open-source tool, to parse PDFs locally on your own machine. It preserves table structure and works fully offline, so documents never leave the device.\n- OpenAI announced new Academy courses focused on \"applying AI at work\" - short, practical lessons aimed at everyday professional tasks rather than model building.\n\n## Why It Matters\n\n- RP students and lecturers often hear that \"longer context = better AI.\" This challenges that assumption and gives a more accurate mental model of how production AI systems actually retrieve information. It is directly relevant to anyone teaching data, IT, or applied AI modules.\n- Local PDF parsing is a practical answer to data privacy concerns when building RAG demos in class. Lecturers can use student-submitted PDFs, internal notes, or licensed materials without uploading them to external services - important for compliance and academic integrity.\n- Free, structured OpenAI Academy content gives both lecturers and diploma students a low-effort way to build practical AI skills aligned to real workplace tasks, supporting capability uplift across non-IT diplomas too.\n\n## Try This Today\n\n- Pick one of your existing AI chatbot demos and ask it the same question twice: once with a small focused snippet pasted in, and once with a large block of unrelated content added around it. Note any drop in answer quality - this is the context-window problem in action.\n- On your Windows 11 laptop, install Docling in a Python environment (`pip install docling`) and parse one lecture PDF that contains a table. Compare the extracted table to a copy-paste from Adobe Reader to see the difference.\n- Browse the new OpenAI Academy \"applying AI at work\" course list and pick one short module relevant to your teaching area. Note one idea you could bring into next week's class.\n\n## Teaching Angle\n\n- Run a 15-minute class discussion: \"Does a bigger context window mean better AI?\" Have students predict the answer, then show the long-vs-short prompt comparison. Use it to introduce why retrieval and chunking matter in real systems.\n- In a data or IT module, demonstrate Docling parsing a PDF live, then discuss why local processing matters for sensitive data (student records, medical notes, company documents). Tie it to Singapore's PDPA and academic data handling.\n- Assign students a short reflection task: pick one OpenAI Academy course, complete it, and write three sentences on how they would apply it in their internship or final-year project.\n\n## Links\n\n- [Larger Context Windows Don't Fix RAG - So I Built a System That Does](https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/)\n- [Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload](https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/)\n- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-14\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>A practitioner argues that bigger context windows alone don't fix Retrieval-Augmented Generation (RAG), and shares a system design that addresses the real bottlenecks.</li>\n<li>Docling lets you parse PDFs (including rich tables) locally for RAG, with no cloud upload required - useful for sensitive teaching materials.</li>\n<li>OpenAI Academy has released new courses on applying AI at work, aimed at practical workplace use rather than theory.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>A Towards Data Science article explains why simply increasing the context window of an LLM does not solve RAG problems such as retrieval noise, ranking quality, and long-document reasoning. The author describes building a RAG system that focuses on better chunking, retrieval, and orchestration instead of relying on raw context size.</li>\n<li>Another Towards Data Science piece walks through using Docling, an open-source tool, to parse PDFs locally on your own machine. It preserves table structure and works fully offline, so documents never leave the device.</li>\n<li>OpenAI announced new Academy courses focused on \"applying AI at work\" - short, practical lessons aimed at everyday professional tasks rather than model building.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>RP students and lecturers often hear that \"longer context = better AI.\" This challenges that assumption and gives a more accurate mental model of how production AI systems actually retrieve information. It is directly relevant to anyone teaching data, IT, or applied AI modules.</li>\n<li>Local PDF parsing is a practical answer to data privacy concerns when building RAG demos in class. Lecturers can use student-submitted PDFs, internal notes, or licensed materials without uploading them to external services - important for compliance and academic integrity.</li>\n<li>Free, structured OpenAI Academy content gives both lecturers and diploma students a low-effort way to build practical AI skills aligned to real workplace tasks, supporting capability uplift across non-IT diplomas too.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Pick one of your existing AI chatbot demos and ask it the same question twice: once with a small focused snippet pasted in, and once with a large block of unrelated content added around it. Note any drop in answer quality - this is the context-window problem in action.</li>\n<li>On your Windows 11 laptop, install Docling in a Python environment (<code>pip install docling</code>) and parse one lecture PDF that contains a table. Compare the extracted table to a copy-paste from Adobe Reader to see the difference.</li>\n<li>Browse the new OpenAI Academy \"applying AI at work\" course list and pick one short module relevant to your teaching area. Note one idea you could bring into next week's class.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute class discussion: \"Does a bigger context window mean better AI?\" Have students predict the answer, then show the long-vs-short prompt comparison. Use it to introduce why retrieval and chunking matter in real systems.</li>\n<li>In a data or IT module, demonstrate Docling parsing a PDF live, then discuss why local processing matters for sensitive data (student records, medical notes, company documents). Tie it to Singapore's PDPA and academic data handling.</li>\n<li>Assign students a short reflection task: pick one OpenAI Academy course, complete it, and write three sentences on how they would apply it in their internship or final-year project.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/\" rel=\"noopener noreferrer\" target=\"_blank\">Larger Context Windows Don't Fix RAG - So I Built a System That Does</a></li>\n<li><a href=\"https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/\" rel=\"noopener noreferrer\" target=\"_blank\">Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload</a></li>\n<li><a href=\"https://openai.com/index/academy-courses-applying-ai-at-work\" rel=\"noopener noreferrer\" target=\"_blank\">New OpenAI Academy courses for the next era of work</a></li>\n</ul>",
+  "generatedAt": "2026-06-13T22:02:03.525Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-14-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Larger Context Windows Don’t Fix RAG — So I Built a System That Does",
+      "link": "https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/",
+      "source": "Towards Data Science",
+      "published": "Sat, 13 Jun 2026 17:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609357",
+      "hash": "735860651"
+    },
+    {
+      "title": "Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload",
+      "link": "https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/",
+      "source": "Towards Data Science",
+      "published": "Sat, 13 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609359",
+      "hash": "913164689"
+    },
+    {
+      "title": "Solving the 3Blue1Brown String Probability Problem (Without AI)",
+      "link": "https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem-without-ai/",
+      "source": "Towards Data Science",
+      "published": "Sat, 13 Jun 2026 13:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609355",
+      "hash": "1188422708"
+    },
+    {
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "link": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "source": "NVIDIA Blog",
+      "published": "Fri, 12 Jun 2026 21:00:08 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94415",
+      "hash": "2112416175"
+    },
+    {
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "source": "Hugging Face",
+      "published": "Fri, 12 Jun 2026 15:56:10 GMT",
+      "guid": "https://huggingface.co/blog/allenai/olmo-eval",
+      "hash": "1147605744"
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work]",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News",
+      "published": "Fri, 12 Jun 2026 10:00:00 GMT",
+      "guid": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "hash": "1738967162"
+    },
+    {
+      "title": "How we're combatting AI scams with security, legislation and more",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/",
+      "source": "Google Blog AI",
+      "published": "Fri, 12 Jun 2026 09:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/",
+      "hash": "567128718"
+    },
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning]",
+      "link": "https://openai.com/index/preply",
+      "source": "OpenAI News",
+      "published": "Fri, 12 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/preply",
+      "hash": "1820789468"
+    },
+    {
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "Google Blog AI",
+      "published": "Thu, 11 Jun 2026 20:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "hash": "138846151"
+    },
+    {
+      "title": "Enhanced Local Services Ads for Home Listings bring homebuyers and local agents together.",
+      "link": "https://blog.google/products/ads-commerce/new-real-estate-ads-formats/",
+      "source": "Google Blog AI",
+      "published": "Thu, 11 Jun 2026 15:00:00 +0000",
+      "guid": "https://blog.google/products/ads-commerce/new-real-estate-ads-formats/",
+      "hash": "2039416684"
+    },
+    {
+      "title": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-summer-sale-2026/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 11 Jun 2026 13:00:17 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94388",
+      "hash": "1645785628"
+    },
+    {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem ]",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "source": "OpenAI News",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "hash": "1040734548"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "source": "Hugging Face",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-mlp-fusion",
+      "hash": "2059024117"
+    },
+    {
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "link": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 10 Jun 2026 19:00:12 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94344",
+      "hash": "1633863687"
+    },
+    {
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "source": "Hugging Face",
+      "published": "Tue, 09 Jun 2026 15:56:23 GMT",
+      "guid": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "hash": "172410406"
+    }
+  ]
+}
