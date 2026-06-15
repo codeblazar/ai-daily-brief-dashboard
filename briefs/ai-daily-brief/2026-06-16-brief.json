@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-16",
+  "title": "AI Daily Brief - 2026-06-16",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-16\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- OpenAI Academy has released new free courses on applying AI at work, useful for staff upskilling and student readiness.\n- Jack Clark's Import AI 461 argues \"alignment is not on track\" and highlights synthetic research interns, raising fresh questions for AI safety teaching.\n- Google has published an update on how it is combatting AI-powered scams through security tools, partnerships, and legislation, giving us fresh material for digital literacy lessons.\n\n## What Happened\n\n- OpenAI launched a set of OpenAI Academy courses focused on applying AI in everyday work tasks. The courses are aimed at helping workers build practical skills with ChatGPT and related tools rather than deep technical training.\n- Jack Clark's Import AI newsletter argues that AI alignment research is falling behind capability gains. The same issue covers \"synthetic research interns\" - AI agents that can do junior researcher tasks - and a coding benchmark called FrontierCode.\n- Google posted an update on AI scam defences, covering how it uses AI to detect scam messages and calls, supports anti-scam legislation, and partners with other organisations to fight AI-generated fraud such as voice clones and deepfakes.\n\n## Why It Matters\n\n- Free, structured AI-at-work courses give lecturers a ready reference point for staff development and a credible self-study path for diploma students preparing for internships and jobs that now assume basic AI fluency.\n- The \"alignment is not on track\" argument is a useful counterweight to hype in classrooms. It also flags that AI is starting to do junior research work, which directly affects how we design assignments and what we mean by \"student-level\" output.\n- AI scams now affect students, family members, and staff personally. Teaching scam recognition is no longer just a cybersecurity topic - it is a core digital literacy skill across every diploma.\n\n## Try This Today\n\n- Spend 10 minutes browsing the OpenAI Academy \"Applying AI at Work\" course list and pick one short module that maps to a task you already teach, such as summarising, drafting, or planning.\n- Open ChatGPT or Copilot on your Windows 11 laptop and ask it to draft a phishing or scam message targeting a student, then ask it to list the red flags - use the result as a 5-minute classroom warm-up.\n- Read the Import AI 461 summary points on alignment and synthetic research interns, then write 3 discussion questions you could use in your next tutorial.\n- Take one of your current assignments and ask an AI tool to attempt it as a \"synthetic intern\" would. Note which parts it does well and which parts still need human judgement.\n\n## Teaching Angle\n\n- Run a short \"AI at Work\" reflection activity: students pick one OpenAI Academy topic, try the suggested workflow on a real RP task (emails, reports, study notes), and share what worked in a 5-minute class debrief.\n- Use the Google AI scams update as the basis for a 15-minute lab activity where students identify scam indicators in AI-generated messages, voice clones, or deepfake examples, then list 3 personal habits to protect family members.\n- For IT and AI modules, run a structured debate on the Import AI claim that \"alignment is not on track\". Split the class into capability optimists and safety sceptics, and require each side to cite at least one concrete example from the article.\n- Introduce the idea of \"synthetic research interns\" in project-based modules and ask students to define which parts of their project must remain human work and why - good lead-in to academic integrity discussions.\n\n## Links\n\n- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)\n- [Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns](https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/)\n- [How we're combatting AI scams with security, legislation and more](https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-16\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>OpenAI Academy has released new free courses on applying AI at work, useful for staff upskilling and student readiness.</li>\n<li>Jack Clark's Import AI 461 argues \"alignment is not on track\" and highlights synthetic research interns, raising fresh questions for AI safety teaching.</li>\n<li>Google has published an update on how it is combatting AI-powered scams through security tools, partnerships, and legislation, giving us fresh material for digital literacy lessons.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>OpenAI launched a set of OpenAI Academy courses focused on applying AI in everyday work tasks. The courses are aimed at helping workers build practical skills with ChatGPT and related tools rather than deep technical training.</li>\n<li>Jack Clark's Import AI newsletter argues that AI alignment research is falling behind capability gains. The same issue covers \"synthetic research interns\" - AI agents that can do junior researcher tasks - and a coding benchmark called FrontierCode.</li>\n<li>Google posted an update on AI scam defences, covering how it uses AI to detect scam messages and calls, supports anti-scam legislation, and partners with other organisations to fight AI-generated fraud such as voice clones and deepfakes.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Free, structured AI-at-work courses give lecturers a ready reference point for staff development and a credible self-study path for diploma students preparing for internships and jobs that now assume basic AI fluency.</li>\n<li>The \"alignment is not on track\" argument is a useful counterweight to hype in classrooms. It also flags that AI is starting to do junior research work, which directly affects how we design assignments and what we mean by \"student-level\" output.</li>\n<li>AI scams now affect students, family members, and staff personally. Teaching scam recognition is no longer just a cybersecurity topic - it is a core digital literacy skill across every diploma.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Spend 10 minutes browsing the OpenAI Academy \"Applying AI at Work\" course list and pick one short module that maps to a task you already teach, such as summarising, drafting, or planning.</li>\n<li>Open ChatGPT or Copilot on your Windows 11 laptop and ask it to draft a phishing or scam message targeting a student, then ask it to list the red flags - use the result as a 5-minute classroom warm-up.</li>\n<li>Read the Import AI 461 summary points on alignment and synthetic research interns, then write 3 discussion questions you could use in your next tutorial.</li>\n<li>Take one of your current assignments and ask an AI tool to attempt it as a \"synthetic intern\" would. Note which parts it does well and which parts still need human judgement.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a short \"AI at Work\" reflection activity: students pick one OpenAI Academy topic, try the suggested workflow on a real RP task (emails, reports, study notes), and share what worked in a 5-minute class debrief.</li>\n<li>Use the Google AI scams update as the basis for a 15-minute lab activity where students identify scam indicators in AI-generated messages, voice clones, or deepfake examples, then list 3 personal habits to protect family members.</li>\n<li>For IT and AI modules, run a structured debate on the Import AI claim that \"alignment is not on track\". Split the class into capability optimists and safety sceptics, and require each side to cite at least one concrete example from the article.</li>\n<li>Introduce the idea of \"synthetic research interns\" in project-based modules and ask students to define which parts of their project must remain human work and why - good lead-in to academic integrity discussions.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://openai.com/index/academy-courses-applying-ai-at-work\" rel=\"noopener noreferrer\" target=\"_blank\">New OpenAI Academy courses for the next era of work</a></li>\n<li><a href=\"https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/\" rel=\"noopener noreferrer\" target=\"_blank\">Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns</a></li>\n<li><a href=\"https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/\" rel=\"noopener noreferrer\" target=\"_blank\">How we're combatting AI scams with security, legislation and more</a></li>\n</ul>",
+  "generatedAt": "2026-06-15T22:02:00.916Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-16-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "How to Effectively Align with Claude Code",
+      "link": "https://towardsdatascience.com/how-to-effectively-align-with-claude-code/",
+      "source": "Towards Data Science",
+      "published": "Mon, 15 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609373",
+      "hash": "1317167582"
+    },
+    {
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google Blog AI",
+      "published": "Mon, 15 Jun 2026 15:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "hash": "1481754443"
+    },
+    {
+      "title": "The Protocol That Cleaned Up Our Agent Architecture",
+      "link": "https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/",
+      "source": "Towards Data Science",
+      "published": "Mon, 15 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609371",
+      "hash": "1224083211"
+    },
+    {
+      "title": "I Built 11 Models to Predict the 2026 World Cup. They Crown Four Different Champions.",
+      "link": "https://towardsdatascience.com/i-built-11-models-to-predict-the-2026-world-cup-they-crown-four-different-champions/",
+      "source": "Towards Data Science",
+      "published": "Mon, 15 Jun 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609369",
+      "hash": "1289241182"
+    },
+    {
+      "title": "Import AI 461: &#8220;Alignment is not on track&#8221;; FrontierCode; and synthetic research interns",
+      "link": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
+      "source": "Import AI Jack Clark",
+      "published": "Mon, 15 Jun 2026 11:30:53 +0000",
+      "guid": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
+      "hash": "1867526066"
+    },
+    {
+      "title": "Read Sundar Pichai’s 2026 Commencement Address at Stanford University",
+      "link": "https://blog.google/company-news/inside-google/message-ceo/stanford-commencement-speech-2026/",
+      "source": "Google Blog AI",
+      "published": "Sun, 14 Jun 2026 17:30:00 +0000",
+      "guid": "https://blog.google/company-news/inside-google/message-ceo/stanford-commencement-speech-2026/",
+      "hash": "153124481"
+    },
+    {
+      "title": "Introducing the OpenAI Partner Network]",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI News",
+      "published": "Sun, 14 Jun 2026 17:00:00 GMT",
+      "guid": "https://openai.com/index/introducing-openai-partner-network",
+      "hash": "18263966"
+    },
+    {
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "link": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "source": "NVIDIA Blog",
+      "published": "Fri, 12 Jun 2026 21:00:08 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94415",
+      "hash": "2112416175"
+    },
+    {
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "source": "Hugging Face",
+      "published": "Fri, 12 Jun 2026 15:56:10 GMT",
+      "guid": "https://huggingface.co/blog/allenai/olmo-eval",
+      "hash": "1147605744"
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work]",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News",
+      "published": "Fri, 12 Jun 2026 10:00:00 GMT",
+      "guid": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "hash": "1738967162"
+    },
+    {
+      "title": "How we're combatting AI scams with security, legislation and more",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/",
+      "source": "Google Blog AI",
+      "published": "Fri, 12 Jun 2026 09:00:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/",
+      "hash": "567128718"
+    },
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning]",
+      "link": "https://openai.com/index/preply",
+      "source": "OpenAI News",
+      "published": "Fri, 12 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/preply",
+      "hash": "1820789468"
+    },
+    {
+      "title": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-summer-sale-2026/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 11 Jun 2026 13:00:17 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94388",
+      "hash": "1645785628"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "source": "Hugging Face",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-mlp-fusion",
+      "hash": "2059024117"
+    },
+    {
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "link": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+      "source": "NVIDIA Blog",
+      "published": "Wed, 10 Jun 2026 19:00:12 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94344",
+      "hash": "1633863687"
+    }
+  ]
+}
