@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-17",
+  "title": "AI Daily Brief - 2026-06-17",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-17\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- OpenAI launches new Academy courses on applying AI at work, aimed at building everyday AI skills across roles.\n- OpenAI describes a method for predicting model behaviour before release by simulating deployment conditions.\n- NVIDIA Blackwell tops new agentic AI infrastructure benchmarks (AgentPerf) and MLPerf Training 6.0, signalling a shift toward measuring agent workloads.\n\n## What Happened\n\n- OpenAI announced a refreshed set of Academy courses focused on practical applications of AI at work, covering everyday productivity and role-based skills rather than deep technical training.\n- OpenAI shared work on a \"deployment simulation\" approach that tries to predict how a model will behave in real use before it is released, using simulated environments to catch problems early.\n- NVIDIA published two benchmarking updates: Blackwell led on the new AgentPerf benchmark for agentic AI workloads, and also swept MLPerf Training 6.0 results. Both point to industry attention moving from raw model training toward running AI agents.\n\n## Why It Matters\n\n- The new OpenAI Academy courses give RP lecturers and students a structured, free-to-explore starting point for building AI literacy that fits real work tasks, useful for staff upskilling and student self-study.\n- Deployment simulation is a teachable example of responsible AI practice. It shows students that testing AI is not only about accuracy on a dataset, but about anticipating misuse, edge cases, and unintended behaviour before release.\n- The arrival of an \"agentic\" benchmark signals to learners that future AI systems are measured on how well they complete multi-step tasks, not just answer questions. This reshapes what diploma students should learn about AI evaluation.\n\n## Try This Today\n\n- Browse the OpenAI Academy course list and pick one short module relevant to your subject area; note one activity you could adapt for a tutorial next week.\n- Take a recent assignment prompt and write down three ways a student might misuse an AI tool on it. This mirrors the \"simulate before deploy\" mindset in a teaching context.\n- Ask ChatGPT or Copilot to act as an \"agent\" that books a fictional class trip in steps (find venue, draft email, plan schedule). Note where it stalls or invents details, then discuss what AgentPerf-style benchmarks might measure.\n\n## Teaching Angle\n\n- Run a 15-minute class discussion: \"What should we test before letting an AI tool loose on real users?\" Use the OpenAI deployment simulation story as the anchor example, and have students list checks they would run.\n- Give students a list of OpenAI Academy course titles and ask each group to map one course to a job role in their diploma (e.g. marketing, engineering, hospitality). Discuss which AI skills are now baseline vs specialist.\n- Demonstrate a simple multi-step task with a chatbot (plan, search, summarise, email draft) and ask students to score it on reliability, accuracy and recovery from mistakes. Link this back to why agent benchmarks like AgentPerf exist.\n\n## Links\n\n- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)\n- [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation)\n- [NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark](https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/)\n- [Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0](https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-17\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>OpenAI launches new Academy courses on applying AI at work, aimed at building everyday AI skills across roles.</li>\n<li>OpenAI describes a method for predicting model behaviour before release by simulating deployment conditions.</li>\n<li>NVIDIA Blackwell tops new agentic AI infrastructure benchmarks (AgentPerf) and MLPerf Training 6.0, signalling a shift toward measuring agent workloads.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>OpenAI announced a refreshed set of Academy courses focused on practical applications of AI at work, covering everyday productivity and role-based skills rather than deep technical training.</li>\n<li>OpenAI shared work on a \"deployment simulation\" approach that tries to predict how a model will behave in real use before it is released, using simulated environments to catch problems early.</li>\n<li>NVIDIA published two benchmarking updates: Blackwell led on the new AgentPerf benchmark for agentic AI workloads, and also swept MLPerf Training 6.0 results. Both point to industry attention moving from raw model training toward running AI agents.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>The new OpenAI Academy courses give RP lecturers and students a structured, free-to-explore starting point for building AI literacy that fits real work tasks, useful for staff upskilling and student self-study.</li>\n<li>Deployment simulation is a teachable example of responsible AI practice. It shows students that testing AI is not only about accuracy on a dataset, but about anticipating misuse, edge cases, and unintended behaviour before release.</li>\n<li>The arrival of an \"agentic\" benchmark signals to learners that future AI systems are measured on how well they complete multi-step tasks, not just answer questions. This reshapes what diploma students should learn about AI evaluation.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Browse the OpenAI Academy course list and pick one short module relevant to your subject area; note one activity you could adapt for a tutorial next week.</li>\n<li>Take a recent assignment prompt and write down three ways a student might misuse an AI tool on it. This mirrors the \"simulate before deploy\" mindset in a teaching context.</li>\n<li>Ask ChatGPT or Copilot to act as an \"agent\" that books a fictional class trip in steps (find venue, draft email, plan schedule). Note where it stalls or invents details, then discuss what AgentPerf-style benchmarks might measure.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute class discussion: \"What should we test before letting an AI tool loose on real users?\" Use the OpenAI deployment simulation story as the anchor example, and have students list checks they would run.</li>\n<li>Give students a list of OpenAI Academy course titles and ask each group to map one course to a job role in their diploma (e.g. marketing, engineering, hospitality). Discuss which AI skills are now baseline vs specialist.</li>\n<li>Demonstrate a simple multi-step task with a chatbot (plan, search, summarise, email draft) and ask students to score it on reliability, accuracy and recovery from mistakes. Link this back to why agent benchmarks like AgentPerf exist.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://openai.com/index/academy-courses-applying-ai-at-work\" rel=\"noopener noreferrer\" target=\"_blank\">New OpenAI Academy courses for the next era of work</a></li>\n<li><a href=\"https://openai.com/index/deployment-simulation\" rel=\"noopener noreferrer\" target=\"_blank\">Predicting model behavior before release by simulating deployment</a></li>\n<li><a href=\"https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/\" rel=\"noopener noreferrer\" target=\"_blank\">NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark</a></li>\n<li><a href=\"https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/\" rel=\"noopener noreferrer\" target=\"_blank\">Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0</a></li>\n</ul>",
+  "generatedAt": "2026-06-16T22:01:55.828Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-17-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Expanding our U.S. digital wellbeing fund",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/google-org/digital-wellbeing-fund-mental-health/",
+      "source": "Google Blog AI",
+      "published": "Tue, 16 Jun 2026 18:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/google-org/digital-wellbeing-fund-mental-health/",
+      "hash": "212143337"
+    },
+    {
+      "title": "Wear OS 7 helps your smartwatch keep up with you",
+      "link": "https://blog.google/products-and-platforms/platforms/wear-os/google-io-2026-wear-os/",
+      "source": "Google Blog AI",
+      "published": "Tue, 16 Jun 2026 18:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/platforms/wear-os/google-io-2026-wear-os/",
+      "hash": "1454866405"
+    },
+    {
+      "title": "New expanded Android parental controls to support families around the world",
+      "link": "https://blog.google/products-and-platforms/platforms/android/new-expanded-android-parental-controls/",
+      "source": "Google Blog AI",
+      "published": "Tue, 16 Jun 2026 18:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/platforms/android/new-expanded-android-parental-controls/",
+      "hash": "1617678156"
+    },
+    {
+      "title": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
+      "link": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+      "source": "NVIDIA Blog",
+      "published": "Tue, 16 Jun 2026 16:30:27 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94468",
+      "hash": "842932737"
+    },
+    {
+      "title": "Drilling Into AI’s Financial Sustainability",
+      "link": "https://towardsdatascience.com/drilling-into-ais-financial-sustainability/",
+      "source": "Towards Data Science",
+      "published": "Tue, 16 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609381",
+      "hash": "69843037"
+    },
+    {
+      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "link": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "source": "NVIDIA Blog",
+      "published": "Tue, 16 Jun 2026 15:00:36 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94478",
+      "hash": "732097341"
+    },
+    {
+      "title": "Run a Local LLM with OpenClaw on Your Mac Mini",
+      "link": "https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/",
+      "source": "Towards Data Science",
+      "published": "Tue, 16 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609379",
+      "hash": "1263934281"
+    },
+    {
+      "title": "LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer",
+      "link": "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
+      "source": "Towards Data Science",
+      "published": "Tue, 16 Jun 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609377",
+      "hash": "1911481100"
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment]",
+      "link": "https://openai.com/index/deployment-simulation",
+      "source": "OpenAI News",
+      "published": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/deployment-simulation",
+      "hash": "793908400"
+    },
+    {
+      "title": "Import AI 461: &#8220;Alignment is not on track&#8221;; FrontierCode; and synthetic research interns",
+      "link": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
+      "source": "Import AI Jack Clark",
+      "published": "Mon, 15 Jun 2026 11:30:53 +0000",
+      "guid": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
+      "hash": "1867526066"
+    },
+    {
+      "title": "Introducing the OpenAI Partner Network]",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI News",
+      "published": "Sun, 14 Jun 2026 17:00:00 GMT",
+      "guid": "https://openai.com/index/introducing-openai-partner-network",
+      "hash": "18263966"
+    },
+    {
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "link": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+      "source": "NVIDIA Blog",
+      "published": "Fri, 12 Jun 2026 21:00:08 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94415",
+      "hash": "2112416175"
+    },
+    {
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "source": "Hugging Face",
+      "published": "Fri, 12 Jun 2026 15:56:10 GMT",
+      "guid": "https://huggingface.co/blog/allenai/olmo-eval",
+      "hash": "1147605744"
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work]",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News",
+      "published": "Fri, 12 Jun 2026 10:00:00 GMT",
+      "guid": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "hash": "1738967162"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "source": "Hugging Face",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/torch-mlp-fusion",
+      "hash": "2059024117"
+    }
+  ]
+}
