@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-19",
+  "title": "AI Daily Brief - 2026-06-19",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-19\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- ChatGPT is being upgraded with stronger health intelligence and a related case study shows it helping doctors diagnose rare childhood genetic diseases.\n- A Hugging Face post called \"MosaicLeaks\" shows that research agents can accidentally leak confidential information they were told to keep secret.\n- A Towards Data Science guide explains structured outputs from large language models, comparing JSON mode and function calling and when to use each.\n\n## What Happened\n\n- OpenAI announced improvements to health-related responses in ChatGPT, aimed at giving safer and more useful answers to medical questions. A separate OpenAI piece describes how clinicians are using ChatGPT to support the diagnosis of rare genetic diseases in children, where doctors often lack experience with very uncommon conditions.\n- The MosaicLeaks post from Hugging Face and ServiceNow tests whether AI research agents can keep secrets. The authors show that agents can be tricked or nudged into revealing private data they were instructed to hold back, exposing a real privacy and security weakness in agent-style workflows.\n- A Towards Data Science article walks through three ways to get reliable, machine-readable answers from a large language model: free-form prompting, JSON mode, and function calling. It explains the trade-offs and when each method is the right choice for building apps on top of an LLM.\n\n## Why It Matters\n\n- Health questions are one of the most common student and staff uses of ChatGPT. Better health responses are useful, but lecturers in health sciences, sports, applied sciences and general education still need to teach students that ChatGPT is not a doctor and to verify against trusted sources.\n- Many RP projects now involve students building small AI agents or chatbots. The MosaicLeaks finding is a clear, classroom-friendly example that \"the AI was told to keep this secret\" is not enough. It supports lessons on prompt injection, data handling and responsible AI design.\n- Structured outputs are the bridge between an LLM and any real application, dashboard, or automation. For IT, business informatics and data students, understanding JSON mode and function calling is essential for going beyond chat into building working AI features.\n\n## Try This Today\n\n- Ask ChatGPT a realistic health question a student might ask (for example, about a common medication or symptom) and check the answer against HealthHub or a clinical reference. Note where ChatGPT adds safety advice and where it could still mislead.\n- Run a 10-minute \"secret keeping\" test inspired by MosaicLeaks: give ChatGPT or Copilot a system message with a fake confidential value, then try several user prompts to extract it. See how easily the \"secret\" leaks.\n- Open ChatGPT or another LLM and ask it to return a short student record (name, course, grade) first as free text, then strictly as JSON. Compare how parseable each output is, linking back to the structured outputs article.\n\n## Teaching Angle\n\n- Short class discussion for health, life sciences or general modules: \"When is it OK to ask ChatGPT a health question?\" Use the OpenAI health update and rare-disease case study to frame both the benefits and the limits.\n- Lab activity for IT and cybersecurity modules: students play attacker and defender on a simple agent, trying to get it to reveal a hidden instruction. Tie back to MosaicLeaks to discuss prompt injection and data leakage in agent systems.\n- Hands-on tutorial for data and software students: rewrite a normal LLM prompt to return strict JSON, then connect the output to a small Python script in VS Code on Windows 11. Use this to explain why function calling exists and when JSON mode is enough.\n\n## Links\n\n- [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt)\n- [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases)\n- [MosaicLeaks: Can your research agent keep a secret?](https://huggingface.co/blog/ServiceNow/mosaicleaks)\n- [Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each](https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-19\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>ChatGPT is being upgraded with stronger health intelligence and a related case study shows it helping doctors diagnose rare childhood genetic diseases.</li>\n<li>A Hugging Face post called \"MosaicLeaks\" shows that research agents can accidentally leak confidential information they were told to keep secret.</li>\n<li>A Towards Data Science guide explains structured outputs from large language models, comparing JSON mode and function calling and when to use each.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>OpenAI announced improvements to health-related responses in ChatGPT, aimed at giving safer and more useful answers to medical questions. A separate OpenAI piece describes how clinicians are using ChatGPT to support the diagnosis of rare genetic diseases in children, where doctors often lack experience with very uncommon conditions.</li>\n<li>The MosaicLeaks post from Hugging Face and ServiceNow tests whether AI research agents can keep secrets. The authors show that agents can be tricked or nudged into revealing private data they were instructed to hold back, exposing a real privacy and security weakness in agent-style workflows.</li>\n<li>A Towards Data Science article walks through three ways to get reliable, machine-readable answers from a large language model: free-form prompting, JSON mode, and function calling. It explains the trade-offs and when each method is the right choice for building apps on top of an LLM.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Health questions are one of the most common student and staff uses of ChatGPT. Better health responses are useful, but lecturers in health sciences, sports, applied sciences and general education still need to teach students that ChatGPT is not a doctor and to verify against trusted sources.</li>\n<li>Many RP projects now involve students building small AI agents or chatbots. The MosaicLeaks finding is a clear, classroom-friendly example that \"the AI was told to keep this secret\" is not enough. It supports lessons on prompt injection, data handling and responsible AI design.</li>\n<li>Structured outputs are the bridge between an LLM and any real application, dashboard, or automation. For IT, business informatics and data students, understanding JSON mode and function calling is essential for going beyond chat into building working AI features.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Ask ChatGPT a realistic health question a student might ask (for example, about a common medication or symptom) and check the answer against HealthHub or a clinical reference. Note where ChatGPT adds safety advice and where it could still mislead.</li>\n<li>Run a 10-minute \"secret keeping\" test inspired by MosaicLeaks: give ChatGPT or Copilot a system message with a fake confidential value, then try several user prompts to extract it. See how easily the \"secret\" leaks.</li>\n<li>Open ChatGPT or another LLM and ask it to return a short student record (name, course, grade) first as free text, then strictly as JSON. Compare how parseable each output is, linking back to the structured outputs article.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Short class discussion for health, life sciences or general modules: \"When is it OK to ask ChatGPT a health question?\" Use the OpenAI health update and rare-disease case study to frame both the benefits and the limits.</li>\n<li>Lab activity for IT and cybersecurity modules: students play attacker and defender on a simple agent, trying to get it to reveal a hidden instruction. Tie back to MosaicLeaks to discuss prompt injection and data leakage in agent systems.</li>\n<li>Hands-on tutorial for data and software students: rewrite a normal LLM prompt to return strict JSON, then connect the output to a small Python script in VS Code on Windows 11. Use this to explain why function calling exists and when JSON mode is enough.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://openai.com/index/improving-health-intelligence-in-chatgpt\" rel=\"noopener noreferrer\" target=\"_blank\">Improving health intelligence in ChatGPT</a></li>\n<li><a href=\"https://openai.com/index/diagnose-rare-childhood-diseases\" rel=\"noopener noreferrer\" target=\"_blank\">Using AI to help physicians diagnose rare genetic diseases affecting children</a></li>\n<li><a href=\"https://huggingface.co/blog/ServiceNow/mosaicleaks\" rel=\"noopener noreferrer\" target=\"_blank\">MosaicLeaks: Can your research agent keep a secret?</a></li>\n<li><a href=\"https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/\" rel=\"noopener noreferrer\" target=\"_blank\">Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each</a></li>\n</ul>",
+  "generatedAt": "2026-06-18T22:02:14.469Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-19-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "link": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 20:00:27 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94782",
+      "hash": "1631846186"
+    },
+    {
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 18:13:13 GMT",
+      "guid": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "hash": "653327207"
+    },
+    {
+      "title": "Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each",
+      "link": "https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/",
+      "source": "Towards Data Science",
+      "published": "Thu, 18 Jun 2026 18:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609402",
+      "hash": "1684730896"
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises]",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "guid": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "hash": "220185389"
+    },
+    {
+      "title": "How Powerful is Claude Fable (Mythos) 5 for Coding?",
+      "link": "https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/",
+      "source": "Towards Data Science",
+      "published": "Thu, 18 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609400",
+      "hash": "823240020"
+    },
+    {
+      "title": "Powering the world’s first AI arts museum",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 15:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+      "hash": "1156435796"
+    },
+    {
+      "title": "Proteins: A Mosaic Pattern to Rule Them All?",
+      "link": "https://towardsdatascience.com/proteins-a-mosaic-pattern-to-rule-them-all/",
+      "source": "Towards Data Science",
+      "published": "Thu, 18 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609397",
+      "hash": "1901499802"
+    },
+    {
+      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+      "link": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 13:00:43 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94755",
+      "hash": "1244602892"
+    },
+    {
+      "title": "Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-game-stores/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 13:00:32 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94725",
+      "hash": "1238628869"
+    },
+    {
+      "title": "Introducing Ask Ad Manager, the AI agent that will help you get more done",
+      "link": "https://blog.google/products/admanager/ask-ad-manager/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 13:00:00 +0000",
+      "guid": "https://blog.google/products/admanager/ask-ad-manager/",
+      "hash": "1351681747"
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT]",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 11:00:00 GMT",
+      "guid": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "hash": "1156219198"
+    },
+    {
+      "title": "Splash Canvas: Create abstract art (with an attitude)",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/splash-canvas/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 10:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/splash-canvas/",
+      "hash": "1561933647"
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children]",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 08:00:00 GMT",
+      "guid": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "hash": "1671257029"
+    },
+    {
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/peft-beyond-lora",
+      "hash": "2008666177"
+    },
+    {
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/is-it-agentic-enough",
+      "hash": "2074800128"
+    }
+  ]
+}
