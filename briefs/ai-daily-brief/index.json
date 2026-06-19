@@ -1,6 +1,15 @@
 {
   "briefs": [
     {
+      "date": "2026-06-20",
+      "title": "AI Daily Brief - 2026-06-20",
+      "generatedAt": "2026-06-19T22:02:08.100Z",
+      "sourceCount": 15,
+      "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-20-top-story.png",
+      "briefUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/briefs/ai-daily-brief/2026-06-20-brief.json",
+      "imageTopic": "NVIDIA"
+    },
+    {
       "date": "2026-06-19",
       "title": "AI Daily Brief - 2026-06-19",
       "generatedAt": "2026-06-18T22:02:14.469Z",
