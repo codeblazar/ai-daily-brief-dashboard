@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-21",
+  "title": "AI Daily Brief - 2026-06-21",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-21\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- ChatGPT is getting stronger health-related responses, and OpenAI is also working with clinicians to help diagnose rare childhood genetic diseases.\n- A new Hugging Face study, MosaicLeaks, shows research agents can accidentally leak confidential information when browsing the web.\n- A practical tutorial from Towards Data Science shows how to make images inside PDFs searchable for Retrieval-Augmented Generation (RAG) without paying to process every page.\n\n## What Happened\n\n- OpenAI announced improvements to how ChatGPT answers health questions, aiming for safer, clearer guidance for everyday users. A separate OpenAI piece describes how doctors are using AI to help spot rare genetic diseases in children, where diagnosis can otherwise take years.\n- Hugging Face researchers from ServiceNow published MosaicLeaks, showing that autonomous research agents can be tricked into revealing private context (like prior chat content or hidden instructions) when they browse attacker-controlled web pages.\n- A Towards Data Science walkthrough explains a cheaper way to make scanned or image-heavy PDFs searchable for RAG pipelines. Instead of running every page through an expensive vision model, the author uses lightweight filtering first, then only sends relevant images for deeper processing.\n\n## Why It Matters\n\n- Students and lecturers already ask ChatGPT health questions. Better health responses are useful, but they also make it harder for learners to notice when AI is wrong or overconfident. This is a good moment to revisit \"AI is not a doctor\" digital literacy with students.\n- Agent leakage matters for any course where students build chatbots, research assistants, or automation flows (e.g. SoI, SBM, SoT projects). It shows that \"agentic AI\" introduces a new class of privacy and security risks beyond normal prompt injection.\n- The PDF-to-RAG tip is directly useful for lecturers and students building knowledge assistants on lecture notes, lab manuals, or industry reports. It shows how to manage cost and complexity when documents are not clean text.\n\n## Try This Today\n\n- Ask ChatGPT a common health question a student might ask (e.g. \"Is this rash serious?\"). Note where it gives safe advice, where it hedges, and where it could mislead. Save 2-3 screenshots for class discussion on AI in healthcare.\n- Sketch a simple \"what could go wrong\" list for an agent that browses the web on a student's behalf, using the MosaicLeaks scenario as a starting point. Identify which data in your own ChatGPT history you would not want an agent to share.\n- On your Windows 11 laptop, take one image-heavy PDF (e.g. a scanned handout) and try a small RAG experiment: extract text with a free OCR tool, then ask Copilot or ChatGPT questions against the extracted text. Notice what gets lost from the images.\n\n## Teaching Angle\n\n- Run a 15-minute class discussion: \"When should ChatGPT's health answers be trusted, and when not?\" Use the OpenAI health update as the trigger and link it to professionalism modules in health sciences or sports diplomas.\n- For IT, infocomm, or cybersecurity students, use MosaicLeaks as a mini case study. Ask groups to design a safer research agent and list three controls they would add (e.g. trusted-site lists, redaction, human approval).\n- For data, analytics, or AI applications modules, demo the PDF RAG idea live: show one cheap pipeline versus one expensive pipeline and ask students to justify trade-offs in cost, accuracy, and student data privacy.\n\n## Links\n\n- [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt)\n- [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases)\n- [MosaicLeaks: Can your research agent keep a secret?](https://huggingface.co/blog/ServiceNow/mosaicleaks)\n- [Making a PDF's Images Searchable for RAG, Without Paying to Read Them All](https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-21\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>ChatGPT is getting stronger health-related responses, and OpenAI is also working with clinicians to help diagnose rare childhood genetic diseases.</li>\n<li>A new Hugging Face study, MosaicLeaks, shows research agents can accidentally leak confidential information when browsing the web.</li>\n<li>A practical tutorial from Towards Data Science shows how to make images inside PDFs searchable for Retrieval-Augmented Generation (RAG) without paying to process every page.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>OpenAI announced improvements to how ChatGPT answers health questions, aiming for safer, clearer guidance for everyday users. A separate OpenAI piece describes how doctors are using AI to help spot rare genetic diseases in children, where diagnosis can otherwise take years.</li>\n<li>Hugging Face researchers from ServiceNow published MosaicLeaks, showing that autonomous research agents can be tricked into revealing private context (like prior chat content or hidden instructions) when they browse attacker-controlled web pages.</li>\n<li>A Towards Data Science walkthrough explains a cheaper way to make scanned or image-heavy PDFs searchable for RAG pipelines. Instead of running every page through an expensive vision model, the author uses lightweight filtering first, then only sends relevant images for deeper processing.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Students and lecturers already ask ChatGPT health questions. Better health responses are useful, but they also make it harder for learners to notice when AI is wrong or overconfident. This is a good moment to revisit \"AI is not a doctor\" digital literacy with students.</li>\n<li>Agent leakage matters for any course where students build chatbots, research assistants, or automation flows (e.g. SoI, SBM, SoT projects). It shows that \"agentic AI\" introduces a new class of privacy and security risks beyond normal prompt injection.</li>\n<li>The PDF-to-RAG tip is directly useful for lecturers and students building knowledge assistants on lecture notes, lab manuals, or industry reports. It shows how to manage cost and complexity when documents are not clean text.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Ask ChatGPT a common health question a student might ask (e.g. \"Is this rash serious?\"). Note where it gives safe advice, where it hedges, and where it could mislead. Save 2-3 screenshots for class discussion on AI in healthcare.</li>\n<li>Sketch a simple \"what could go wrong\" list for an agent that browses the web on a student's behalf, using the MosaicLeaks scenario as a starting point. Identify which data in your own ChatGPT history you would not want an agent to share.</li>\n<li>On your Windows 11 laptop, take one image-heavy PDF (e.g. a scanned handout) and try a small RAG experiment: extract text with a free OCR tool, then ask Copilot or ChatGPT questions against the extracted text. Notice what gets lost from the images.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute class discussion: \"When should ChatGPT's health answers be trusted, and when not?\" Use the OpenAI health update as the trigger and link it to professionalism modules in health sciences or sports diplomas.</li>\n<li>For IT, infocomm, or cybersecurity students, use MosaicLeaks as a mini case study. Ask groups to design a safer research agent and list three controls they would add (e.g. trusted-site lists, redaction, human approval).</li>\n<li>For data, analytics, or AI applications modules, demo the PDF RAG idea live: show one cheap pipeline versus one expensive pipeline and ask students to justify trade-offs in cost, accuracy, and student data privacy.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://openai.com/index/improving-health-intelligence-in-chatgpt\" rel=\"noopener noreferrer\" target=\"_blank\">Improving health intelligence in ChatGPT</a></li>\n<li><a href=\"https://openai.com/index/diagnose-rare-childhood-diseases\" rel=\"noopener noreferrer\" target=\"_blank\">Using AI to help physicians diagnose rare genetic diseases affecting children</a></li>\n<li><a href=\"https://huggingface.co/blog/ServiceNow/mosaicleaks\" rel=\"noopener noreferrer\" target=\"_blank\">MosaicLeaks: Can your research agent keep a secret?</a></li>\n<li><a href=\"https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/\" rel=\"noopener noreferrer\" target=\"_blank\">Making a PDF's Images Searchable for RAG, Without Paying to Read Them All</a></li>\n</ul>",
+  "generatedAt": "2026-06-20T22:01:59.392Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-21-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture",
+      "link": "https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/",
+      "source": "Towards Data Science",
+      "published": "Sat, 20 Jun 2026 17:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609421",
+      "hash": "2022728105"
+    },
+    {
+      "title": "Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All",
+      "link": "https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/",
+      "source": "Towards Data Science",
+      "published": "Sat, 20 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609413",
+      "hash": "1852603973"
+    },
+    {
+      "title": "Materialized Lake Views in Microsoft Fabric: When Your Medallion Fits in a SELECT Statement",
+      "link": "https://towardsdatascience.com/materialized-lake-views-in-microsoft-fabric-when-your-medallion-fits-in-a-select-statement/",
+      "source": "Towards Data Science",
+      "published": "Sat, 20 Jun 2026 13:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609419",
+      "hash": "487720163"
+    },
+    {
+      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "link": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 20:00:27 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94782",
+      "hash": "1631846186"
+    },
+    {
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 18:13:13 GMT",
+      "guid": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "hash": "653327207"
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises]",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "guid": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "hash": "220185389"
+    },
+    {
+      "title": "Powering the world’s first AI arts museum",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 15:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+      "hash": "1156435796"
+    },
+    {
+      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+      "link": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 13:00:43 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94755",
+      "hash": "1244602892"
+    },
+    {
+      "title": "Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-game-stores/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 13:00:32 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94725",
+      "hash": "1238628869"
+    },
+    {
+      "title": "Introducing Ask Ad Manager, the AI agent that will help you get more done",
+      "link": "https://blog.google/products/admanager/ask-ad-manager/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 13:00:00 +0000",
+      "guid": "https://blog.google/products/admanager/ask-ad-manager/",
+      "hash": "1351681747"
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT]",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 11:00:00 GMT",
+      "guid": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "hash": "1156219198"
+    },
+    {
+      "title": "Splash Canvas: Create abstract art (with an attitude)",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/splash-canvas/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 10:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/splash-canvas/",
+      "hash": "1561933647"
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children]",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 08:00:00 GMT",
+      "guid": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "hash": "1671257029"
+    },
+    {
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/peft-beyond-lora",
+      "hash": "2008666177"
+    },
+    {
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/is-it-agentic-enough",
+      "hash": "2074800128"
+    }
+  ]
+}
