@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-22",
+  "title": "AI Daily Brief - 2026-06-22",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-22\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- A clear explainer on tool calling shows how AI agents pick the next action, paired with new work on testing whether open models are \"agentic enough\" on real tooling.\n- Research on MosaicLeaks reveals that research agents can leak confidential information through their tool use, raising serious privacy concerns for agent workflows.\n- ChatGPT is improving health intelligence, including support for clinicians working on rare genetic diseases in children, signalling more capable domain-specific use.\n\n## What Happened\n\n- Towards Data Science published a walkthrough of tool calling, the mechanism by which agents decide which function or tool to invoke next. Hugging Face complemented this with a piece on benchmarking open models against your own tools to judge real agentic behaviour rather than demo-quality output.\n- ServiceNow researchers, posting on Hugging Face, described MosaicLeaks: a scenario showing that AI research agents can unintentionally reveal private or sensitive data while gathering information across tools and sources.\n- OpenAI announced upgrades to ChatGPT's health-related responses, including a specific application helping physicians narrow down possible diagnoses for rare childhood genetic conditions.\n\n## Why It Matters\n\n- Tool calling is becoming a foundational concept for anyone teaching applied AI. Students who only know \"prompt in, text out\" will miss how modern agents actually work in industry projects and final-year capstones.\n- Agent privacy leaks are a teachable risk. Diploma students building chatbots or research helpers for assignments need to understand that connecting agents to documents, APIs, and web tools can expose information they did not intend to share.\n- Health-domain AI use shows both potential and limits. It is a rich case for discussing where AI assists professionals, what oversight is needed, and how lecturers can frame responsible use in healthcare-adjacent diplomas.\n\n## Try This Today\n\n- Open the Towards Data Science tool calling article and sketch a one-page diagram showing the loop: user prompt, model decision, tool call, tool result, final answer. Share it with one colleague to test if the explanation is clear.\n- In ChatGPT or Copilot on your Windows 11 laptop, ask the model to act as a research agent and summarise a topic using multiple sources. Then ask it what private information from your prompt it might have exposed if connected to external tools. Discuss the answer critically.\n- Try a short health-related query in ChatGPT (e.g. \"what could cause persistent fatigue in a teenager\"), then list three things a clinician would still need to verify. Use this to practise spotting where AI helps versus where human judgement is essential.\n\n## Teaching Angle\n\n- Run a 15-minute class demo of tool calling: ask an AI assistant a question requiring calculation, a date lookup, and a web search. Have students identify which step needed a \"tool\" and which the model could answer alone. Connect to the Hugging Face piece on whether models are genuinely agentic on real tasks.\n- Use the MosaicLeaks story as a discussion case for ethics or cybersecurity classes. Ask students: if you built a research agent for your FYP, what data could leak, who would be harmed, and how would you mitigate it?\n- For health sciences, nursing, or applied science diplomas, run a small group activity comparing ChatGPT's rare-disease suggestions with a textbook reference. Discuss accuracy, confidence, and the role of the clinician as the final decision-maker.\n\n## Links\n\n- [Tool Calling, Explained: How AI Agents Decide What to Do Next](https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/)\n- [Is it agentic enough? Benchmarking open models on your own tooling](https://huggingface.co/blog/is-it-agentic-enough)\n- [MosaicLeaks: Can your research agent keep a secret?](https://huggingface.co/blog/ServiceNow/mosaicleaks)\n- [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt)\n- [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-22\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>A clear explainer on tool calling shows how AI agents pick the next action, paired with new work on testing whether open models are \"agentic enough\" on real tooling.</li>\n<li>Research on MosaicLeaks reveals that research agents can leak confidential information through their tool use, raising serious privacy concerns for agent workflows.</li>\n<li>ChatGPT is improving health intelligence, including support for clinicians working on rare genetic diseases in children, signalling more capable domain-specific use.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Towards Data Science published a walkthrough of tool calling, the mechanism by which agents decide which function or tool to invoke next. Hugging Face complemented this with a piece on benchmarking open models against your own tools to judge real agentic behaviour rather than demo-quality output.</li>\n<li>ServiceNow researchers, posting on Hugging Face, described MosaicLeaks: a scenario showing that AI research agents can unintentionally reveal private or sensitive data while gathering information across tools and sources.</li>\n<li>OpenAI announced upgrades to ChatGPT's health-related responses, including a specific application helping physicians narrow down possible diagnoses for rare childhood genetic conditions.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>Tool calling is becoming a foundational concept for anyone teaching applied AI. Students who only know \"prompt in, text out\" will miss how modern agents actually work in industry projects and final-year capstones.</li>\n<li>Agent privacy leaks are a teachable risk. Diploma students building chatbots or research helpers for assignments need to understand that connecting agents to documents, APIs, and web tools can expose information they did not intend to share.</li>\n<li>Health-domain AI use shows both potential and limits. It is a rich case for discussing where AI assists professionals, what oversight is needed, and how lecturers can frame responsible use in healthcare-adjacent diplomas.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Open the Towards Data Science tool calling article and sketch a one-page diagram showing the loop: user prompt, model decision, tool call, tool result, final answer. Share it with one colleague to test if the explanation is clear.</li>\n<li>In ChatGPT or Copilot on your Windows 11 laptop, ask the model to act as a research agent and summarise a topic using multiple sources. Then ask it what private information from your prompt it might have exposed if connected to external tools. Discuss the answer critically.</li>\n<li>Try a short health-related query in ChatGPT (e.g. \"what could cause persistent fatigue in a teenager\"), then list three things a clinician would still need to verify. Use this to practise spotting where AI helps versus where human judgement is essential.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute class demo of tool calling: ask an AI assistant a question requiring calculation, a date lookup, and a web search. Have students identify which step needed a \"tool\" and which the model could answer alone. Connect to the Hugging Face piece on whether models are genuinely agentic on real tasks.</li>\n<li>Use the MosaicLeaks story as a discussion case for ethics or cybersecurity classes. Ask students: if you built a research agent for your FYP, what data could leak, who would be harmed, and how would you mitigate it?</li>\n<li>For health sciences, nursing, or applied science diplomas, run a small group activity comparing ChatGPT's rare-disease suggestions with a textbook reference. Discuss accuracy, confidence, and the role of the clinician as the final decision-maker.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/\" rel=\"noopener noreferrer\" target=\"_blank\">Tool Calling, Explained: How AI Agents Decide What to Do Next</a></li>\n<li><a href=\"https://huggingface.co/blog/is-it-agentic-enough\" rel=\"noopener noreferrer\" target=\"_blank\">Is it agentic enough? Benchmarking open models on your own tooling</a></li>\n<li><a href=\"https://huggingface.co/blog/ServiceNow/mosaicleaks\" rel=\"noopener noreferrer\" target=\"_blank\">MosaicLeaks: Can your research agent keep a secret?</a></li>\n<li><a href=\"https://openai.com/index/improving-health-intelligence-in-chatgpt\" rel=\"noopener noreferrer\" target=\"_blank\">Improving health intelligence in ChatGPT</a></li>\n<li><a href=\"https://openai.com/index/diagnose-rare-childhood-diseases\" rel=\"noopener noreferrer\" target=\"_blank\">Using AI to help physicians diagnose rare genetic diseases affecting children</a></li>\n</ul>",
+  "generatedAt": "2026-06-21T22:01:55.097Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-22-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Tool Calling, Explained: How AI Agents Decide What to Do Next",
+      "link": "https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/",
+      "source": "Towards Data Science",
+      "published": "Sun, 21 Jun 2026 17:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609425",
+      "hash": "1330348414"
+    },
+    {
+      "title": "Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope by Section",
+      "link": "https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/",
+      "source": "Towards Data Science",
+      "published": "Sun, 21 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609415",
+      "hash": "2009637253"
+    },
+    {
+      "title": "What Are the Possibilities to Build Date Tables in Self-Service Environments?",
+      "link": "https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/",
+      "source": "Towards Data Science",
+      "published": "Sun, 21 Jun 2026 13:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609423",
+      "hash": "692965569"
+    },
+    {
+      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "link": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 20:00:27 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94782",
+      "hash": "1631846186"
+    },
+    {
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 18:13:13 GMT",
+      "guid": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "hash": "653327207"
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises]",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 17:00:00 GMT",
+      "guid": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "hash": "220185389"
+    },
+    {
+      "title": "Powering the world’s first AI arts museum",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 15:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/dataland-ai-art-museum/",
+      "hash": "1156435796"
+    },
+    {
+      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+      "link": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 13:00:43 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94755",
+      "hash": "1244602892"
+    },
+    {
+      "title": "Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-game-stores/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 18 Jun 2026 13:00:32 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94725",
+      "hash": "1238628869"
+    },
+    {
+      "title": "Introducing Ask Ad Manager, the AI agent that will help you get more done",
+      "link": "https://blog.google/products/admanager/ask-ad-manager/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 13:00:00 +0000",
+      "guid": "https://blog.google/products/admanager/ask-ad-manager/",
+      "hash": "1351681747"
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT]",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 11:00:00 GMT",
+      "guid": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "hash": "1156219198"
+    },
+    {
+      "title": "Splash Canvas: Create abstract art (with an attitude)",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/splash-canvas/",
+      "source": "Google Blog AI",
+      "published": "Thu, 18 Jun 2026 10:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/splash-canvas/",
+      "hash": "1561933647"
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children]",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "OpenAI News",
+      "published": "Thu, 18 Jun 2026 08:00:00 GMT",
+      "guid": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "hash": "1671257029"
+    },
+    {
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/peft-beyond-lora",
+      "hash": "2008666177"
+    },
+    {
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "guid": "https://huggingface.co/blog/is-it-agentic-enough",
+      "hash": "2074800128"
+    }
+  ]
+}
