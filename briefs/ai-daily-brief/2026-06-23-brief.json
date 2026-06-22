@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-23",
+  "title": "AI Daily Brief - 2026-06-23",
+  "markdown": "---\ntitle: AI Daily Brief - 2026-06-23\ntags:\n  - applied-ai\n---\n\n## Today in One Minute\n\n- Florida State University reports measurable student success using Google's NotebookLM, with practical lessons for polytechnic teaching and learning.\n- Claude Code is now usable directly in a browser, lowering the setup barrier for coding assistance on Windows 11 laptops.\n- PaddlePaddle released PP-OCRv6 on Hugging Face, a 50-language OCR model family ranging from tiny (1.5M) to mid-size (34.5M) parameters, suitable for classroom OCR projects.\n\n## What Happened\n\n- Google published a case study on how FSU integrated NotebookLM into student workflows, using it for grounded summarisation, study guides, and audio overviews from students' own course materials.\n- Towards Data Science published a walkthrough showing how to use Claude Code in a web browser, removing the need for terminal-heavy local installs and making AI-assisted coding more accessible to students.\n- PaddleOCR's PP-OCRv6 was released on Hugging Face, covering 50 languages, with several model sizes so users can pick a small footprint for laptops or a larger model for accuracy.\n\n## Why It Matters\n\n- NotebookLM at FSU shows a concrete, source-grounded way to use AI for study without students drifting into generic chatbot answers, which fits RP's focus on authentic learning and academic integrity.\n- Browser-based Claude Code means RP students who struggle with local environment setup (Python, Node, paths, permissions) can still practise AI-assisted coding from a managed Windows 11 laptop with a browser.\n- PP-OCRv6 gives lecturers and students a free, multilingual OCR option they can actually run, useful for projects in business, IT, design, and applied AI modules that involve scanning receipts, forms, or multilingual documents.\n\n## Try This Today\n\n- Upload one week of your lecture notes and slides into NotebookLM and ask it to produce a study guide, a quiz, and an audio overview; check if the output is faithful to your source materials only.\n- Open Claude Code in a browser and ask it to refactor a short Python script you already use in class; compare its suggestions with your own version and note any issues.\n- Try PP-OCRv6 on a scanned bilingual document (for example English and Chinese, or Malay) and check accuracy on names, numbers, and punctuation against the original.\n- Pick one student assignment and draft a short \"AI use\" statement: which tool, which step, what was verified by the student. This connects to the FSU NotebookLM story.\n\n## Teaching Angle\n\n- Run a 15-minute classroom demo of NotebookLM with a real RP module reading, then ask students to spot one thing it summarised well and one thing it missed or distorted.\n- In a programming class, split students into pairs: one writes code unaided, one uses Claude Code in the browser. Discuss differences in speed, code quality, and understanding.\n- For applied AI or business analytics modules, design a small group task where students use PP-OCRv6 to digitise printed forms, then clean the OCR output in Excel or Python, surfacing real-world data quality issues.\n- Use the FSU story as a short discussion prompt: \"What does responsible AI-assisted studying look like at RP?\" Ask students to draft 3 rules they would follow.\n\n## Links\n\n- [NotebookLM is transforming student success at FSU](https://blog.google/products-and-platforms/products/education/florida-state-university-notebooklm/)\n- [How to Use Claude Code in Your Browser](https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/)\n- [PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters](https://huggingface.co/blog/PaddlePaddle/pp-ocrv6)",
+  "html": "<hr />\n<p>title: AI Daily Brief - 2026-06-23\ntags:</p>\n<h2 id=\"appliedai\">  - applied-ai</h2>\n<h2 id=\"todayinoneminute\">Today in One Minute</h2>\n<ul>\n<li>Florida State University reports measurable student success using Google's NotebookLM, with practical lessons for polytechnic teaching and learning.</li>\n<li>Claude Code is now usable directly in a browser, lowering the setup barrier for coding assistance on Windows 11 laptops.</li>\n<li>PaddlePaddle released PP-OCRv6 on Hugging Face, a 50-language OCR model family ranging from tiny (1.5M) to mid-size (34.5M) parameters, suitable for classroom OCR projects.</li>\n</ul>\n<h2 id=\"whathappened\">What Happened</h2>\n<ul>\n<li>Google published a case study on how FSU integrated NotebookLM into student workflows, using it for grounded summarisation, study guides, and audio overviews from students' own course materials.</li>\n<li>Towards Data Science published a walkthrough showing how to use Claude Code in a web browser, removing the need for terminal-heavy local installs and making AI-assisted coding more accessible to students.</li>\n<li>PaddleOCR's PP-OCRv6 was released on Hugging Face, covering 50 languages, with several model sizes so users can pick a small footprint for laptops or a larger model for accuracy.</li>\n</ul>\n<h2 id=\"whyitmatters\">Why It Matters</h2>\n<ul>\n<li>NotebookLM at FSU shows a concrete, source-grounded way to use AI for study without students drifting into generic chatbot answers, which fits RP's focus on authentic learning and academic integrity.</li>\n<li>Browser-based Claude Code means RP students who struggle with local environment setup (Python, Node, paths, permissions) can still practise AI-assisted coding from a managed Windows 11 laptop with a browser.</li>\n<li>PP-OCRv6 gives lecturers and students a free, multilingual OCR option they can actually run, useful for projects in business, IT, design, and applied AI modules that involve scanning receipts, forms, or multilingual documents.</li>\n</ul>\n<h2 id=\"trythistoday\">Try This Today</h2>\n<ul>\n<li>Upload one week of your lecture notes and slides into NotebookLM and ask it to produce a study guide, a quiz, and an audio overview; check if the output is faithful to your source materials only.</li>\n<li>Open Claude Code in a browser and ask it to refactor a short Python script you already use in class; compare its suggestions with your own version and note any issues.</li>\n<li>Try PP-OCRv6 on a scanned bilingual document (for example English and Chinese, or Malay) and check accuracy on names, numbers, and punctuation against the original.</li>\n<li>Pick one student assignment and draft a short \"AI use\" statement: which tool, which step, what was verified by the student. This connects to the FSU NotebookLM story.</li>\n</ul>\n<h2 id=\"teachingangle\">Teaching Angle</h2>\n<ul>\n<li>Run a 15-minute classroom demo of NotebookLM with a real RP module reading, then ask students to spot one thing it summarised well and one thing it missed or distorted.</li>\n<li>In a programming class, split students into pairs: one writes code unaided, one uses Claude Code in the browser. Discuss differences in speed, code quality, and understanding.</li>\n<li>For applied AI or business analytics modules, design a small group task where students use PP-OCRv6 to digitise printed forms, then clean the OCR output in Excel or Python, surfacing real-world data quality issues.</li>\n<li>Use the FSU story as a short discussion prompt: \"What does responsible AI-assisted studying look like at RP?\" Ask students to draft 3 rules they would follow.</li>\n</ul>\n<h2 id=\"links\">Links</h2>\n<ul>\n<li><a href=\"https://blog.google/products-and-platforms/products/education/florida-state-university-notebooklm/\" rel=\"noopener noreferrer\" target=\"_blank\">NotebookLM is transforming student success at FSU</a></li>\n<li><a href=\"https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/\" rel=\"noopener noreferrer\" target=\"_blank\">How to Use Claude Code in Your Browser</a></li>\n<li><a href=\"https://huggingface.co/blog/PaddlePaddle/pp-ocrv6\" rel=\"noopener noreferrer\" target=\"_blank\">PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters</a></li>\n</ul>",
+  "generatedAt": "2026-06-22T22:01:56.641Z",
+  "sourceCount": 15,
+  "model": "anthropic/claude-sonnet-4.6",
+  "imageUrl": "https://raw.githubusercontent.com/codeblazar/ai-daily-brief-dashboard/main/images/ai-daily-brief/2026-06-23-top-story.png",
+  "imagePrompt": "Create a square editorial briefing image for an AI daily news dashboard. Make it as realistic as possible.  Topic: NVIDIA. Use a clean, modern technology editorial style with abstract hardware, data, and research motifs. No readable text, no fake UI, no logos, no charts with numbers, no photorealistic news claims. Professional, sharp, high contrast, suitable beside a top story card.",
+  "imageTopic": "NVIDIA",
+  "imageModel": "gpt-image-1-mini",
+  "sources": [
+    {
+      "title": "Explore Colonial Williamsburg with Google Arts &amp; Culture",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg/",
+      "source": "Google Blog AI",
+      "published": "Mon, 22 Jun 2026 20:00:00 +0000",
+      "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg/",
+      "hash": "643061309"
+    },
+    {
+      "title": "Interactions API: our primary interface for Gemini models and agents",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/interactions-api-general-availability/",
+      "source": "Google Blog AI",
+      "published": "Mon, 22 Jun 2026 17:15:00 +0000",
+      "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/interactions-api-general-availability/",
+      "hash": "933969325"
+    },
+    {
+      "title": "Encoding Categorical Data for Outlier Detection",
+      "link": "https://towardsdatascience.com/encoding-categorical-data-for-outlier-detection/",
+      "source": "Towards Data Science",
+      "published": "Mon, 22 Jun 2026 16:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609435",
+      "hash": "607304837"
+    },
+    {
+      "title": "NotebookLM is transforming student success at FSU",
+      "link": "https://blog.google/products-and-platforms/products/education/florida-state-university-notebooklm/",
+      "source": "Google Blog AI",
+      "published": "Mon, 22 Jun 2026 16:00:00 +0000",
+      "guid": "https://blog.google/products-and-platforms/products/education/florida-state-university-notebooklm/",
+      "hash": "1554513409"
+    },
+    {
+      "title": "How to Use Claude Code in Your Browser",
+      "link": "https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/",
+      "source": "Towards Data Science",
+      "published": "Mon, 22 Jun 2026 15:00:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609433",
+      "hash": "87125263"
+    },
+    {
+      "title": "When RAG Users Ask Vague Questions: Clarify Once, Learn the Default",
+      "link": "https://towardsdatascience.com/when-rag-users-ask-vague-questions-clarify-once-learn-the-default/",
+      "source": "Towards Data Science",
+      "published": "Mon, 22 Jun 2026 13:30:00 +0000",
+      "guid": "https://towardsdatascience.com/?p=609429",
+      "hash": "1417981300"
+    },
+    {
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "source": "Hugging Face",
+      "published": "Mon, 22 Jun 2026 13:18:56 GMT",
+      "guid": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "hash": "1195828036"
+    },
+    {
+      "title": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+      "link": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 22 Jun 2026 13:00:48 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94825",
+      "hash": "5707753"
+    },
+    {
+      "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "link": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 22 Jun 2026 13:00:38 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94851",
+      "hash": "458117601"
+    },
+    {
+      "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+      "link": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+      "source": "NVIDIA Blog",
+      "published": "Mon, 22 Jun 2026 13:00:20 +0000",
+      "guid": "https://blogs.nvidia.com/?p=94790",
+      "hash": "569279645"
+    },
+    {
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "link": "https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/",
+      "source": "Import AI Jack Clark",
+      "published": "Mon, 22 Jun 2026 12:31:45 +0000",
+      "guid": "https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/",
+      "hash": "958292341"
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world]",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News",
+      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "guid": "https://openai.com/index/daybreak-securing-the-world",
+      "hash": "1941378578"
+    },
+    {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers]",
+      "link": "https://openai.com/index/patch-the-planet",
+      "source": "OpenAI News",
+      "published": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "guid": "https://openai.com/index/patch-the-planet",
+      "hash": "1869611526"
+    },
+    {
+      "title": "Codex-maxxing for long-running work]",
+      "link": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI News",
+      "published": "Mon, 22 Jun 2026 00:00:00 GMT",
+      "guid": "https://openai.com/index/codex-maxxing-long-running-work",
+      "hash": "1220029779"
+    },
+    {
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face",
+      "published": "Thu, 18 Jun 2026 18:13:13 GMT",
+      "guid": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "hash": "653327207"
+    }
+  ]
+}
